@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Randomity" company="Строители мемасистем" webLink="" view-date="2022-01-31" view-index="0" gantt-divider-location="371" resource-divider-location="300" version="3.1.3103" locale="ru_RU">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Название" width="210" order="0"/>
+        <field id="tpd4" name="Дата начала" width="74" order="1"/>
+        <field id="tpd5" name="Дата окончания" width="68" order="2"/>
+        <option id="color.recent">
+            <![CDATA[#73fa55 #fa8848 #f4f4f4 #fa7adc #6efaf7 #ffff00 #0000ff #00ff00 #ff0000]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Имя" width="156" order="0"/>
+        <field id="1" name="Стандартная роль" width="125" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Разработка приложения" color="#6efaf7" meeting="false" start="2022-02-28" duration="67" complete="0" thirdDate="2022-02-24" thirdDate-constraint="0" expand="true">
+            <task id="92" name="Создание прототипа" color="#6efaf7" meeting="false" start="2022-02-28" duration="36" complete="0" thirdDate="2022-02-28" thirdDate-constraint="0" expand="true"/>
+            <task id="86" name="Создание дизайна" color="#6efaf7" meeting="false" start="2022-02-28" duration="16" complete="0" thirdDate="2022-02-28" thirdDate-constraint="0" expand="true"/>
+            <task id="87" name="Верстка" color="#6efaf7" meeting="false" start="2022-03-21" duration="21" complete="0" thirdDate="2022-03-21" thirdDate-constraint="0" expand="true"/>
+            <task id="88" name="Реализация экранов" color="#6efaf7" meeting="false" start="2022-04-18" duration="16" complete="0" thirdDate="2022-04-18" thirdDate-constraint="0" expand="true"/>
+            <task id="89" name="Подключение к API" color="#6efaf7" meeting="false" start="2022-04-18" duration="16" complete="0" thirdDate="2022-04-18" thirdDate-constraint="0" expand="true"/>
+            <task id="90" name="Тестирование" color="#6efaf7" meeting="false" start="2022-05-09" duration="17" complete="0" thirdDate="2022-05-09" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="7" name="Разработка сайта" color="#fa7adc" meeting="false" start="2022-02-28" duration="67" complete="0" thirdDate="2022-02-28" thirdDate-constraint="0" expand="true">
+            <task id="84" name="Создание прототипа" color="#fa7adc" meeting="false" start="2022-02-28" duration="26" complete="0" thirdDate="2022-02-28" thirdDate-constraint="0" expand="true"/>
+            <task id="45" name="Создание дизайна" color="#fa7adc" meeting="false" start="2022-02-28" duration="16" complete="0" thirdDate="2022-02-28" thirdDate-constraint="0" expand="true"/>
+            <task id="46" name="Верстка" color="#fa7adc" meeting="false" start="2022-03-21" duration="11" complete="0" thirdDate="2022-03-21" thirdDate-constraint="0" expand="true"/>
+            <task id="52" name="Подключение к серверу" color="#fa7adc" meeting="false" start="2022-04-04" duration="11" complete="0" thirdDate="2022-04-04" thirdDate-constraint="0" expand="true"/>
+            <task id="91" name="Реализация ajax запросов" color="#fa7adc" meeting="false" start="2022-04-18" duration="16" complete="0" thirdDate="2022-04-18" thirdDate-constraint="0" expand="true"/>
+            <task id="83" name="Тестирование" color="#fa7adc" meeting="false" start="2022-05-09" duration="17" complete="0" thirdDate="2022-05-09" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="8" name="Разработка сервера" color="#fa8848" meeting="false" start="2022-02-28" duration="67" complete="0" thirdDate="2022-02-28" thirdDate-constraint="0" expand="true">
+            <task id="82" name="Подлючение к API Random.org" color="#fa8848" meeting="false" start="2022-02-28" duration="6" complete="0" thirdDate="2022-02-28" thirdDate-constraint="0" expand="true"/>
+            <task id="80" name="Создание бекенда" color="#fa8848" meeting="false" start="2022-03-07" duration="11" complete="0" thirdDate="2022-03-07" thirdDate-constraint="0" expand="true"/>
+            <task id="78" name="Создание API" color="#fa8848" meeting="false" start="2022-03-21" duration="11" complete="0" thirdDate="2022-03-21" thirdDate-constraint="0" expand="true"/>
+            <task id="79" name="Создание базы данных" color="#fa8848" meeting="false" start="2022-04-04" duration="11" complete="0" thirdDate="2022-04-04" thirdDate-constraint="0" expand="true"/>
+            <task id="81" name="Разработка алгоритмов генераторов" color="#fa8848" meeting="false" start="2022-04-18" duration="16" complete="0" thirdDate="2022-04-18" thirdDate-constraint="0" expand="true"/>
+            <task id="93" name="Тестирование" color="#fa8848" meeting="false" start="2022-05-09" duration="17" complete="0" thirdDate="2022-05-09" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="16" name="Задания с пар" color="#73fa55" meeting="false" start="2022-02-10" duration="79" complete="13" thirdDate="2022-02-21" thirdDate-constraint="0" expand="true">
+            <task id="20" name="Create Vision" color="#73fa55" meeting="false" start="2022-02-10" duration="6" complete="100" thirdDate="2022-02-21" thirdDate-constraint="0" expand="true"/>
+            <task id="25" name="Диаграмма Ганта" color="#73fa55" meeting="false" start="2022-02-17" duration="6" complete="100" thirdDate="2022-02-08" thirdDate-constraint="0" expand="true"/>
+            <task id="30" name="Create Requirement" color="#73fa55" meeting="false" start="2022-02-24" duration="11" complete="0" thirdDate="2022-02-08" thirdDate-constraint="0" expand="true"/>
+            <task id="42" name="Create Use Case + Activity" color="#73fa55" meeting="false" start="2022-03-10" duration="11" complete="0" thirdDate="2022-03-10" thirdDate-constraint="0" expand="true"/>
+            <task id="32" name="Create HLD" color="#73fa55" meeting="false" start="2022-03-24" duration="11" complete="0" thirdDate="2022-02-08" thirdDate-constraint="0" expand="true"/>
+            <task id="34" name="Create LLD" color="#73fa55" meeting="false" start="2022-04-07" duration="11" complete="0" thirdDate="2022-02-08" thirdDate-constraint="0" expand="true"/>
+            <task id="39" name="Create Test Plan" color="#73fa55" meeting="false" start="2022-04-21" duration="11" complete="0" thirdDate="2022-04-21" thirdDate-constraint="0" expand="true"/>
+            <task id="41" name="Матрица трассировки" color="#73fa55" meeting="false" start="2022-05-05" duration="12" complete="0" thirdDate="2022-05-05" thirdDate-constraint="0" expand="true"/>
+            <task id="40" name="Show DEMO" color="#73fa55" meeting="false" start="2022-05-20" duration="8" complete="0" thirdDate="2022-02-09" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Полина" function="SoftwareDevelopment:5" contacts="" phone=""/>
+        <resource id="1" name="Ангелина" function="SoftwareDevelopment:8" contacts="" phone=""/>
+        <resource id="2" name="Булат" function="SoftwareDevelopment:9" contacts="" phone=""/>
+        <resource id="4" name="Дамир" function="Default:1" contacts="" phone=""/>
+        <resource id="3" name="Ринат" function="SoftwareDevelopment:2" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="86" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="87" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="88" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="90" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="92" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="89" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="90" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="45" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="46" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="52" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="83" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="91" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="84" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="83" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="30" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="42" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="32" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="34" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="39" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="41" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="40" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="82" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="80" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="78" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="79" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="81" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="93" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
