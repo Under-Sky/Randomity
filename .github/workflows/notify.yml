@@ -15,6 +15,7 @@ jobs:
           message: |
             ${{ github.actor }} just pushed ${{ github.ref }} into ${{ github.repository }} with comment "${{ github.event.head_commit.message }}"
             ${{ github.event.compare }}
+            Domir molodec
       
       - name: PR notify
         if: ${{ github.event_name == 'pull_request' }}
