@@ -1,4 +1,4 @@
-name: Telegram notification
+name: Telegram notification from server
 
 on:
   pull_request:
