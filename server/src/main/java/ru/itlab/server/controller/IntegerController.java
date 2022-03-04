@@ -10,7 +10,7 @@ public class IntegerController {
     @Autowired
     RandomServiceImpl randomService;
 
-    @RequestMapping("/")
+    @RequestMapping("/getIntegers")
     public String test(){
         return randomService.getInteger(0,10, 5).toString();
     }
