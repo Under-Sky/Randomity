@@ -1,0 +1,10 @@
+randomorg:
+    api:
+        key: ${API_KEY:599b8f3a-b8f5-48c7-b299-0cc7642dd188}
+
+feign:
+    client:
+        config:
+            default:
+                connectTimeout: 1200000
+                readTimeout: 1200000
