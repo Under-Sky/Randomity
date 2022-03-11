@@ -1,4 +1,4 @@
-package ru.itlab.server.entity.base;
+package ru.itlab.server.model.dto.random_org_api.base;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

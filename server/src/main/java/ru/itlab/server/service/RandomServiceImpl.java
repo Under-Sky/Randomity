@@ -3,8 +3,8 @@ package ru.itlab.server.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
-import ru.itlab.server.entity.request.GenerateIntegersApiDTO;
-import ru.itlab.server.entity.request.RequestDTO;
+import ru.itlab.server.model.dto.random_org_api.request.GenerateIntegersApiDTO;
+import ru.itlab.server.model.dto.random_org_api.request.RequestDTO;
 
 import java.util.List;
 

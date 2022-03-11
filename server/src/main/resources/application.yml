@@ -8,3 +8,9 @@ feign:
             default:
                 connectTimeout: 1200000
                 readTimeout: 1200000
+
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5432/randomity
+        username: postgres
+        password: postgres
