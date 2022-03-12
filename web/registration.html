@@ -22,12 +22,53 @@
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
+    let correctPasswords = false;
+</script>
+<script>
+    function comparePasswords() {
+        let pass = $('#passwordInput').val();
+        let repass = $('#passwordInput2').val();
+        correctPasswords = false;
+        if ((pass.length === 0) || (repass.length === 0)) {
+            $('#passwordInput').addClass('has-error');
+        } else if (pass !== repass) {
+            $('#passwordInput2').addClass('has-error');
+        } else {
+            correctPasswords = true;
+            $('#passwordInput').removeClass('has-error').addClass('has-success');
+            $('#passwordInput2').removeClass('has-error').addClass('has-success');
+        }
+    }
+</script>
+<script>
     $("#regButton").click(function () {
         l = $('#loginInput').val()
         e = $('#emailInput').val()
         p = $('#passwordInput').val()
         p2 = $('#passwordInput2').val()
+        comparePasswords()
         alert(`Login: ${l}\nEmail: ${e}\nPassword: ${p}\nPassword 2: ${p2}`);
+
+        if (correctPasswords) {
+            $.ajax({
+                type: 'POST',
+                url: '/registration',
+                contentType: 'application/json',
+                processData: false,
+                data: {
+                    "username": l,
+                    "email": e,
+                    "password": p,
+                },
+                dataType: 'json',
+                success: function (data) {
+                    app.log("succeeded");
+                },
+                error: function () {
+                    app.log("failed");
+                },
+            });
+        }
     });
 </script>
 </html>
