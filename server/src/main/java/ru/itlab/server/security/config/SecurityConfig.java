@@ -51,6 +51,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .formLogin()
                 .loginProcessingUrl("/login")
+                .usernameParameter("email")
                 .successForwardUrl("/success/welcome")
                 .failureForwardUrl("/unauthorized")
                 .and()
