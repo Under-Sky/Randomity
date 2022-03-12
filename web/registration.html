@@ -1,0 +1,33 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Index</title>
+</head>
+<body>
+<h1>Auth</h1>
+<div>
+    <input type="text" id="loginInput" placeholder="Login">
+    <input type="email" id="emailInput" placeholder="Email">
+    <input type="password" id="passwordInput" placeholder="Password">
+    <input type="password" id="passwordInput2" placeholder="Repeat Password">
+    <button id="regButton">Sign In</button>
+    <br>
+    <a href="restore.html">Restore</a>
+    <br>
+    <a href="index.html">Login</a>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $("#regButton").click(function () {
+        l = $('#loginInput').val()
+        e = $('#emailInput').val()
+        p = $('#passwordInput').val()
+        p2 = $('#passwordInput2').val()
+        alert(`Login: ${l}\nEmail: ${e}\nPassword: ${p}\nPassword 2: ${p2}`);
+    });
+</script>
+</html>
