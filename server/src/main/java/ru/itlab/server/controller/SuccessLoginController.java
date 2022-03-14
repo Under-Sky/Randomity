@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.view.RedirectView;
 import ru.itlab.server.model.dto.UserVDTO;
 import ru.itlab.server.model.entity.User;
 import ru.itlab.server.service.UserService;
@@ -36,8 +37,9 @@ public class SuccessLoginController {
     @PermitAll
     @ResponseBody
     @GetMapping("/confirm/{uuid}")
-    public ResponseEntity<?> confirmAccount(@PathVariable("uuid") UUID id) {
+    public RedirectView confirmAccount(@PathVariable("uuid") UUID id) {
         userService.confirmEmail(id);
-        return ResponseEntity.ok("OK");
+
+        return new RedirectView("/login");
     }
 }
