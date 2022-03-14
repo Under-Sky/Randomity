@@ -16,7 +16,7 @@ public class UserVDTO {
     private User.Role role;
     private Boolean isConfirmed;
 
-    public static UserVDTO fromUser(User user){
+    public static UserVDTO fromUser(User user) {
         return UserVDTO.builder()
                 .email(user.getEmail())
                 .username(user.getUsername())

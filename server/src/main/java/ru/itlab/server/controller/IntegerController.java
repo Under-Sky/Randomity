@@ -14,7 +14,7 @@ public class IntegerController {
     RandomServiceImpl randomService;
 
     @RequestMapping("/getIntegers/{min}/{max}/{count}")
-    public String test(@PathVariable Map<String, String> pathVarsMap){
-        return randomService.getInteger(Integer.parseInt(pathVarsMap.get("min")),Integer.parseInt(pathVarsMap.get("max")), Integer.parseInt(pathVarsMap.get("count"))).toString();
+    public String test(@PathVariable Map<String, String> pathVarsMap) {
+        return randomService.getInteger(Integer.parseInt(pathVarsMap.get("min")), Integer.parseInt(pathVarsMap.get("max")), Integer.parseInt(pathVarsMap.get("count"))).toString();
     }
 }

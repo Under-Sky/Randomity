@@ -14,7 +14,7 @@ public class RandomServiceImpl implements RandomService {
     private String apiKey;
 
     @Autowired
-    Feign feign;
+    private Feign feign;
 
     @Override
     public List<Integer> getInteger(int min, int max, int count) {
@@ -30,7 +30,7 @@ public class RandomServiceImpl implements RandomService {
         return integerList;
     }
 
-    private GenerateIntegersApiDTO setUpGenerateIntegersApiDto(GenerateIntegersApiDTO generateIntegersApiDTO, int min, int max, int count){
+    private GenerateIntegersApiDTO setUpGenerateIntegersApiDto(GenerateIntegersApiDTO generateIntegersApiDTO, int min, int max, int count) {
         generateIntegersApiDTO.setMax(max);
         generateIntegersApiDTO.setMin(min);
         generateIntegersApiDTO.setN(count);

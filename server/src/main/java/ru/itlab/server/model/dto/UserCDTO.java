@@ -15,7 +15,7 @@ public class UserCDTO {
     private String email;
     private String password;
 
-    public User toUser(){
+    public User toUser() {
         return User.builder()
                 .username(username)
                 .email(email)

@@ -1,42 +1,42 @@
 randomorg:
-    api:
-        key: ${API_KEY:599b8f3a-b8f5-48c7-b299-0cc7642dd188}
+  api:
+    key: ${API_KEY:599b8f3a-b8f5-48c7-b299-0cc7642dd188}
 
 feign:
-    client:
-        config:
-            default:
-                connectTimeout: 1200000
-                readTimeout: 1200000
+  client:
+    config:
+      default:
+        connectTimeout: 1200000
+        readTimeout: 1200000
 
 spring:
-    datasource:
-        url: jdbc:postgresql://localhost:5432/randomity
-        username: postgres
-        password: postgres
-    jpa:
-        properties:
-            hibernate:
-                show_sql: true
-                hbm2ddl:
-                    auto: create
-    mail:
-        host: smtp.gmail.com
-        port: 587
-        username: koala9215@gmail.com
-        password: KoaLa1101#
-        default-encoding: UTF-8
-        properties:
-            mail:
-                smtp:
-                    auth: true
-                    starttls:
-                        enable: true
-                        required: true
-                debug: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/randomity
+    username: postgres
+    password: postgres
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        hbm2ddl:
+          auto: update
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: koala9215@gmail.com
+    password: KoaLa1101#
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+        debug: true
 
 
 server:
-    url: http://localhost:8080/confirm
-    mail:
-        username: koala9215@gmail.com
+  url: http://localhost:8080/confirm
+  mail:
+    username: koala9215@gmail.com

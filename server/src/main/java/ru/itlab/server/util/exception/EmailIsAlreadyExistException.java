@@ -1,6 +1,6 @@
 package ru.itlab.server.util.exception;
 
-public class EmailIsAlreadyExistException extends Throwable{
+public class EmailIsAlreadyExistException extends Throwable {
     public EmailIsAlreadyExistException() {
         super();
     }

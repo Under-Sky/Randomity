@@ -13,7 +13,7 @@ import java.util.concurrent.ExecutorService;
 
 @Component
 @Slf4j
-public class EmailUtilImpl implements EmailUtil{
+public class EmailUtilImpl implements EmailUtil {
     @Setter
     @Getter
     @Autowired

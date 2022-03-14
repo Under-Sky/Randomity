@@ -47,7 +47,7 @@ public class UserServiceImpl implements UserService {
         );
 
         Optional<User> userByEmailFromDB = userRepository.getUserByEmail(user.getEmail());
-        if(userByEmailFromDB.isPresent()){
+        if (userByEmailFromDB.isPresent()) {
             throw new EmailIsAlreadyExistException("An account with the same email was previously created");
         }
 
