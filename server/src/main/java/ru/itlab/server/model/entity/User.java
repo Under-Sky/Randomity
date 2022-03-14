@@ -1,8 +1,10 @@
 package ru.itlab.server.model.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 import lombok.experimental.SuperBuilder;
 import org.hibernate.Hibernate;
+import org.hibernate.annotations.BatchSize;
 
 import javax.persistence.*;
 import java.util.Objects;
@@ -18,6 +20,7 @@ import java.util.Objects;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(nullable = false)
     private Long id;
 
     @Column(unique = true, nullable = false)
@@ -26,13 +29,19 @@ public class User {
     @Column(unique = true, nullable = false)
     private String username;
 
-    @ToString.Exclude private String hashPassword;
+    private String hashPassword;
 
     @Enumerated(EnumType.STRING)
     private Role role;
 
     private Boolean isConfirmed;
 
+    @JsonIgnore
+    @ToString.Exclude
+    @BatchSize(size = 10)
+    @OneToOne(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @PrimaryKeyJoinColumn
+    private TechnicalInfo technicalInfo;
 
     @Override
     public boolean equals(Object o) {

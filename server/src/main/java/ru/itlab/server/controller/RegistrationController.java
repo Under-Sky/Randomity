@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import ru.itlab.server.model.dto.UserCDTO;
 import ru.itlab.server.model.dto.UserVDTO;
+import ru.itlab.server.model.entity.User;
 import ru.itlab.server.service.UserService;
 import ru.itlab.server.util.exception.EmailIsAlreadyExistException;
 
@@ -20,6 +21,9 @@ public class RegistrationController {
     @PostMapping("/registration")
     @ResponseBody
     public UserVDTO registration(UserCDTO userCDTO) throws EmailIsAlreadyExistException {
-        return userService.registerUser(userCDTO);
+        UserVDTO userVDTO = userService.registerUser(userCDTO);
+        User user = userService.findByUsername(userVDTO.getUsername());
+        userService.sendConfirmEmail(user);
+        return userVDTO;
     }
 }

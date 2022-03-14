@@ -14,3 +14,29 @@ spring:
         url: jdbc:postgresql://localhost:5432/randomity
         username: postgres
         password: postgres
+    jpa:
+        properties:
+            hibernate:
+                show_sql: true
+                hbm2ddl:
+                    auto: create
+    mail:
+        host: smtp.gmail.com
+        port: 587
+        username: koala9215@gmail.com
+        password: KoaLa1101#
+        default-encoding: UTF-8
+        properties:
+            mail:
+                smtp:
+                    auth: true
+                    starttls:
+                        enable: true
+                        required: true
+                debug: true
+
+
+server:
+    url: http://localhost:8080/confirm
+    mail:
+        username: koala9215@gmail.com

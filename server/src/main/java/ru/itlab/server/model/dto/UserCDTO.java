@@ -20,6 +20,8 @@ public class UserCDTO {
                 .username(username)
                 .email(email)
                 .hashPassword(password)
+                .role(User.Role.USER)
+                .isConfirmed(false)
                 .build();
     }
 }

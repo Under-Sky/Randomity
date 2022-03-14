@@ -13,11 +13,15 @@ import ru.itlab.server.model.entity.User;
 public class UserVDTO {
     private String username;
     private String email;
+    private User.Role role;
+    private Boolean isConfirmed;
 
     public static UserVDTO fromUser(User user){
         return UserVDTO.builder()
                 .email(user.getEmail())
-                .username(user.getEmail())
+                .username(user.getUsername())
+                .role(user.getRole())
+                .isConfirmed(user.getIsConfirmed())
                 .build();
     }
 }
