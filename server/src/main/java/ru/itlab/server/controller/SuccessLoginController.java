@@ -1,7 +1,9 @@
 package ru.itlab.server.controller;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,13 +19,16 @@ import javax.annotation.security.PermitAll;
 import java.util.UUID;
 
 @RestController
+@Slf4j
 public class SuccessLoginController {
     @Autowired
     UserService userService;
 
+    @PreAuthorize("isAuthenticated()")
     @GetMapping("/success/welcome")
     @ResponseBody
     public UserVDTO showProfile(){
+        log.info("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
         User user;
         Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         if (principal instanceof UserDetails){
