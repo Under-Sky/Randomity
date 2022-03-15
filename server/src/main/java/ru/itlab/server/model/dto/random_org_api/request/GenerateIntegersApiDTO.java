@@ -14,4 +14,5 @@ import ru.itlab.server.model.dto.random_org_api.base.BaseApiDTO;
 public class GenerateIntegersApiDTO extends BaseApiDTO {
     Integer min;
     Integer max;
+    Boolean replacement;
 }

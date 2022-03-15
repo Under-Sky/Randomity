@@ -17,9 +17,9 @@ public class RandomServiceImpl implements RandomService {
     private Feign feign;
 
     @Override
-    public List<Integer> getInteger(int min, int max, int count) {
+    public List<Integer> getInteger(int min, int max, int count, boolean replacement) {
         GenerateIntegersApiDTO generateIntegersApiDTO = new GenerateIntegersApiDTO();
-        setUpGenerateIntegersApiDto(generateIntegersApiDTO, min, max, count);
+        setUpGenerateIntegersApiDto(generateIntegersApiDTO, min, max, count ,replacement);
 
         List<Integer> integerList = feign.getRandomInteger(RequestDTO.builder()
                 .jsonrpc("2.0")
@@ -30,9 +30,10 @@ public class RandomServiceImpl implements RandomService {
         return integerList;
     }
 
-    private GenerateIntegersApiDTO setUpGenerateIntegersApiDto(GenerateIntegersApiDTO generateIntegersApiDTO, int min, int max, int count) {
+    private GenerateIntegersApiDTO setUpGenerateIntegersApiDto(GenerateIntegersApiDTO generateIntegersApiDTO, int min, int max, int count, boolean replacement) {
         generateIntegersApiDTO.setMax(max);
         generateIntegersApiDTO.setMin(min);
+        generateIntegersApiDTO.setReplacement(replacement);
         generateIntegersApiDTO.setN(count);
         generateIntegersApiDTO.setApiKey(apiKey);
         return generateIntegersApiDTO;
