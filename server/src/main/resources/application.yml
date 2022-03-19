@@ -1,0 +1,49 @@
+randomorg:
+  api:
+    key: ${API_KEY:599b8f3a-b8f5-48c7-b299-0cc7642dd188}
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 1200000
+        readTimeout: 1200000
+
+spring:
+  datasource:
+#    url: jdbc:postgresql://localhost:5432/randomity
+#    username: postgres
+#    password: postgres
+    url: jdbc:postgresql://185.159.129.8:5432/randomity
+    username: koala1101
+    password: KoaLa1101#
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        hbm2ddl:
+          auto: update
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: koala9215@gmail.com
+    password: KoaLa1101#
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+        debug: true
+
+
+server:
+  url: http://localhost:8080/confirm
+  mail:
+    username: koala9215@gmail.com
+
+qiwi:
+  public_key: 48e7qUxn9T7RyYE1MVZswX1FRSbE6iyCj2gCRwwF3Dnh5XrasNTx3BGPiMsyXQFNKQhvukniQG8RTVhYm3iPxePak69SLgM9tKRmAqiHhcuVFYZ3PVT1S1mWmYXdEr4tJyvtLYbVm3JTTiRTSLRAqYU8mpGygTSJPyPmUNP6zyDqVNbq6Qs6PjbfJExWn
+  secret_key: eyJ2ZXJzaW9uIjoiUDJQIiwiZGF0YSI6eyJwYXlpbl9tZXJjaGFudF9zaXRlX3VpZCI6InRpZHNuYS0wMCIsInVzZXJfaWQiOiI3OTY1NjIzNTUzMSIsInNlY3JldCI6Ijc5Nzg4MjY3ZmViNzlhY2IxODU2YzY5YzZiYTI2ZDRlYWVkZGNkMDE0MjA0OGM1OWJjMGIzMDFhNWEwOTZlOTMifX0=
