@@ -1,0 +1,74 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Index</title>
+</head>
+<body>
+<h1>Auth</h1>
+<div>
+    <input type="text" id="loginInput" placeholder="Login">
+    <input type="email" id="emailInput" placeholder="Email">
+    <input type="password" id="passwordInput" placeholder="Password">
+    <input type="password" id="passwordInput2" placeholder="Repeat Password">
+    <button id="regButton">Sign In</button>
+    <br>
+    <a href="restore.html">Restore</a>
+    <br>
+    <a href="index.html">Login</a>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    let correctPasswords = false;
+</script>
+<script>
+    function comparePasswords() {
+        let pass = $('#passwordInput').val();
+        let repass = $('#passwordInput2').val();
+        correctPasswords = false;
+        if ((pass.length === 0) || (repass.length === 0)) {
+            $('#passwordInput').addClass('has-error');
+        } else if (pass !== repass) {
+            $('#passwordInput2').addClass('has-error');
+        } else {
+            correctPasswords = true;
+            $('#passwordInput').removeClass('has-error').addClass('has-success');
+            $('#passwordInput2').removeClass('has-error').addClass('has-success');
+        }
+    }
+</script>
+<script>
+    $("#regButton").click(function () {
+        l = $('#loginInput').val()
+        e = $('#emailInput').val()
+        p = $('#passwordInput').val()
+        p2 = $('#passwordInput2').val()
+        comparePasswords()
+        alert(`Login: ${l}\nEmail: ${e}\nPassword: ${p}\nPassword 2: ${p2}`);
+
+        if (correctPasswords) {
+            $.ajax({
+                type: 'POST',
+                url: '/registration',
+                contentType: 'application/json',
+                processData: false,
+                data: {
+                    "username": l,
+                    "email": e,
+                    "password": p,
+                },
+                dataType: 'json',
+                success: function (data) {
+                    app.log("succeeded");
+                },
+                error: function () {
+                    app.log("failed");
+                },
+            });
+        }
+    });
+</script>
+</html>
