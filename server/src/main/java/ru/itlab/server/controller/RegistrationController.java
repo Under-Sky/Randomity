@@ -2,6 +2,7 @@ package ru.itlab.server.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import ru.itlab.server.model.dto.UserCDTO;
@@ -20,8 +21,8 @@ public class RegistrationController {
 
     @PostMapping("/registration")
     @ResponseBody
-    public UserVDTO registration(UserCDTO userCDTO) throws EmailIsAlreadyExistException {
-        UserVDTO userVDTO = userService.registerUser(userCDTO);
+    public UserVDTO save(UserCDTO userCDTO) throws EmailIsAlreadyExistException {
+        UserVDTO userVDTO = userService.saveUser(userCDTO);
         User user = userService.findByUsername(userVDTO.getUsername());
         userService.sendConfirmEmail(user);
         return userVDTO;

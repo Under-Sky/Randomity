@@ -7,6 +7,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import ru.itlab.server.model.dto.UserCDTO;
 import ru.itlab.server.model.dto.UserVDTO;
+import ru.itlab.server.model.entity.Generator;
 import ru.itlab.server.model.entity.TechnicalInfo;
 import ru.itlab.server.model.entity.User;
 import ru.itlab.server.repostiry.UserRepository;
@@ -16,6 +17,7 @@ import ru.itlab.server.util.smtp.MailsGenerator;
 
 import javax.persistence.EntityNotFoundException;
 import javax.transaction.Transactional;
+import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
@@ -37,7 +39,7 @@ public class UserServiceImpl implements UserService {
     private String from;
 
     @Transactional
-    public UserVDTO registerUser(UserCDTO userCDTO) throws EmailIsAlreadyExistException {
+    public UserVDTO saveUser(UserCDTO userCDTO) throws EmailIsAlreadyExistException {
         userCDTO.setPassword(passwordEncoder.encode(userCDTO.getPassword()));
         User user = userCDTO.toUser();
         user.setTechnicalInfo(TechnicalInfo.builder()
@@ -75,5 +77,12 @@ public class UserServiceImpl implements UserService {
     public User findByUsername(String username) {
         return userRepository.getUserByUsername(username).get();
     }
+
+    @Override
+    public Boolean updateUser(User user) {
+        userRepository.save(user);
+        return true;
+    }
+
 
 }

@@ -3,11 +3,15 @@ package ru.itlab.server.model.entity;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 import lombok.experimental.SuperBuilder;
+import net.bytebuddy.dynamic.loading.InjectionClassLoader;
 import org.hibernate.Hibernate;
 import org.hibernate.annotations.BatchSize;
+import org.hibernate.annotations.Fetch;
 
 import javax.persistence.*;
+import java.util.LinkedHashSet;
 import java.util.Objects;
+import java.util.Set;
 
 @ToString
 @Entity
@@ -42,6 +46,13 @@ public class User {
     @OneToOne(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @PrimaryKeyJoinColumn
     private TechnicalInfo technicalInfo;
+
+    @ToString.Exclude
+    @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JoinTable(name = "account_generators",
+            joinColumns = @JoinColumn(name = "user_id"),
+            inverseJoinColumns = @JoinColumn(name = "generators_id"))
+    private Set<Generator> generators = new LinkedHashSet<>();
 
     @Override
     public boolean equals(Object o) {

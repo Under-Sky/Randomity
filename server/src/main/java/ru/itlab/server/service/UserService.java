@@ -8,11 +8,13 @@ import ru.itlab.server.util.exception.EmailIsAlreadyExistException;
 import java.util.UUID;
 
 public interface UserService {
-    UserVDTO registerUser(UserCDTO userCDTO) throws EmailIsAlreadyExistException;
+    UserVDTO saveUser(UserCDTO userCDTO) throws EmailIsAlreadyExistException;
 
     void sendConfirmEmail(User user);
 
     void confirmEmail(UUID uuid);
 
     User findByUsername(String username);
+
+    Boolean updateUser(User user);
 }

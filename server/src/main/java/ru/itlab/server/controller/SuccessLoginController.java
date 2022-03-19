@@ -2,9 +2,7 @@ package ru.itlab.server.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
@@ -14,7 +12,6 @@ import ru.itlab.server.model.entity.User;
 import ru.itlab.server.service.UserService;
 
 import javax.annotation.security.PermitAll;
-import java.security.Principal;
 import java.util.UUID;
 
 @RestController

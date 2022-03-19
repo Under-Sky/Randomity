@@ -6,9 +6,11 @@ import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
+import ru.itlab.server.model.entity.Generator;
 import ru.itlab.server.model.entity.TechnicalInfo;
 import ru.itlab.server.model.entity.User;
 
+import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
