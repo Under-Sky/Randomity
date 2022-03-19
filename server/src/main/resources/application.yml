@@ -15,7 +15,7 @@ spring:
 #    username: postgres
 #    password: postgres
     url: jdbc:postgresql://185.159.129.8:5432/randomity
-    usename: koala1101
+    username: koala1101
     password: KoaLa1101#
   jpa:
     properties:
