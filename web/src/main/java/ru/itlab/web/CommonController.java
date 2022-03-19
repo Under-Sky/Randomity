@@ -8,6 +8,6 @@ public class CommonController {
 
     @GetMapping("/registration")
     public String getSignInPage() {
-        return "registration";
+        return "registration.html";
     }
 }
