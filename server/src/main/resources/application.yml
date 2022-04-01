@@ -11,10 +11,7 @@ feign:
 
 spring:
   datasource:
-#    url: jdbc:postgresql://localhost:5432/randomity
-#    username: postgres
-#    password: postgres
-    url: jdbc:postgresql://185.159.129.8:5432/randomity
+    url: jdbc:postgresql://92.255.196.129:5432/randomity
     username: koala1101
     password: KoaLa1101#
   jpa:
@@ -41,7 +38,8 @@ spring:
 
 
 server:
-  url: http://localhost:8080/confirm
+  port: 8080
+  url: http://185.159.129.8:8080/confirm
   mail:
     username: koala9215@gmail.com
 
