@@ -18,7 +18,7 @@
         count = $('#count').val()
 
         $.ajax({
-            url: `/getIntegers/${min}/${max}/${count}`,
+            url: `http://92.255.196.129:8080/getIntegers/${min}/${max}/${count}`,
             method: 'GET',
             cache: false,
             type: "text/json",

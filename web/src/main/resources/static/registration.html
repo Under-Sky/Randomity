@@ -15,9 +15,9 @@
     <input type="password" id="passwordInput2" placeholder="Repeat Password">
     <button id="regButton">Sign In</button>
     <br>
-    <a href="restore.html">Restore</a>
+    <a href="/resetPass">Restore</a>
     <br>
-    <a href="index.html">Login</a>
+    <a href="/login">Login</a>
 </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -52,7 +52,7 @@
         if (correctPasswords) {
             $.ajax({
                 type: 'POST',
-                url: '/registration',
+                url: 'http://92.255.196.129:8080/registration',
                 contentType: 'application/json',
                 processData: false,
                 data: {
