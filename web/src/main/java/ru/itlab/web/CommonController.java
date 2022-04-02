@@ -11,11 +11,6 @@ public class CommonController {
     @Autowired
     RestService restService;
 
-    @GetMapping("/registration")
-    public String getSignInPage() {
-        return "registration.html";
-    }
-
     @GetMapping("/int")
     @ResponseBody
     public String getInt() {
