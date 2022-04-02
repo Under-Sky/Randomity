@@ -1,4 +1,4 @@
-version: "3"
+version: "3.3"
 networks:
   koala_network:
 
@@ -18,6 +18,8 @@ services:
       - "8080:8080"
     depends_on:
       - psql_db
+    secrets:
+      - user_ssh_key
   psql_db:
     networks:
       - koala_network
@@ -36,3 +38,6 @@ services:
       - ./promtail/promtail-docker-config.yaml:/etc/promtail/docker-config.yaml
       - server_log_vol:/var/log/
     command: "--config.file=/etc/promtail/docker-config.yaml"
+secrets:
+  user_ssh_key:
+    file: ~/.ssh/id_rsa
