@@ -5,7 +5,7 @@ name: DockerImage
 # separate terms of service, privacy policy, and support
 # documentation.
 on:
-  push:
+  pull_request:
     branches: ['server']
 
 env:
