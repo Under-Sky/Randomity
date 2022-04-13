@@ -1,6 +1,14 @@
 randomorg:
   api:
-    key: ${API_KEY:599b8f3a-b8f5-48c7-b299-0cc7642dd188}
+    key: ${RANDOM_API_KEY:599b8f3a-b8f5-48c7-b299-0cc7642dd188}
+
+google:
+  api:
+    key: ${GOOGLE_API_KEY:AIzaSyDf2jdKllJwaa5md97kfl7wb21BpXt2l7E}
+
+Logging:
+  file:
+    name: logs/myLog.log
 
 feign:
   client:
@@ -11,13 +19,11 @@ feign:
 
 spring:
   datasource:
-#    url: jdbc:postgresql://localhost:5432/randomity
-#    username: postgres
-#    password: postgres
-    url: jdbc:postgresql://185.159.129.8:5432/randomity
-    username: koala1101
-    password: KoaLa1101#
+    url: ${JDBC_DATABASE_URL:jdbc:postgresql://92.255.196.129:5432/randomity}
+    username: ${JDBC_DATABASE_USER:randomity}
+    password: ${JDBC_DATABASE_PASSWORD:KoaLa1101#}
   jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
     properties:
       hibernate:
         show_sql: true
@@ -40,7 +46,8 @@ spring:
 
 
 server:
-  url: http://localhost:8080/confirm
+  port: 8080
+  url: http://92.255.196.129:8080/confirm
   mail:
     username: koala9215@gmail.com
 
