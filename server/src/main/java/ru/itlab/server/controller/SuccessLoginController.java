@@ -37,8 +37,8 @@ public class SuccessLoginController {
     @PermitAll
     @ResponseBody
     @GetMapping("/confirm/{uuid}")
-    public RedirectView confirmAccount(@PathVariable("uuid") UUID id) {
+    public String confirmAccount(@PathVariable("uuid") UUID id) {
         userService.confirmEmail(id);
-        return new RedirectView("http://localhost:8080/login");
+        return "confirmed";
     }
 }
