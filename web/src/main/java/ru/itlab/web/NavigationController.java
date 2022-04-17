@@ -77,7 +77,7 @@ public class NavigationController {
             User responseUser = mapper.readValue(responseStream, User.class);
 
             System.out.println(responseUser);
-            System.out.println("Response Status: " + connection.getResponseMessage());
+//            System.out.println("Response Status: " + connection.getResponseMessage());
 
             User user = responseUser;
             user.password = userLogin.password;
@@ -119,6 +119,10 @@ public class NavigationController {
 
     @GetMapping("/")
     public String mainGet() {
+        User user = (User) request.getSession().getAttribute("user");
+        if (user == null)
+            return "redirect:/login";
+
         return "main.html";
     }
 
