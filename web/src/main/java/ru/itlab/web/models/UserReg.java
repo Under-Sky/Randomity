@@ -1,6 +1,6 @@
 package ru.itlab.web.models;
 
-public class UserReg {
+public class UserReg implements RequestModel {
     public String username;
     public String email;
     public String password;
@@ -21,5 +21,10 @@ public class UserReg {
                 ", password='" + password + '\'' +
                 ", password2='" + password2 + '\'' +
                 '}';
+    }
+
+    @Override
+    public String getAttributes() {
+        return "username=" + username + "&email=" + email + "&password=" + password;
     }
 }
