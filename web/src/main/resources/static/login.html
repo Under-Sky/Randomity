@@ -9,9 +9,11 @@
 <body>
 <h1>Auth</h1>
 <div>
-    <input type="email" id="emailInput" placeholder="Email">
-    <input type="password" id="passwordInput" placeholder="Password">
-    <button id="loginButton">Sign In</button>
+    <form action="/login" method="post">
+        <input name="username" type="text" id="usernameInput" placeholder="Username">
+        <input name="password" type="password" id="passwordInput" placeholder="Password">
+        <button id="loginButton">Sign In</button>
+    </form>
     <br>
     <a href="/reg">Registration</a>
     <br>
@@ -19,25 +21,4 @@
 </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-    $("#loginButton").click(function () {
-        l = $('#emailInput').val()
-        p = $('#passwordInput').val()
-        alert(`Login: ${l}\nPassword: ${p}`);
-    });
-
-    $.ajax({
-        url: 'http://92.255.196.129:8080/login',
-        method: 'GET',
-        cache: false,
-        type: "text/json",
-        success: function (res) {
-            $("#profile-follow-btn").html(res);
-        },
-        error: function (res) {
-            $(btn).prop('disabled', false);
-            $(btn).css({background: "#FFFFFF"});
-        }
-    })
-</script>
 </html>

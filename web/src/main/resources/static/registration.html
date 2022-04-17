@@ -11,7 +11,7 @@
 <menu id="menu">
     <div id="logo" class="logo">
         <div class="boldFont29">RANDOMITY<img src="drawable/cubesLogo.png" alt="лого"
-                 style="height: 43px; width: 53px; margin: -10px">
+                                              style="height: 43px; width: 53px; margin: -10px">
         </div>
     </div>
     <div class="normalFont16 menu-links">
@@ -25,11 +25,13 @@
 
 <h1>Auth</h1>
 <div>
-    <input type="text" id="loginInput" placeholder="Login">
-    <input type="email" id="emailInput" placeholder="Email">
-    <input type="password" id="passwordInput" placeholder="Password">
-    <input type="password" id="passwordInput2" placeholder="Repeat Password">
-    <button id="regButton">Sign In</button>
+    <form action="/reg" method="post">
+        <input name="username" type="text" id="loginInput" placeholder="Login">
+        <input name="email" type="email" id="emailInput" placeholder="Email">
+        <input name="password" type="password" id="passwordInput" placeholder="Password">
+        <input name="password2" type="password" id="passwordInput2" placeholder="Repeat Password">
+        <button id="regButton">Sign In</button>
+    </form>
     <br>
     <a href="/resetPass">Restore</a>
     <br>
@@ -37,54 +39,4 @@
 </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-    let correctPasswords = false;
-</script>
-<script>
-    function comparePasswords() {
-        let pass = $('#passwordInput').val();
-        let repass = $('#passwordInput2').val();
-        correctPasswords = false;
-        if ((pass.length === 0) || (repass.length === 0)) {
-            $('#passwordInput').addClass('has-error');
-        } else if (pass !== repass) {
-            $('#passwordInput2').addClass('has-error');
-        } else {
-            correctPasswords = true;
-            $('#passwordInput').removeClass('has-error').addClass('has-success');
-            $('#passwordInput2').removeClass('has-error').addClass('has-success');
-        }
-    }
-</script>
-<script>
-    $("#regButton").click(function () {
-        l = $('#loginInput').val()
-        e = $('#emailInput').val()
-        p = $('#passwordInput').val()
-        p2 = $('#passwordInput2').val()
-        comparePasswords()
-        alert(`Login: ${l}\nEmail: ${e}\nPassword: ${p}\nPassword 2: ${p2}`);
-
-        if (correctPasswords) {
-            $.ajax({
-                type: 'POST',
-                url: 'http://92.255.196.129:8080/registration',
-                contentType: 'application/json',
-                processData: false,
-                data: {
-                    "username": l,
-                    "email": e,
-                    "password": p,
-                },
-                dataType: 'json',
-                success: function (data) {
-                    app.log("succeeded");
-                },
-                error: function () {
-                    app.log("failed");
-                },
-            });
-        }
-    });
-</script>
 </html>

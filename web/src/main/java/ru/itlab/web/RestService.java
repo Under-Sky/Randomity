@@ -16,7 +16,7 @@ public class RestService {
     }
 
     public String get() {
-        String url = "https://185.159.129.8:8080/getIntegers?min=0&max=10&count=10&replacement=false";
+        String url = "https://92.255.196.129:8080/getIntegers?min=0&max=10&count=10&replacement=false";
         String str = Arrays.toString(this.restTemplate.getForObject(url, Integer[].class));
         System.out.println(str);
 
