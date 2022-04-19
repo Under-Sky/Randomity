@@ -18,6 +18,6 @@ public class MainPageController {
         User user = (User) request.getSession().getAttribute("user");
         model.addAttribute("isGuest", user == null);
 
-        return "main.ftl";
+        return "main";
     }
 }
