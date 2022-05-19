@@ -5,20 +5,43 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Index</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/auth.css">
 </head>
-<body>
-<div id="nav-placeholder"></div>
-<h1>Auth</h1>
-<div>
-    <form action="/login" method="post">
-        <input name="username" type="text" id="usernameInput" placeholder="Username">
-        <input name="password" type="password" id="passwordInput" placeholder="Password">
-        <button id="loginButton">Sign In</button>
-    </form>
-    <br>
-    <a href="/reg">Registration</a>
-    <br>
-    <a href="/resetPass">Restore</a>
+</body>
+<body class="body-auth" style="background: #FFFFFF">
+<div style="display: inline-flex" class="all-height-page">
+    <div>
+        <img src="css/sign_in_title.png" class="all-height-page">
+    </div>
+    <div class="input-content">
+        <h1 class="boldFont green-title">Sign in</h1>
+        <form action="/login" method="post"
+              style="display: inline-flex; flex-direction: column; width: 600px; vertical-align: center">
+            <label class="custom-field two">
+                <input name="username" type="text" style="width: 600px" class="pink-background" id="usernameInput"
+                       placeholder="&nbsp;"/>
+                <span class="placeholder" style="color: #AC9797">Login</span>
+            </label>
+
+            <label class="custom-field two password-style-field">
+                <input name="password" type="password" id="passwordInput" placeholder="&nbsp;"/>
+                <span class="placeholder" style="color: #AC9797">Password</span>
+            </label>
+
+            <div style="display: table">
+                <button id="back" class="grey-button boldFont">Back</button>
+                <button id="loginButton" class="dark-button boldFont">Log in</button>
+            </div>
+
+            <span class="normalFont" style="text-align: -webkit-center; color: #C4C4C4; margin-top: 40px">Forgot password? <a
+                    class="boldFont" style="text-decoration: none; color: black" href="/login">Get out!</a></span>
+        </form>
+        <br>
+        <a href="/resetPass">Restore</a>
+        <br>
+        <a href="/login">Login</a>
+    </div>
 </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
