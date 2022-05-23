@@ -8,7 +8,7 @@
 </head>
 <body>
 <div id="nav-placeholder"></div>
-<div style="margin-left: 150px; margin-right: 150px; margin-top: 86px;">
+<div style="margin-left: 150px; margin-right: 150px; margin-top: 86px; margin-bottom: 100px;">
     <div id="main_info" style="display: inline-flex">
         <div class="vertical-layout-manager">
             <span class="boldFont orange-color" style="font-size: 20pt">Короче рандом</span>
@@ -17,9 +17,8 @@
             Click<br>
             Random</span>
             <span class="normalFont font-size16" style="color: #FFFFFF; margin-top: 26px; line-height: 2;">Randomity - это огромная библиотека анимированных генераторов случайностей. Наша миссия - создать шоу для проведения розыгрышей, лотерей и тотализаторов.</span>
-            <button class="orange-button normalFont" role="button" id="get-more-details-button"
-                    style="margin-top: 50px; font-size: 16px">Get more details
-            </button>
+            <a href="/about" class="orange-button normalFont" style="margin-top: 50px; font-size: 16px">
+                Get more details</a>
         </div>
         <img src="css/cubs.png" style="margin-right: -150px">
     </div>
