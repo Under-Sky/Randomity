@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List</title>
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body style="overflow-x: hidden;">
+
+<main>
+    <div id="nav-placeholder"></div>
+
+    <div style="display: inline-flex">
+        <img src="css/left_cubs.png" style="float: left; margin-left: -160px;">
+        <div style="background: blueviolet; float: inside;  width: max-content; padding: 200px 600px;"></div>
+        <div style="max-width: 100%"><img src="css/right_cubs.png" style="float: right"></div>
+    </div>
+
+</main>
+
+<footer style="background: black; padding: 30px;">
+    <span class="normalFont" style="display:block; text-align: -webkit-center; color: white">Copyright ® 2022 Строители мемасистем</span>
+</footer>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $(function () {
+        $("#nav-placeholder").load("templates/user_nav.html");
+    });
+</script>
+</html>

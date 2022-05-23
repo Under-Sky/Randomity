@@ -1,10 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
 
+html{
+    height: 100%;
+}
+
 body {
     margin: 0;
     padding: 0;
     background-image: url("baseBackground.png");
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+main {
+    flex: 1 0 auto;
 }
 
 .boldFont {
