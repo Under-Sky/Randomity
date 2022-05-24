@@ -90,3 +90,11 @@ a {
     text-decoration: none;
     color: white;
 }
+
+.item-list {
+    border-radius: 20px;
+    width: 252px;
+    height: 277px;
+    object-fit: cover;
+    margin-bottom: 25px;
+}

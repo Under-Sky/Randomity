@@ -38,11 +38,3 @@
     background: rgba(0, 0, 0, .08);
     color: rgba(0, 0, 0, .3);
 }
-
-.item-list {
-    border-radius: 20px;
-    width: 252px;
-    height: 277px;
-    object-fit: cover;
-    margin-bottom: 25px;
-}
