@@ -96,17 +96,13 @@
 </footer>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<#if isGuest>
-    <script>
-        $(function () {
-            $("#nav-placeholder").load("templates/guest_nav.html");
-        });
-    </script>
-<#else>
-    <script>
-        $(function () {
-            $("#nav-placeholder").load("templates/user_nav.html");
-        });
-    </script>
-</#if>
+<script>
+    $(function () {
+        <#if isGuest>
+        $("#nav-placeholder").load("templates/guest_nav.html");
+        <#else>
+        $("#nav-placeholder").load("templates/user_nav.html");
+        </#if>
+    });
+</script>
 </html>

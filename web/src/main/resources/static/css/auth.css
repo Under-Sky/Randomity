@@ -16,6 +16,7 @@
     color: #42563D;
     font-size: 56pt;
     text-align: -webkit-center;
+    margin: 10px;
 }
 
 *, *::before, *::after {

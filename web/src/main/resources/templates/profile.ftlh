@@ -5,17 +5,18 @@
     <title>List</title>
     <link rel="stylesheet" href="css/common.css">
 </head>
-<body style="overflow-x: hidden;">
+<body style="overflow-x: hidden">
 
-<main>
+<main style="margin-bottom: 50px">
     <div id="nav-placeholder"></div>
-
-    <div style="display: inline-flex; margin-top: 40px">
-        <img src="css/left_cubs.png" style="float: left; margin-left: -160px;">
-        <div style="background: blueviolet; float: inside;  width: max-content; padding: 300px 600px;"></div>
-        <div style="max-width: 100%"><img src="css/right_cubs.png" style="float: right"></div>
+    <div style="display: flex; justify-content: center; flex-direction: row;">
+        <img src="css/cubs.png" style="width: 200px;">
+        <div style="display: flex;flex-direction: column;align-items: flex-start;justify-content: center;">
+            <div class="boldFont font-size25" style="color: white">Name: ${userProfile.username}</div>
+            <div class="boldFont font-size25" style="color: white">Email:${userProfile.email}</div>
+            <div class="boldFont font-size25" style="color: white">Role: ${userProfile.role}</div>
+        </div>
     </div>
-
 </main>
 
 <footer style="background: black; padding: 30px;">

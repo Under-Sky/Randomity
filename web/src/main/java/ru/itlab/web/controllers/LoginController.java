@@ -45,7 +45,7 @@ public class LoginController {
             user.password = userLogin.password;
             request.getSession().setAttribute("user", user);
         } catch (IOException e) {
-            System.out.println(e.getMessage());
+            System.out.println("Custom error: " + e.getMessage());
         }
 
         return "redirect:/";

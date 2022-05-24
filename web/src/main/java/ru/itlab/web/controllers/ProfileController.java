@@ -16,10 +16,13 @@ public class ProfileController {
     @GetMapping("/profile")
     public String profileGet(Model model) {
         User user = (User) request.getSession().getAttribute("user");
-        if (user == null)
-            return "redirect:/";
 
-        return "profile.html";
+        if (user == null)
+            return "redirect:/error";
+
+        model.addAttribute("userProfile", user);
+
+        return "profile";
     }
 }
 

@@ -25,4 +25,24 @@ public class User {
     public String authBase64() {
         return Base64.getEncoder().encodeToString((username + ":" + password).getBytes());
     }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public boolean isConfirmed() {
+        return isConfirmed;
+    }
 }

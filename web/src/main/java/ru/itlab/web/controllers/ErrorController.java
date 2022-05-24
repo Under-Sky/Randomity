@@ -9,16 +9,12 @@ import ru.itlab.web.models.User;
 import javax.servlet.http.HttpServletRequest;
 
 @Controller
-public class AboutController {
+public class ErrorController {
     @Autowired
     private HttpServletRequest request;
 
-    @GetMapping("/about")
-    public String aboutGet(Model model) {
-        User user = (User) request.getSession().getAttribute("user");
-        model.addAttribute("isGuest", user == null);
-
-        return "about";
+    @GetMapping("/error")
+    public String mainGet(Model model) {
+        return "404";
     }
 }
-
