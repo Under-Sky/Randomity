@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>List</title>
+    <title>Profile</title>
     <link rel="stylesheet" href="css/common.css">
+    <link rel="icon" type="image/x-icon" href="css/cubs.png">
 </head>
 <body style="overflow-x: hidden">
 

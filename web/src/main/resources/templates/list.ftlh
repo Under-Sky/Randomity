@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>List</title>
     <link rel="stylesheet" href="css/common.css">
+    <link rel="icon" type="image/x-icon" href="css/cubs.png">
 </head>
 <body>
 <div id="nav-placeholder"></div>

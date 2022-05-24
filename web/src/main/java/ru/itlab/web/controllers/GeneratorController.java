@@ -24,7 +24,7 @@ public class GeneratorController {
         User user = (User) request.getSession().getAttribute("user");
         model.addAttribute("isGuest", user == null);
 
-        model.addAttribute("genPath", "/coinFlipIndex.html");
+        model.addAttribute("genPath", "unity/FlipCoin/index.html");
         return "randomDetails";
 
         /*try {

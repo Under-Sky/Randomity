@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>List</title>
+    <title>Generator</title>
     <link rel="stylesheet" href="css/common.css">
+    <link rel="icon" type="image/x-icon" href="css/cubs.png">
 </head>
 <body style="overflow-x: hidden">
 
@@ -15,6 +16,8 @@
         <div id="canvas-placeholder" style="background: blueviolet; width: 960px; height: 540px;"></div>
         <img src="css/right_cubs.png" style="width: 500px; height: 500px">
     </div>
+
+    <button id="activate_btn">Activate</button>
 </main>
 
 <footer style="background: black; padding: 30px;">
@@ -34,11 +37,16 @@
 </script>
 <script>
     $(function () {
-        $("#canvas-placeholder").load("${genPath}");
+        $("#canvas-placeholder").load("${genPath}", function () {
+            $("#activate_btn").click(function () {
+                // console.log(unityInstance);
+                // unityInstance.SendMessage('PirateCoin (Brass)', 'AddForce', true);
+                unityInstance.then((uI) => {
+                    uI.SendMessage('PirateCoin (Brass)', 'AddForce', 'true');
+                });
+            });
+        });
     });
-
-    function activate() {
-        unityInstance.SendMessage('WheelContainer', 'StartFortune', ["1", "2", "3"], 0);
-    }
+    console.log(unityInstance);
 </script>
 </html>
