@@ -18,7 +18,7 @@
             <span class="normalFont" style="font-size: 16px; color: white; margin-top: 15px;">Lorem Ipsum is simply dummy text of the printing and.</span>
         </div>
         <#--        List is started-->
-        <div style="margin-left: 300px; margin-right: 240px; margin-top: 90px">
+        <div style="margin: 90px 0;display: flex;flex-direction: column;align-items: center;justify-content: flex-start;">
 
             <div>
             <span style="display: inline-flex">
@@ -117,7 +117,7 @@
                         Lorem Ipsum is simply dummy text dummy text?
                     </div>
                 </span>
-            </span>
+                </span>
 
             </div>
 
@@ -173,6 +173,15 @@
         <#else>
         $("#nav-placeholder").load("templates/user_nav.html");
         </#if>
+    });
+</script>
+<script>
+    $.ajax({
+        url: "/get_gens",
+        success: function (result) {
+            console.log(result);
+            var arr = JSON.parse(result);
+        }
     });
 </script>
 </html>

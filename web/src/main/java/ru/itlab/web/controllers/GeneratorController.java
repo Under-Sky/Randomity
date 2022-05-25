@@ -1,6 +1,8 @@
 package ru.itlab.web.controllers;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpHeaders;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,6 +10,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import ru.itlab.web.models.User;
 
 import javax.servlet.http.HttpServletRequest;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
 
 @Controller
 public class GeneratorController {
@@ -39,7 +45,7 @@ public class GeneratorController {
         /*try {
             URL url = new URL("http://92.255.196.129:8080/generators/my");
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-            connection.setRequestMethod("POST");
+            connection.setRequestMethod("GET");
             connection.setDoOutput(true);
             connection.setRequestProperty(HttpHeaders.AUTHORIZATION, "Basic " + user.authBase64());
 
@@ -66,13 +72,5 @@ public class GeneratorController {
         }
 
         return "redirect:/error";*/
-    }
-
-    public class Generator {
-        public int id;
-        public String nameOfGenerator;
-
-        public Generator() {
-        }
     }
 }
