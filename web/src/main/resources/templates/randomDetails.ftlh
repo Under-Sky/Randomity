@@ -15,16 +15,7 @@
         <img src="css/left_cubs.png" style="width: 500px; height: 500px">
         <div id="canvas-placeholder"
              style="width: 960px; height: 600px;display: flex;flex-direction: column;justify-content: center;align-items: center;">
-            <div class="boldFont font-size29" style="color: white; margin-bottom: 20px;">Coin Flip</div>
-            <button id="activate_btn" class="boldFont" style="
-                font-size: 20px;
-                padding: 10px 28px;
-                background: #FA9021;
-                border-radius: 6px;
-                color: white;
-                text-decoration: none;
-                cursor: pointer;">Activate
-            </button>
+
         </div>
         <img src="css/right_cubs.png" style="width: 500px; height: 500px">
     </div>
@@ -45,20 +36,10 @@
         </#if>
     });
 </script>
+<div id="code-placeholder"></div>
 <script>
-    $("#activate_btn").click(function () {
-        $.ajax({
-            url: "/getValues?min=0&max=1&count=1&replacement=true",
-            success: function (result) {
-                console.log(result);
-                var arr = JSON.parse(result);
-                $("#canvas-placeholder").load("${genPath}", function () {
-                    unityInstance.then((uI) => {
-                        uI.SendMessage('PirateCoin (Brass)', 'AddForce', arr[0]);
-                    });
-                });
-            }
-        });
+    $("#canvas-placeholder").load('${design}', function () {
+        $("#code-placeholder").load('${code}');
     });
 </script>
 </html>

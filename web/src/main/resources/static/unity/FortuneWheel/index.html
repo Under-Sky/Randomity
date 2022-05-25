@@ -7,9 +7,9 @@
   </head>
   <body style="text-align: center; margin: 0;">
     <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/FortuneWheel.loader.js"></script>
+    <script src="unity/FortuneWheel/Build/FortuneWheel.loader.js"></script>
     <script>
-      val unityInstance;
+      var unityInstance;
       
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -20,9 +20,9 @@
       }
 
       unityInstance = createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/FortuneWheel.data",
-        frameworkUrl: "Build/FortuneWheel.framework.js",
-        codeUrl: "Build/FortuneWheel.wasm",
+        dataUrl: "unity/FortuneWheel/Build/FortuneWheel.data",
+        frameworkUrl: "unity/FortuneWheel/Build/FortuneWheel.framework.js",
+        codeUrl: "unity/FortuneWheel/Build/FortuneWheel.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "FortuneWheel",
         productName: "Randomity",

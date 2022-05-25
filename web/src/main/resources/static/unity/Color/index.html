@@ -7,9 +7,9 @@
   </head>
   <body style="text-align: center; margin: 0;">
     <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/Color.loader.js"></script>
+    <script src="unity/Color/Build/Color.loader.js"></script>
     <script>
-      val unityInstance;
+      var unityInstance;
       
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -20,9 +20,9 @@
       }
 
       unityInstance = createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Color.data",
-        frameworkUrl: "Build/Color.framework.js",
-        codeUrl: "Build/Color.wasm",
+        dataUrl: "unity/Color/Build/Color.data",
+        frameworkUrl: "unity/Color/Build/Color.framework.js",
+        codeUrl: "unity/Color/Build/Color.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Color",
         productName: "Randomity",

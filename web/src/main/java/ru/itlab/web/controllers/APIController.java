@@ -56,8 +56,15 @@ public class APIController {
             }
         }
 
-        double rand = Math.random();
-        int result = rand < 0.5d ? 0 : 1;
-        return "[" + result + "]";
+        StringBuilder builder = new StringBuilder();
+        builder.append("[");
+        for (int i = 0; i < count; i++) {
+            if (i != 0) builder.append(",");
+
+            int ans = ((int) Math.round(Math.random() * (max - min))) + min;
+            builder.append(ans);
+        }
+        builder.append("]");
+        return builder.toString();
     }
 }
