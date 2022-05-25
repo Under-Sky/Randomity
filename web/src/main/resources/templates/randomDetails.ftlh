@@ -13,11 +13,21 @@
 
     <div style="display: flex; justify-content: center;">
         <img src="css/left_cubs.png" style="width: 500px; height: 500px">
-        <div id="canvas-placeholder" style="background: blueviolet; width: 960px; height: 540px;"></div>
+        <div id="canvas-placeholder"
+             style="width: 960px; height: 600px;display: flex;flex-direction: column;justify-content: center;align-items: center;">
+            <div class="boldFont font-size29" style="color: white; margin-bottom: 20px;">Coin Flip</div>
+            <button id="activate_btn" class="boldFont" style="
+                font-size: 20px;
+                padding: 10px 28px;
+                background: #FA9021;
+                border-radius: 6px;
+                color: white;
+                text-decoration: none;
+                cursor: pointer;">Activate
+            </button>
+        </div>
         <img src="css/right_cubs.png" style="width: 500px; height: 500px">
     </div>
-
-    <button id="activate_btn">Activate</button>
 </main>
 
 <footer style="background: black; padding: 30px;">
@@ -36,17 +46,19 @@
     });
 </script>
 <script>
-    $(function () {
-        $("#canvas-placeholder").load("${genPath}", function () {
-            $("#activate_btn").click(function () {
-                // console.log(unityInstance);
-                // unityInstance.SendMessage('PirateCoin (Brass)', 'AddForce', true);
-                unityInstance.then((uI) => {
-                    uI.SendMessage('PirateCoin (Brass)', 'AddForce', 'true');
+    $("#activate_btn").click(function () {
+        $.ajax({
+            url: "/getValues?min=0&max=1&count=1&replacement=true",
+            success: function (result) {
+                console.log(result);
+                var arr = JSON.parse(result);
+                $("#canvas-placeholder").load("${genPath}", function () {
+                    unityInstance.then((uI) => {
+                        uI.SendMessage('PirateCoin (Brass)', 'AddForce', arr[0]);
+                    });
                 });
-            });
+            }
         });
     });
-    console.log(unityInstance);
 </script>
 </html>
