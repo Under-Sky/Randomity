@@ -12,7 +12,7 @@
 <div style="margin-left: 150px; margin-right: 150px; margin-top: 86px; margin-bottom: 100px;">
     <div id="main_info" style="display: inline-flex">
         <div class="vertical-layout-manager">
-            <span class="boldFont orange-color" style="font-size: 20pt">Короче рандом</span>
+            <span class="boldFont orange-color" style="font-size: 20pt">Hello!</span>
             <span class="boldFont font-size50" style="color: #FFFFFF; margin-top: 16px;">
             Imagine<br>
             Click<br>
@@ -29,31 +29,27 @@
     <#--    List will be here-->
     <div id="list" style="margin-top: 57px; display: inline-flex; text-align: -webkit-center">
         <div id="item" style="margin-right: 47px">
-            <img src="css/ex1.png" class="item-list"><br>
+            <img src="css/cubs_rand.png" class="item-list"><br>
             <span id="title-item" class="normalFont"
-                  style="color: white; font-size: 22px; text-align: -webkit-center;">
-                <img src="css/fire_icon.png" style="padding-right: 8px;">40 Followers</span>
+                  style="color: white; font-size: 22px; text-align: -webkit-center;">Random Cubs</span>
         </div>
 
         <div id="item" style="margin-right: 47px">
-            <img src="css/ex1.png" class="item-list"><br>
+            <img src="css/words_rand.png" class="item-list"><br>
             <span id="title-item" class="normalFont"
-                  style="color: white; font-size: 22px; text-align: -webkit-center;">
-                <img src="css/fire_icon.png" style="padding-right: 8px;">40 Followers</span>
+                  style="color: white; font-size: 22px; text-align: -webkit-center;">Random String</span>
         </div>
 
         <div id="item" style="margin-right: 47px">
-            <img src="css/ex1.png" class="item-list"><br>
+            <img src="css/taro_rand.png" class="item-list"><br>
             <span id="title-item" class="normalFont"
-                  style="color: white; font-size: 22px; text-align: -webkit-center;">
-                <img src="css/fire_icon.png" style="padding-right: 8px;">40 Followers</span>
+                  style="color: white; font-size: 22px; text-align: -webkit-center;">Random Tarot</span>
         </div>
 
         <div id="item" style="margin-right: 47px">
-            <img src="css/ex1.png" class="item-list"><br>
+            <img src="css/number_rand.png" class="item-list"><br>
             <span id="title-item" class="normalFont"
-                  style="color: white; font-size: 22px; text-align: -webkit-center;">
-                <img src="css/fire_icon.png" style="padding-right: 8px;">40 Followers</span>
+                  style="color: white; font-size: 22px; text-align: -webkit-center;">Random Number</span>
         </div>
     </div>
     <#--    End of list is here-->
