@@ -7,7 +7,7 @@
                 var arr = JSON.parse(result);
                 $('#canvas-placeholder').load('unity/Color/index.html', function () {
                     unityInstance.then((uI) => {
-                        uI.SendMessage('Box', 'Box', "{'r':" + arr[0] + ", 'g':" + arr[1] + ", 'b':" + arr[2] + '}');
+                        uI.SendMessage('Box', 'OpenColor', "{\"r\":" + arr[0] + ", \"g\":" + arr[1] + ", \"b\":" + arr[2] + "}");
                     });
                 });
             }

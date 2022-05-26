@@ -39,8 +39,9 @@
                 var arr = JSON.parse(result);
                 $("#canvas-placeholder").load('unity/FortuneWheel/index.html', function () {
                     unityInstance.then((uI) => {
-                        console.log("{\"arr\":[\"" + list_arr.join("\",\"") + "\"], \"winner\":" + arr[0] + "}")
-                        uI.SendMessage('WheelContainer', 'StartFortune', "{\"arr\":[\"" + list_arr.join("\",\"") + "\"], \"winner\":" + arr[0] + "}");
+                        // console.log("{\"arr\":[\"" + list_arr.join("\",\"") + "\"], \"index\":" + arr[0] + "}")
+                        uI.SendMessage('WheelContainer', 'StartFortune', ""); //{\"arr\":[\"" + list_arr.join("\",\"") + "\"], \"index\":" + arr[0] + "}
+                        // uI.SendMessage('WheelContainer', 'StartFortune', '{\"arr\": [\"1\", \"2\", \"3\"], \"winner\": 1}');
                     });
                 });
             }
