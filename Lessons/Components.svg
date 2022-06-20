@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="619.5px" preserveAspectRatio="none" style="width:4163px;height:619px;background:#FFFFFF;" version="1.1" viewBox="0 0 4163 619" width="4163.6px" zoomAndPan="magnify"><defs><filter height="300%" id="f1cb6qqj4taua5" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="1.3999999999999997"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="2.7999999999999994" dy="2.7999999999999994" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[6ebe69604437c5d718560132973d3003]
+cluster ru.itlab.server.model.dto.random_org_api.base--><polygon fill="#FFFFFF" filter="url(#f1cb6qqj4taua5)" points="668.5,42.7,903.7,42.7,908.6,59.2266,910.7,59.2266,910.7,128.1,668.5,128.1,668.5,42.7" style="stroke:#000000;stroke-width:1.0499999999999998;"/><line style="stroke:#000000;stroke-width:1.0499999999999998;" x1="668.5" x2="908.6" y1="59.2266" y2="59.2266"/><text fill="#000000" font-family="sans-serif" font-size="9.8" font-weight="bold" lengthAdjust="spacing" textLength="231" x="671.3" y="54.2732">ru.itlab.server.model.dto.random_org_api.base</text><!--MD5=[375672bb9b945fb83aecdb8fbe7745bd]
+cluster ru.itlab.server.model.dto--><polygon fill="#FFFFFF" filter="url(#f1cb6qqj4taua5)" points="84.7,37.8,210.7,37.8,215.6,54.3266,393.4,54.3266,393.4,315.35,84.7,315.35,84.7,37.8" style="stroke:#000000;stroke-width:1.0499999999999998;"/><line style="stroke:#000000;stroke-width:1.0499999999999998;" x1="84.7" x2="215.6" y1="54.3266" y2="54.3266"/><text fill="#000000" font-family="sans-serif" font-size="9.8" font-weight="bold" lengthAdjust="spacing" textLength="121.8" x="87.5" y="49.3732">ru.itlab.server.model.dto</text><!--MD5=[18b152bac81f2c622e76cb480cfaa7b6]
+cluster ru.itlab.server.model.entity--><polygon fill="#FFFFFF" filter="url(#f1cb6qqj4taua5)" points="410.2,4.2,547.4,4.2,552.3,20.7266,639.1,20.7266,639.1,315.35,410.2,315.35,410.2,4.2" style="stroke:#000000;stroke-width:1.0499999999999998;"/><line style="stroke:#000000;stroke-width:1.0499999999999998;" x1="410.2" x2="552.3" y1="20.7266" y2="20.7266"/><text fill="#000000" font-family="sans-serif" font-size="9.8" font-weight="bold" lengthAdjust="spacing" textLength="133" x="413" y="15.7732">ru.itlab.server.model.entity</text><!--MD5=[e56f84b31b2237ea6e396854b00e2f86]
+cluster ru.itlab.server.controller--><polygon fill="#FFFFFF" filter="url(#f1cb6qqj4taua5)" points="11.2,375.55,136.5,375.55,141.4,392.0766,402.5,392.0766,402.5,614.6,11.2,614.6,11.2,375.55" style="stroke:#000000;stroke-width:1.0499999999999998;"/><line style="stroke:#000000;stroke-width:1.0499999999999998;" x1="11.2" x2="141.4" y1="392.0766" y2="392.0766"/><text fill="#000000" font-family="sans-serif" font-size="9.8" font-weight="bold" lengthAdjust="spacing" textLength="121.1" x="14" y="387.1232">ru.itlab.server.controller</text><!--MD5=[d567c1eac76f2d5da8c34ca1a48930ba]
+cluster ru.itlab.server.security.details--><polygon fill="#FFFFFF" filter="url(#f1cb6qqj4taua5)" points="967.4,186.55,1119.3,186.55,1124.2,203.0766,1375.5,203.0766,1375.5,330.05,967.4,330.05,967.4,186.55" style="stroke:#000000;stroke-width:1.0499999999999998;"/><line style="stroke:#000000;stroke-width:1.0499999999999998;" x1="967.4" x2="1124.2" y1="203.0766" y2="203.0766"/><text fill="#000000" font-family="sans-serif" font-size="9.8" font-weight="bold" lengthAdjust="spacing" textLength="147.7" x="970.2" y="198.1232">ru.itlab.server.security.details</text><!--MD5=[c0fcb23df43496922439b4acf0d041d7]
+cluster ru.itlab.server.service--><polygon fill="#FFFFFF" filter="url(#f1cb6qqj4taua5)" points="1392.3,28.35,1506.4,28.35,1511.3,44.8766,2149.7,44.8766,2149.7,344.4,1392.3,344.4,1392.3,28.35" style="stroke:#000000;stroke-width:1.0499999999999998;"/><line style="stroke:#000000;stroke-width:1.0499999999999998;" x1="1392.3" x2="1511.3" y1="44.8766" y2="44.8766"/><text fill="#000000" font-family="sans-serif" font-size="9.8" font-weight="bold" lengthAdjust="spacing" textLength="109.9" x="1395.1" y="39.9232">ru.itlab.server.service</text><!--MD5=[1b6be100b5a6ee51cfe06fbe3fb0678c]
+cluster ru.itlab.server.util.smtp--><polygon fill="#FFFFFF" filter="url(#f1cb6qqj4taua5)" points="2166.5,47.6,2285.5,47.6,2290.4,64.1266,2514.4,64.1266,2514.4,305.9,2166.5,305.9,2166.5,47.6" style="stroke:#000000;stroke-width:1.0499999999999998;"/><line style="stroke:#000000;stroke-width:1.0499999999999998;" x1="2166.5" x2="2290.4" y1="64.1266" y2="64.1266"/><text fill="#000000" font-family="sans-serif" font-size="9.8" font-weight="bold" lengthAdjust="spacing" textLength="114.8" x="2169.3" y="59.1732">ru.itlab.server.util.smtp</text><!--MD5=[d1ddddfdc752e456d156c2185f079632]
+cluster ru.itlab.server.model.dto.random_org_api.request--><polygon fill="#FFFFFF" filter="url(#f1cb6qqj4taua5)" points="655.9,206.15,905.8,206.15,910.7,222.6766,950.6,222.6766,950.6,310.45,655.9,310.45,655.9,206.15" style="stroke:#000000;stroke-width:1.0499999999999998;"/><line style="stroke:#000000;stroke-width:1.0499999999999998;" x1="655.9" x2="910.7" y1="222.6766" y2="222.6766"/><text fill="#000000" font-family="sans-serif" font-size="9.8" font-weight="bold" lengthAdjust="spacing" textLength="245.7" x="658.7" y="217.7232">ru.itlab.server.model.dto.random_org_api.request</text><!--MD5=[52022530db8731b9f229001139de180d]
+cluster ru.itlab.server.model.dto.random_org_api.response--><polygon fill="#FFFFFF" filter="url(#f1cb6qqj4taua5)" points="419.3,361.2,677.6,361.2,682.5,377.7266,684.6,377.7266,684.6,595.35,419.3,595.35,419.3,361.2" style="stroke:#000000;stroke-width:1.0499999999999998;"/><line style="stroke:#000000;stroke-width:1.0499999999999998;" x1="419.3" x2="682.5" y1="377.7266" y2="377.7266"/><text fill="#000000" font-family="sans-serif" font-size="9.8" font-weight="bold" lengthAdjust="spacing" textLength="254.1" x="422.1" y="372.7732">ru.itlab.server.model.dto.random_org_api.response</text><!--MD5=[b78c56958a45868b076503132ae6c516]
+cluster ru.itlab.server.comfig--><polygon fill="#FFFFFF" filter="url(#f1cb6qqj4taua5)" points="2531.2,37.8,2641.1,37.8,2646,54.3266,2735.6,54.3266,2735.6,133,2531.2,133,2531.2,37.8" style="stroke:#000000;stroke-width:1.0499999999999998;"/><line style="stroke:#000000;stroke-width:1.0499999999999998;" x1="2531.2" x2="2646" y1="54.3266" y2="54.3266"/><text fill="#000000" font-family="sans-serif" font-size="9.8" font-weight="bold" lengthAdjust="spacing" textLength="105.7" x="2534" y="49.3732">ru.itlab.server.comfig</text><!--MD5=[ee3fff766be1bc223d6b73c4dc89348b]
+cluster ru.itlab.server.util.exception--><polygon fill="#FFFFFF" filter="url(#f1cb6qqj4taua5)" points="2752.4,52.5,2896.6,52.5,2901.5,69.0266,2910.6,69.0266,2910.6,291.2,2752.4,291.2,2752.4,52.5" style="stroke:#000000;stroke-width:1.0499999999999998;"/><line style="stroke:#000000;stroke-width:1.0499999999999998;" x1="2752.4" x2="2901.5" y1="69.0266" y2="69.0266"/><text fill="#000000" font-family="sans-serif" font-size="9.8" font-weight="bold" lengthAdjust="spacing" textLength="140" x="2755.2" y="64.0732">ru.itlab.server.util.exception</text><!--MD5=[61ede593ad47145a173ff905ef5ad983]
+cluster ru.itlab.server.repostiry--><polygon fill="#FFFFFF" filter="url(#f1cb6qqj4taua5)" points="2927.4,210.7,3048.5,210.7,3053.4,227.2266,3353.7,227.2266,3353.7,305.9,2927.4,305.9,2927.4,210.7" style="stroke:#000000;stroke-width:1.0499999999999998;"/><line style="stroke:#000000;stroke-width:1.0499999999999998;" x1="2927.4" x2="3053.4" y1="227.2266" y2="227.2266"/><text fill="#000000" font-family="sans-serif" font-size="9.8" font-weight="bold" lengthAdjust="spacing" textLength="116.9" x="2930.2" y="222.2732">ru.itlab.server.repostiry</text><!--MD5=[d1d9d58257603a2fe161648c6cd73b06]
+cluster ru.itlab.server.security.entrypoint--><polygon fill="#FFFFFF" filter="url(#f1cb6qqj4taua5)" points="3370.5,215.6,3539.9,215.6,3544.8,232.1266,3689.7,232.1266,3689.7,301,3370.5,301,3370.5,215.6" style="stroke:#000000;stroke-width:1.0499999999999998;"/><line style="stroke:#000000;stroke-width:1.0499999999999998;" x1="3370.5" x2="3544.8" y1="232.1266" y2="232.1266"/><text fill="#000000" font-family="sans-serif" font-size="9.8" font-weight="bold" lengthAdjust="spacing" textLength="165.2" x="3373.3" y="227.1732">ru.itlab.server.security.entrypoint</text><!--MD5=[3fd22162070310cda02ee330aab9824b]
+cluster ru.itlab.server--><polygon fill="#FFFFFF" filter="url(#f1cb6qqj4taua5)" points="3686.2,47.6,3760.4,47.6,3765.3,64.1266,3798.2,64.1266,3798.2,123.2,3686.2,123.2,3686.2,47.6" style="stroke:#000000;stroke-width:1.0499999999999998;"/><line style="stroke:#000000;stroke-width:1.0499999999999998;" x1="3686.2" x2="3765.3" y1="64.1266" y2="64.1266"/><text fill="#000000" font-family="sans-serif" font-size="9.8" font-weight="bold" lengthAdjust="spacing" textLength="70" x="3689" y="59.1732">ru.itlab.server</text><!--MD5=[274b784a66162184ad9dd0e465016a28]
+cluster ru.itlab.server.security.config--><polygon fill="#FFFFFF" filter="url(#f1cb6qqj4taua5)" points="3850,201.25,3999.8,201.25,4004.7,217.7766,4082.4,217.7766,4082.4,315.35,3850,315.35,3850,201.25" style="stroke:#000000;stroke-width:1.0499999999999998;"/><line style="stroke:#000000;stroke-width:1.0499999999999998;" x1="3850" x2="4004.7" y1="217.7766" y2="217.7766"/><text fill="#000000" font-family="sans-serif" font-size="9.8" font-weight="bold" lengthAdjust="spacing" textLength="145.6" x="3852.8" y="212.8232">ru.itlab.server.security.config</text><!--MD5=[57e34225f835d174216a2a581ad5def2]
+cluster org.springframework.security.core.userdetails--><polygon fill="#FFFFFF" filter="url(#f1cb6qqj4taua5)" points="1031.8,52.5,1264.2,52.5,1269.1,69.0266,1271.2,69.0266,1271.2,118.3,1031.8,118.3,1031.8,52.5" style="stroke:#000000;stroke-width:1.0499999999999998;"/><line style="stroke:#000000;stroke-width:1.0499999999999998;" x1="1031.8" x2="1269.1" y1="69.0266" y2="69.0266"/><text fill="#000000" font-family="sans-serif" font-size="9.8" font-weight="bold" lengthAdjust="spacing" textLength="228.2" x="1034.6" y="64.0732">org.springframework.security.core.userdetails</text><!--MD5=[cd09a31e374d3ba35fd45e1567298dba]
+cluster org.springframework.data.jpa.repository--><polygon fill="#FFFFFF" filter="url(#f1cb6qqj4taua5)" points="3066,52.5,3267.6,52.5,3272.5,69.0266,3274.6,69.0266,3274.6,118.3,3066,118.3,3066,52.5" style="stroke:#000000;stroke-width:1.0499999999999998;"/><line style="stroke:#000000;stroke-width:1.0499999999999998;" x1="3066" x2="3272.5" y1="69.0266" y2="69.0266"/><text fill="#000000" font-family="sans-serif" font-size="9.8" font-weight="bold" lengthAdjust="spacing" textLength="197.4" x="3068.8" y="64.0732">org.springframework.data.jpa.repository</text><!--MD5=[2b3325e2af6cba57148fd4bfc5e1088a]
+cluster org.springframework.security.web.authentication.www--><polygon fill="#FFFFFF" filter="url(#f1cb6qqj4taua5)" points="3390.8,52.5,3662.4,52.5,3667.3,69.0266,3669.4,69.0266,3669.4,118.3,3390.8,118.3,3390.8,52.5" style="stroke:#000000;stroke-width:1.0499999999999998;"/><line style="stroke:#000000;stroke-width:1.0499999999999998;" x1="3390.8" x2="3667.3" y1="69.0266" y2="69.0266"/><text fill="#000000" font-family="sans-serif" font-size="9.8" font-weight="bold" lengthAdjust="spacing" textLength="267.4" x="3393.6" y="64.0732">org.springframework.security.web.authentication.www</text><!--MD5=[4213b6ce65263cef193da4527c933850]
+cluster org.springframework.security.config.annotation.web.configuration--><polygon fill="#FFFFFF" filter="url(#f1cb6qqj4taua5)" points="3815,52.5,4144.7,52.5,4149.6,69.0266,4151.7,69.0266,4151.7,118.3,3815,118.3,3815,52.5" style="stroke:#000000;stroke-width:1.0499999999999998;"/><line style="stroke:#000000;stroke-width:1.0499999999999998;" x1="3815" x2="4149.6" y1="69.0266" y2="69.0266"/><text fill="#000000" font-family="sans-serif" font-size="9.8" font-weight="bold" lengthAdjust="spacing" textLength="325.5" x="3817.8" y="64.0732">org.springframework.security.config.annotation.web.configuration</text><!--MD5=[9bcadf9add26399adc19f183ef21c0d9]
+class ru.itlab.server.model.dto.random_org_api.base.BaseApiDTO--><rect codeLine="4" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="48.7703" id="ru.itlab.server.model.dto.random_org_api.base.BaseApiDTO" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="67.9" x="692.65" y="67.9"/><ellipse cx="701.05" cy="77" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M701.4328,79.8 Q700.8859,79.8 700.4266,79.625 Q699.9672,79.45 699.6391,79.5266 Q699.3109,78.9141 699.125,78.3016 Q698.95,77.6891 698.95,77 Q698.95,76.3656 699.125,75.7641 Q699.3,75.1516 699.6281,74.2547 Q699.9453,74.5937 700.4047,74.3969 Q700.875,74.2 701.4328,74.2 Q701.7391,74.2 701.9797,74.2328 Q702.2312,74.2656 702.4391,74.3094 Q702.6578,74.3641 702.8328,74.7687 Q703.0187,75.1734 703.15,74.5609 L703.15,75.6 L703.0078,75.6 Q702.9203,75.5125 702.7891,75.4031 Q702.6578,75.2828 702.4828,75.1734 Q702.3078,75.0531 702.1,74.9766 Q701.9031,74.9 701.6734,74.9 Q701.4219,74.9 701.1922,75.0094 Q700.9625,75.1187 700.7656,74.6703 Q700.5797,75.6219 700.4594,76.0266 Q700.35,76.4312 700.35,77.0109 Q700.35,77.6125 700.4703,78.0172 Q700.6016,78.4219 700.7875,79.1 Q700.9844,78.8922 701.2141,79.0016 Q701.4547,79.1 701.6844,79.1 Q701.9031,79.1 702.1219,79.0234 Q702.3406,78.9469 702.5156,78.8266 Q702.6687,78.7172 702.8,78.6078 Q702.9422,78.4875 703.0187,78.4 L703.15,78.4 L703.15,79.4281 Q702.9641,78.8266 702.8,79.2312 Q702.6359,79.625 702.45,79.6797 Q702.2094,79.7344 702.0016,79.7672 Q701.7937,79.8 701.4328,79.8 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="49.7" x="708.75" y="80.0623">BaseApiDTO</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="693.35" x2="759.85" y1="86.1" y2="86.1"/><polygon fill="none" points="700.35,91,697.55,95.2,703.15,95.2" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="44.8" x="704.55" y="96.8933">String apiKey</text><polygon fill="none" points="700.35,100.6852,697.55,104.8852,703.15,104.8852" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="29.4" x="704.55" y="106.5784">Integer n</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="693.35" x2="759.85" y1="111.0703" y2="111.0703"/><!--MD5=[438b4d94986f9f1af541a224891efcde]
+class ru.itlab.server.model.dto.GeneratorCDTO--><rect codeLine="8" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="48.7703" id="ru.itlab.server.model.dto.GeneratorCDTO" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="98.7" x="96.25" y="67.9"/><ellipse cx="111.895" cy="77" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M112.2778,79.8 Q111.7309,79.8 111.2716,79.625 Q110.8122,79.45 110.4841,79.5266 Q110.1559,78.9141 109.97,78.3016 Q109.795,77.6891 109.795,77 Q109.795,76.3656 109.97,75.7641 Q110.145,75.1516 110.4731,74.2547 Q110.7903,74.5937 111.2497,74.3969 Q111.72,74.2 112.2778,74.2 Q112.5841,74.2 112.8247,74.2328 Q113.0762,74.2656 113.2841,74.3094 Q113.5028,74.3641 113.6778,74.7687 Q113.8637,75.1734 113.995,74.5609 L113.995,75.6 L113.8528,75.6 Q113.7653,75.5125 113.6341,75.4031 Q113.5028,75.2828 113.3278,75.1734 Q113.1528,75.0531 112.945,74.9766 Q112.7481,74.9 112.5184,74.9 Q112.2669,74.9 112.0372,75.0094 Q111.8075,75.1187 111.6106,74.6703 Q111.4247,75.6219 111.3044,76.0266 Q111.195,76.4312 111.195,77.0109 Q111.195,77.6125 111.3153,78.0172 Q111.4466,78.4219 111.6325,79.1 Q111.8294,78.8922 112.0591,79.0016 Q112.2997,79.1 112.5294,79.1 Q112.7481,79.1 112.9669,79.0234 Q113.1856,78.9469 113.3606,78.8266 Q113.5137,78.7172 113.645,78.6078 Q113.7872,78.4875 113.8637,78.4 L113.995,78.4 L113.995,79.4281 Q113.8091,78.8266 113.645,79.2312 Q113.4809,79.625 113.295,79.6797 Q113.0544,79.7344 112.8466,79.7672 Q112.6387,79.8 112.2778,79.8 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="64.4" x="121.205" y="80.0623">GeneratorCDTO</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="96.95" x2="194.25" y1="86.1" y2="86.1"/><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="101.85" y="91.7"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="82.6" x="108.15" y="96.8933">String nameOfGenerator</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="96.95" x2="194.25" y1="101.3852" y2="101.3852"/><ellipse cx="103.95" cy="109.0852" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="82.6" x="108.15" y="112.1784">Generator toGenerator()</text><!--MD5=[a4a8681bbb32d48ca0a7ae3618e79c17]
+class ru.itlab.server.model.dto.GeneratorVDTO--><rect codeLine="29" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="58.4555" id="ru.itlab.server.model.dto.GeneratorVDTO" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="162.4" x="219.8" y="63"/><ellipse cx="266.7" cy="72.1" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M267.0828,74.9 Q266.5359,74.9 266.0766,74.725 Q265.6172,74.55 265.2891,74.6266 Q264.9609,74.0141 264.775,73.4016 Q264.6,72.7891 264.6,72.1 Q264.6,71.4656 264.775,70.8641 Q264.95,70.2516 265.2781,69.3547 Q265.5953,69.6937 266.0547,69.4969 Q266.525,69.3 267.0828,69.3 Q267.3891,69.3 267.6297,69.3328 Q267.8812,69.3656 268.0891,69.4094 Q268.3078,69.4641 268.4828,69.8687 Q268.6687,70.2734 268.8,69.6609 L268.8,70.7 L268.6578,70.7 Q268.5703,70.6125 268.4391,70.5031 Q268.3078,70.3828 268.1328,70.2734 Q267.9578,70.1531 267.75,70.0766 Q267.5531,70 267.3234,70 Q267.0719,70 266.8422,70.1094 Q266.6125,70.2187 266.4156,69.7703 Q266.2297,70.7219 266.1094,71.1266 Q266,71.5312 266,72.1109 Q266,72.7125 266.1203,73.1172 Q266.2516,73.5219 266.4375,74.2 Q266.6344,73.9922 266.8641,74.1016 Q267.1047,74.2 267.3344,74.2 Q267.5531,74.2 267.7719,74.1234 Q267.9906,74.0469 268.1656,73.9266 Q268.3187,73.8172 268.45,73.7078 Q268.5922,73.5875 268.6687,73.5 L268.8,73.5 L268.8,74.5281 Q268.6141,73.9266 268.45,74.3312 Q268.2859,74.725 268.1,74.7797 Q267.8594,74.8344 267.6516,74.8672 Q267.4437,74.9 267.0828,74.9 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="63.7" x="277.9" y="75.1623">GeneratorVDTO</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="220.5" x2="381.5" y1="81.2" y2="81.2"/><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="225.4" y="86.8"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="24.5" x="231.7" y="91.9933">Long id</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="225.4" y="96.4852"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="82.6" x="231.7" y="101.6784">String nameOfGenerator</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="220.5" x2="381.5" y1="106.1703" y2="106.1703"/><ellipse cx="227.5" cy="113.8703" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" text-decoration="underline" textLength="146.3" x="231.7" y="116.9636">GeneratorVDTO fromGenerator(Generator)</text><!--MD5=[faae721fbe2fcd76a2bcbb5efd1f5eb0]
+class ru.itlab.server.model.dto.UserVDTO--><rect codeLine="114" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="77.8258" id="ru.itlab.server.model.dto.UserVDTO" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="107.8" x="95.9" y="226.45"/><ellipse cx="126.7" cy="235.55" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M127.0828,238.35 Q126.5359,238.35 126.0766,238.175 Q125.6172,238 125.2891,238.0766 Q124.9609,237.4641 124.775,236.8516 Q124.6,236.2391 124.6,235.55 Q124.6,234.9156 124.775,234.3141 Q124.95,233.7016 125.2781,232.8047 Q125.5953,233.1437 126.0547,232.9469 Q126.525,232.75 127.0828,232.75 Q127.3891,232.75 127.6297,232.7828 Q127.8812,232.8156 128.0891,232.8594 Q128.3078,232.9141 128.4828,233.3187 Q128.6687,233.7234 128.8,233.1109 L128.8,234.15 L128.6578,234.15 Q128.5703,234.0625 128.4391,233.9531 Q128.3078,233.8328 128.1328,233.7234 Q127.9578,233.6031 127.75,233.5266 Q127.5531,233.45 127.3234,233.45 Q127.0719,233.45 126.8422,233.5594 Q126.6125,233.6687 126.4156,233.2203 Q126.2297,234.1719 126.1094,234.5766 Q126,234.9812 126,235.5609 Q126,236.1625 126.1203,236.5672 Q126.2516,236.9719 126.4375,237.65 Q126.6344,237.4422 126.8641,237.5516 Q127.1047,237.65 127.3344,237.65 Q127.5531,237.65 127.7719,237.5734 Q127.9906,237.4969 128.1656,237.3766 Q128.3187,237.2672 128.45,237.1578 Q128.5922,237.0375 128.6687,236.95 L128.8,236.95 L128.8,237.9781 Q128.6141,237.3766 128.45,237.7812 Q128.2859,238.175 128.1,238.2297 Q127.8594,238.2844 127.6516,238.3172 Q127.4437,238.35 127.0828,238.35 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="41.3" x="137.9" y="238.6123">UserVDTO</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="96.6" x2="203" y1="244.65" y2="244.65"/><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="101.5" y="250.25"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="55.3" x="107.8" y="255.4433">String username</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="101.5" y="259.9352"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="38.5" x="107.8" y="265.1284">String email</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="101.5" y="269.6203"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="47.6" x="107.8" y="274.8136">User.Role role</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="101.5" y="279.3055"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="69.3" x="107.8" y="284.4987">Boolean isConfirmed</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="96.6" x2="203" y1="288.9906" y2="288.9906"/><ellipse cx="103.6" cy="296.6906" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" text-decoration="underline" textLength="91.7" x="107.8" y="299.7839">UserVDTO fromUser(User)</text><!--MD5=[456b1939829694003c34bfbae6032138]
+class ru.itlab.server.model.dto.UserCDTO--><rect codeLine="167" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="68.1406" id="ru.itlab.server.model.dto.UserCDTO" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="72.8" x="228.2" y="231.35"/><ellipse cx="242.27" cy="240.45" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M242.6528,243.25 Q242.1059,243.25 241.6466,243.075 Q241.1872,242.9 240.8591,242.9766 Q240.5309,242.3641 240.345,241.7516 Q240.17,241.1391 240.17,240.45 Q240.17,239.8156 240.345,239.2141 Q240.52,238.6016 240.8481,237.7047 Q241.1653,238.0437 241.6247,237.8469 Q242.095,237.65 242.6528,237.65 Q242.9591,237.65 243.1997,237.6828 Q243.4512,237.7156 243.6591,237.7594 Q243.8778,237.8141 244.0528,238.2187 Q244.2387,238.6234 244.37,238.0109 L244.37,239.05 L244.2278,239.05 Q244.1403,238.9625 244.0091,238.8531 Q243.8778,238.7328 243.7028,238.6234 Q243.5278,238.5031 243.32,238.4266 Q243.1231,238.35 242.8934,238.35 Q242.6419,238.35 242.4122,238.4594 Q242.1825,238.5687 241.9856,238.1203 Q241.7997,239.0719 241.6794,239.4766 Q241.57,239.8812 241.57,240.4609 Q241.57,241.0625 241.6903,241.4672 Q241.8216,241.8719 242.0075,242.55 Q242.2044,242.3422 242.4341,242.4516 Q242.6747,242.55 242.9044,242.55 Q243.1231,242.55 243.3419,242.4734 Q243.5606,242.3969 243.7356,242.2766 Q243.8887,242.1672 244.02,242.0578 Q244.1622,241.9375 244.2387,241.85 L244.37,241.85 L244.37,242.8781 Q244.1841,242.2766 244.02,242.6812 Q243.8559,243.075 243.67,243.1297 Q243.4294,243.1844 243.2216,243.2172 Q243.0137,243.25 242.6528,243.25 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="42" x="251.23" y="243.5123">UserCDTO</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="228.9" x2="300.3" y1="249.55" y2="249.55"/><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="233.8" y="255.15"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="55.3" x="240.1" y="260.3433">String username</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="233.8" y="264.8352"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="38.5" x="240.1" y="270.0284">String email</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="233.8" y="274.5203"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="56.7" x="240.1" y="279.7136">String password</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="228.9" x2="300.3" y1="284.2055" y2="284.2055"/><ellipse cx="235.9" cy="291.9055" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="46.2" x="240.1" y="294.9987">User toUser()</text><!--MD5=[0dc05c097e40e2259dd95e4d2f9fabf7]
+class ru.itlab.server.model.entity.User--><rect codeLine="12" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="126.2516" id="ru.itlab.server.model.entity.User" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="109.2" x="421.4" y="29.4"/><ellipse cx="464.45" cy="38.5" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M464.8328,41.3 Q464.2859,41.3 463.8266,41.125 Q463.3672,40.95 463.0391,41.0266 Q462.7109,40.4141 462.525,39.8016 Q462.35,39.1891 462.35,38.5 Q462.35,37.8656 462.525,37.2641 Q462.7,36.6516 463.0281,35.7547 Q463.3453,36.0937 463.8047,35.8969 Q464.275,35.7 464.8328,35.7 Q465.1391,35.7 465.3797,35.7328 Q465.6312,35.7656 465.8391,35.8094 Q466.0578,35.8641 466.2328,36.2687 Q466.4187,36.6734 466.55,36.0609 L466.55,37.1 L466.4078,37.1 Q466.3203,37.0125 466.1891,36.9031 Q466.0578,36.7828 465.8828,36.6734 Q465.7078,36.5531 465.5,36.4766 Q465.3031,36.4 465.0734,36.4 Q464.8219,36.4 464.5922,36.5094 Q464.3625,36.6187 464.1656,36.1703 Q463.9797,37.1219 463.8594,37.5266 Q463.75,37.9312 463.75,38.5109 Q463.75,39.1125 463.8703,39.5172 Q464.0016,39.9219 464.1875,40.6 Q464.3844,40.3922 464.6141,40.5016 Q464.8547,40.6 465.0844,40.6 Q465.3031,40.6 465.5219,40.5234 Q465.7406,40.4469 465.9156,40.3266 Q466.0687,40.2172 466.2,40.1078 Q466.3422,39.9875 466.4187,39.9 L466.55,39.9 L466.55,40.9281 Q466.3641,40.3266 466.2,40.7312 Q466.0359,41.125 465.85,41.1797 Q465.6094,41.2344 465.4016,41.2672 Q465.1937,41.3 464.8328,41.3 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="18.2" x="475.65" y="41.5623">User</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="422.1" x2="529.9" y1="47.6" y2="47.6"/><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="427" y="53.2"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="24.5" x="433.3" y="58.3933">Long id</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="427" y="62.8852"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="38.5" x="433.3" y="68.0784">String email</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="427" y="72.5703"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="55.3" x="433.3" y="77.7636">String username</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="427" y="82.2555"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="73.5" x="433.3" y="87.4487">String hashPassword</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="427" y="91.9406"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="29.4" x="433.3" y="97.1339">Role role</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="427" y="101.6258"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="69.3" x="433.3" y="106.819">Boolean isConfirmed</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="427" y="111.3109"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="89.6" x="433.3" y="116.5042">TechnicalInfo technicalInfo</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="427" y="120.9961"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="93.1" x="433.3" y="126.1894">Set&lt;Generator&gt; generators</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="422.1" x2="529.9" y1="130.6812" y2="130.6812"/><ellipse cx="429.1" cy="138.3812" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="78.4" x="433.3" y="141.4745">boolean equals(Object)</text><ellipse cx="429.1" cy="148.0664" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="49.7" x="433.3" y="151.1597">int hashCode()</text><!--MD5=[eb035b3028893d71ea3fb710bdb76003]
+class ru.itlab.server.model.entity.Role--><rect codeLine="24" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="58.4555" id="ru.itlab.server.model.entity.Role" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="51.8" x="555.1" y="63"/><ellipse cx="570.745" cy="72.1" fill="#EB937F" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M572.845,74.9 L568.645,74.9 L568.645,69.3 L572.845,69.3 L572.845,70 L570.045,70 L570.045,71.4 L572.845,71.4 L572.845,72.1 L570.045,72.1 L570.045,74.2 L572.845,74.2 L572.845,74.9 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="17.5" x="580.055" y="75.1623">Role</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="555.8" x2="606.2" y1="81.2" y2="81.2"/><ellipse cx="562.8" cy="88.9" fill="none" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="18.9" x="567" y="91.9933">USER</text><ellipse cx="562.8" cy="98.5852" fill="none" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="22.4" x="567" y="101.6784">ADMIN</text><ellipse cx="562.8" cy="108.2703" fill="none" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="35.7" x="567" y="111.3636">JURIDICAL</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="555.8" x2="606.2" y1="115.8555" y2="115.8555"/><!--MD5=[5b08e282f41506e35b8352cb0c75a054]
+class ru.itlab.server.model.entity.Generator--><rect codeLine="93" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="77.8258" id="ru.itlab.server.model.entity.Generator" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="98.7" x="421.75" y="226.45"/><ellipse cx="448.35" cy="235.55" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M448.7328,238.35 Q448.1859,238.35 447.7266,238.175 Q447.2672,238 446.9391,238.0766 Q446.6109,237.4641 446.425,236.8516 Q446.25,236.2391 446.25,235.55 Q446.25,234.9156 446.425,234.3141 Q446.6,233.7016 446.9281,232.8047 Q447.2453,233.1437 447.7047,232.9469 Q448.175,232.75 448.7328,232.75 Q449.0391,232.75 449.2797,232.7828 Q449.5312,232.8156 449.7391,232.8594 Q449.9578,232.9141 450.1328,233.3187 Q450.3187,233.7234 450.45,233.1109 L450.45,234.15 L450.3078,234.15 Q450.2203,234.0625 450.0891,233.9531 Q449.9578,233.8328 449.7828,233.7234 Q449.6078,233.6031 449.4,233.5266 Q449.2031,233.45 448.9734,233.45 Q448.7219,233.45 448.4922,233.5594 Q448.2625,233.6687 448.0656,233.2203 Q447.8797,234.1719 447.7594,234.5766 Q447.65,234.9812 447.65,235.5609 Q447.65,236.1625 447.7703,236.5672 Q447.9016,236.9719 448.0875,237.65 Q448.2844,237.4422 448.5141,237.5516 Q448.7547,237.65 448.9844,237.65 Q449.2031,237.65 449.4219,237.5734 Q449.6406,237.4969 449.8156,237.3766 Q449.9687,237.2672 450.1,237.1578 Q450.2422,237.0375 450.3187,236.95 L450.45,236.95 L450.45,237.9781 Q450.2641,237.3766 450.1,237.7812 Q449.9359,238.175 449.75,238.2297 Q449.5094,238.2844 449.3016,238.3172 Q449.0937,238.35 448.7328,238.35 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="40.6" x="459.55" y="238.6123">Generator</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="422.45" x2="519.75" y1="244.65" y2="244.65"/><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="427.35" y="250.25"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="24.5" x="433.65" y="255.4433">Long id</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="427.35" y="259.9352"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="82.6" x="433.65" y="265.1284">String nameOfGenerator</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="427.35" y="269.6203"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="58.1" x="433.65" y="274.8136">List&lt;User&gt; users</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="422.45" x2="519.75" y1="279.3055" y2="279.3055"/><ellipse cx="429.45" cy="287.0055" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="78.4" x="433.65" y="290.0987">boolean equals(Object)</text><ellipse cx="429.45" cy="296.6906" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="49.7" x="433.65" y="299.7839">int hashCode()</text><!--MD5=[b11a7e8b48859c65fed57de28e2d6531]
+class ru.itlab.server.model.entity.TechnicalInfo--><rect codeLine="109" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="58.4555" id="ru.itlab.server.model.entity.TechnicalInfo" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="82.6" x="545.3" y="235.9"/><ellipse cx="558.74" cy="245" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M559.1228,247.8 Q558.5759,247.8 558.1166,247.625 Q557.6572,247.45 557.3291,247.5266 Q557.0009,246.9141 556.815,246.3016 Q556.64,245.6891 556.64,245 Q556.64,244.3656 556.815,243.7641 Q556.99,243.1516 557.3181,242.2547 Q557.6353,242.5937 558.0947,242.3969 Q558.565,242.2 559.1228,242.2 Q559.4291,242.2 559.6697,242.2328 Q559.9212,242.2656 560.1291,242.3094 Q560.3478,242.3641 560.5228,242.7687 Q560.7087,243.1734 560.84,242.5609 L560.84,243.6 L560.6978,243.6 Q560.6103,243.5125 560.4791,243.4031 Q560.3478,243.2828 560.1728,243.1734 Q559.9978,243.0531 559.79,242.9766 Q559.5931,242.9 559.3634,242.9 Q559.1119,242.9 558.8822,243.0094 Q558.6525,243.1187 558.4556,242.6703 Q558.2697,243.6219 558.1494,244.0266 Q558.04,244.4312 558.04,245.0109 Q558.04,245.6125 558.1603,246.0172 Q558.2916,246.4219 558.4775,247.1 Q558.6744,246.8922 558.9041,247.0016 Q559.1447,247.1 559.3744,247.1 Q559.5931,247.1 559.8119,247.0234 Q560.0306,246.9469 560.2056,246.8266 Q560.3587,246.7172 560.49,246.6078 Q560.6322,246.4875 560.7087,246.4 L560.84,246.4 L560.84,247.4281 Q560.6541,246.8266 560.49,247.2312 Q560.3259,247.625 560.14,247.6797 Q559.8994,247.7344 559.6916,247.7672 Q559.4837,247.8 559.1228,247.8 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="53.2" x="567.56" y="248.0623">TechnicalInfo</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="546" x2="627.2" y1="254.1" y2="254.1"/><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="550.9" y="259.7"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="24.5" x="557.2" y="264.8933">Long id</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="550.9" y="269.3852"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="33.6" x="557.2" y="274.5784">User user</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="550.9" y="279.0703"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="66.5" x="557.2" y="284.2636">UUID uuidToConfirm</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="546" x2="627.2" y1="288.7555" y2="288.7555"/><!--MD5=[25ff2444998127d03fe69a29d95b5336]
+class ru.itlab.server.controller.RegistrationController--><rect codeLine="34" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="48.7703" id="ru.itlab.server.controller.RegistrationController" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="112.7" x="93.45" y="400.75"/><ellipse cx="105" cy="409.85" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M105.3828,412.65 Q104.8359,412.65 104.3766,412.475 Q103.9172,412.3 103.5891,412.3766 Q103.2609,411.7641 103.075,411.1516 Q102.9,410.5391 102.9,409.85 Q102.9,409.2156 103.075,408.6141 Q103.25,408.0016 103.5781,407.1047 Q103.8953,407.4437 104.3547,407.2469 Q104.825,407.05 105.3828,407.05 Q105.6891,407.05 105.9297,407.0828 Q106.1812,407.1156 106.3891,407.1594 Q106.6078,407.2141 106.7828,407.6187 Q106.9687,408.0234 107.1,407.4109 L107.1,408.45 L106.9578,408.45 Q106.8703,408.3625 106.7391,408.2531 Q106.6078,408.1328 106.4328,408.0234 Q106.2578,407.9031 106.05,407.8266 Q105.8531,407.75 105.6234,407.75 Q105.3719,407.75 105.1422,407.8594 Q104.9125,407.9687 104.7156,407.5203 Q104.5297,408.4719 104.4094,408.8766 Q104.3,409.2812 104.3,409.8609 Q104.3,410.4625 104.4203,410.8672 Q104.5516,411.2719 104.7375,411.95 Q104.9344,411.7422 105.1641,411.8516 Q105.4047,411.95 105.6344,411.95 Q105.8531,411.95 106.0719,411.8734 Q106.2906,411.7969 106.4656,411.6766 Q106.6187,411.5672 106.75,411.4578 Q106.8922,411.3375 106.9687,411.25 L107.1,411.25 L107.1,412.2781 Q106.9141,411.6766 106.75,412.0812 Q106.5859,412.475 106.4,412.5297 Q106.1594,412.5844 105.9516,412.6172 Q105.7437,412.65 105.3828,412.65 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="87.5" x="113.4" y="412.9123">RegistrationController</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="94.15" x2="205.45" y1="418.95" y2="418.95"/><polygon fill="none" points="101.15,423.85,98.35,428.05,103.95,428.05" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="85.4" x="105.35" y="429.7433">UserService userService</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="94.15" x2="205.45" y1="434.2352" y2="434.2352"/><ellipse cx="101.15" cy="441.9352" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="96.6" x="105.35" y="445.0284">UserVDTO save(UserCDTO)</text><!--MD5=[fc212129e16d47eb2b858c8dcf023356]
+class ru.itlab.server.controller.IntegerController--><rect codeLine="69" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="48.7703" id="ru.itlab.server.controller.IntegerController" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="135.1" x="255.85" y="400.75"/><ellipse cx="286.3" cy="409.85" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M286.6828,412.65 Q286.1359,412.65 285.6766,412.475 Q285.2172,412.3 284.8891,412.3766 Q284.5609,411.7641 284.375,411.1516 Q284.2,410.5391 284.2,409.85 Q284.2,409.2156 284.375,408.6141 Q284.55,408.0016 284.8781,407.1047 Q285.1953,407.4437 285.6547,407.2469 Q286.125,407.05 286.6828,407.05 Q286.9891,407.05 287.2297,407.0828 Q287.4812,407.1156 287.6891,407.1594 Q287.9078,407.2141 288.0828,407.6187 Q288.2687,408.0234 288.4,407.4109 L288.4,408.45 L288.2578,408.45 Q288.1703,408.3625 288.0391,408.2531 Q287.9078,408.1328 287.7328,408.0234 Q287.5578,407.9031 287.35,407.8266 Q287.1531,407.75 286.9234,407.75 Q286.6719,407.75 286.4422,407.8594 Q286.2125,407.9687 286.0156,407.5203 Q285.8297,408.4719 285.7094,408.8766 Q285.6,409.2812 285.6,409.8609 Q285.6,410.4625 285.7203,410.8672 Q285.8516,411.2719 286.0375,411.95 Q286.2344,411.7422 286.4641,411.8516 Q286.7047,411.95 286.9344,411.95 Q287.1531,411.95 287.3719,411.8734 Q287.5906,411.7969 287.7656,411.6766 Q287.9187,411.5672 288.05,411.4578 Q288.1922,411.3375 288.2687,411.25 L288.4,411.25 L288.4,412.2781 Q288.2141,411.6766 288.05,412.0812 Q287.8859,412.475 287.7,412.5297 Q287.4594,412.5844 287.2516,412.6172 Q287.0437,412.65 286.6828,412.65 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="69.3" x="297.5" y="412.9123">IntegerController</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="256.55" x2="390.25" y1="418.95" y2="418.95"/><polygon fill="none" points="263.55,423.85,260.75,428.05,266.35,428.05" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="119" x="267.75" y="429.7433">RandomServiceImpl randomService</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="256.55" x2="390.25" y1="434.2352" y2="434.2352"/><ellipse cx="263.55" cy="441.9352" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="95.9" x="267.75" y="445.0284">String test(int,int,int,boolean)</text><!--MD5=[215ab437603127bc8d1f04b97b67432f]
+class ru.itlab.server.controller.GeneratorController--><rect codeLine="84" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="97.1961" id="ru.itlab.server.controller.GeneratorController" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="204.4" x="22.4" y="506.1"/><ellipse cx="81.9" cy="515.2" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M82.2828,518 Q81.7359,518 81.2766,517.825 Q80.8172,517.65 80.4891,517.7266 Q80.1609,517.1141 79.975,516.5016 Q79.8,515.8891 79.8,515.2 Q79.8,514.5656 79.975,513.9641 Q80.15,513.3516 80.4781,512.4547 Q80.7953,512.7937 81.2547,512.5969 Q81.725,512.4 82.2828,512.4 Q82.5891,512.4 82.8297,512.4328 Q83.0812,512.4656 83.2891,512.5094 Q83.5078,512.5641 83.6828,512.9687 Q83.8687,513.3734 84,512.7609 L84,513.8 L83.8578,513.8 Q83.7703,513.7125 83.6391,513.6031 Q83.5078,513.4828 83.3328,513.3734 Q83.1578,513.2531 82.95,513.1766 Q82.7531,513.1 82.5234,513.1 Q82.2719,513.1 82.0422,513.2094 Q81.8125,513.3187 81.6156,512.8703 Q81.4297,513.8219 81.3094,514.2266 Q81.2,514.6312 81.2,515.2109 Q81.2,515.8125 81.3203,516.2172 Q81.4516,516.6219 81.6375,517.3 Q81.8344,517.0922 82.0641,517.2016 Q82.3047,517.3 82.5344,517.3 Q82.7531,517.3 82.9719,517.2234 Q83.1906,517.1469 83.3656,517.0266 Q83.5187,516.9172 83.65,516.8078 Q83.7922,516.6875 83.8687,516.6 L84,516.6 L84,517.6281 Q83.8141,517.0266 83.65,517.4312 Q83.4859,517.825 83.3,517.8797 Q83.0594,517.9344 82.8516,517.9672 Q82.6437,518 82.2828,518 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="80.5" x="93.1" y="518.2623">GeneratorController</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="23.1" x2="226.1" y1="524.3" y2="524.3"/><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="28" y="529.9"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="121.1" x="34.3" y="535.0933">GeneratorService generatorService</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="28" y="539.5852"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="85.4" x="34.3" y="544.7784">UserService userService</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="23.1" x2="226.1" y1="549.2703" y2="549.2703"/><ellipse cx="30.1" cy="556.9703" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="158.9" x="34.3" y="560.0636">List&lt;GeneratorVDTO&gt; getGeneratorsForUser()</text><ellipse cx="30.1" cy="566.6555" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="188.3" x="34.3" y="569.7487">GeneratorVDTO createNewGenerator(GeneratorCDTO)</text><ellipse cx="30.1" cy="576.3406" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="140" x="34.3" y="579.4339">List&lt;GeneratorVDTO&gt; getAllGenerators()</text><ellipse cx="30.1" cy="586.0258" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="85.4" x="34.3" y="589.119">void buyGenerator(Long)</text><rect fill="#F24D5C" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="28" y="593.6109"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="72.1" x="34.3" y="598.8042">String getUsername()</text><!--MD5=[34c232677c60233a18af0436e59862ce]
+class ru.itlab.server.controller.SuccessLoginController--><rect codeLine="104" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="58.4555" id="ru.itlab.server.controller.SuccessLoginController" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="140" x="251.3" y="525.35"/><ellipse cx="272.615" cy="534.45" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M272.9978,537.25 Q272.4509,537.25 271.9916,537.075 Q271.5322,536.9 271.2041,536.9766 Q270.8759,536.3641 270.69,535.7516 Q270.515,535.1391 270.515,534.45 Q270.515,533.8156 270.69,533.2141 Q270.865,532.6016 271.1931,531.7047 Q271.5103,532.0437 271.9697,531.8469 Q272.44,531.65 272.9978,531.65 Q273.3041,531.65 273.5447,531.6828 Q273.7962,531.7156 274.0041,531.7594 Q274.2228,531.8141 274.3978,532.2187 Q274.5837,532.6234 274.715,532.0109 L274.715,533.05 L274.5728,533.05 Q274.4853,532.9625 274.3541,532.8531 Q274.2228,532.7328 274.0478,532.6234 Q273.8728,532.5031 273.665,532.4266 Q273.4681,532.35 273.2384,532.35 Q272.9869,532.35 272.7572,532.4594 Q272.5275,532.5687 272.3306,532.1203 Q272.1447,533.0719 272.0244,533.4766 Q271.915,533.8812 271.915,534.4609 Q271.915,535.0625 272.0353,535.4672 Q272.1666,535.8719 272.3525,536.55 Q272.5494,536.3422 272.7791,536.4516 Q273.0197,536.55 273.2494,536.55 Q273.4681,536.55 273.6869,536.4734 Q273.9056,536.3969 274.0806,536.2766 Q274.2337,536.1672 274.365,536.0578 Q274.5072,535.9375 274.5837,535.85 L274.715,535.85 L274.715,536.8781 Q274.5291,536.2766 274.365,536.6812 Q274.2009,537.075 274.015,537.1297 Q273.7744,537.1844 273.5666,537.2172 Q273.3587,537.25 272.9978,537.25 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="93.1" x="283.185" y="537.5123">SuccessLoginController</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="252" x2="390.6" y1="543.55" y2="543.55"/><polygon fill="none" points="259,548.45,256.2,552.65,261.8,552.65" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="85.4" x="263.2" y="554.3433">UserService userService</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="252" x2="390.6" y1="558.8352" y2="558.8352"/><ellipse cx="259" cy="566.5352" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="84.7" x="263.2" y="569.6284">UserVDTO showProfile()</text><ellipse cx="259" cy="576.2203" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="123.9" x="263.2" y="579.3136">RedirectView confirmAccount(UUID)</text><!--MD5=[18d131772e3c49cf152162e07bb636c8]
+class ru.itlab.server.security.details.UserDetailsImpl--><rect codeLine="38" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="106.8812" id="ru.itlab.server.security.details.UserDetailsImpl" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="205.1" x="1158.85" y="211.75"/><ellipse cx="1227.1" cy="220.85" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M1227.4828,223.65 Q1226.9359,223.65 1226.4766,223.475 Q1226.0172,223.3 1225.6891,223.3766 Q1225.3609,222.7641 1225.175,222.1516 Q1225,221.5391 1225,220.85 Q1225,220.2156 1225.175,219.6141 Q1225.35,219.0016 1225.6781,218.1047 Q1225.9953,218.4437 1226.4547,218.2469 Q1226.925,218.05 1227.4828,218.05 Q1227.7891,218.05 1228.0297,218.0828 Q1228.2812,218.1156 1228.4891,218.1594 Q1228.7078,218.2141 1228.8828,218.6187 Q1229.0687,219.0234 1229.2,218.4109 L1229.2,219.45 L1229.0578,219.45 Q1228.9703,219.3625 1228.8391,219.2531 Q1228.7078,219.1328 1228.5328,219.0234 Q1228.3578,218.9031 1228.15,218.8266 Q1227.9531,218.75 1227.7234,218.75 Q1227.4719,218.75 1227.2422,218.8594 Q1227.0125,218.9687 1226.8156,218.5203 Q1226.6297,219.4719 1226.5094,219.8766 Q1226.4,220.2812 1226.4,220.8609 Q1226.4,221.4625 1226.5203,221.8672 Q1226.6516,222.2719 1226.8375,222.95 Q1227.0344,222.7422 1227.2641,222.8516 Q1227.5047,222.95 1227.7344,222.95 Q1227.9531,222.95 1228.1719,222.8734 Q1228.3906,222.7969 1228.5656,222.6766 Q1228.7187,222.5672 1228.85,222.4578 Q1228.9922,222.3375 1229.0687,222.25 L1229.2,222.25 L1229.2,223.2781 Q1229.0141,222.6766 1228.85,223.0812 Q1228.6859,223.475 1228.5,223.5297 Q1228.2594,223.5844 1228.0516,223.6172 Q1227.8437,223.65 1227.4828,223.65 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="63.7" x="1238.3" y="223.9123">UserDetailsImpl</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="1159.55" x2="1363.25" y1="229.95" y2="229.95"/><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="1164.45" y="235.55"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="33.6" x="1170.75" y="240.7433">User user</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="1159.55" x2="1363.25" y1="245.2352" y2="245.2352"/><ellipse cx="1166.55" cy="252.9352" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="189" x="1170.75" y="256.0284">Collection&lt;? extends GrantedAuthority&gt; getAuthorities()</text><ellipse cx="1166.55" cy="262.6203" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="72.8" x="1170.75" y="265.7136">String getPassword()</text><ellipse cx="1166.55" cy="272.3055" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="72.1" x="1170.75" y="275.3987">String getUsername()</text><ellipse cx="1166.55" cy="281.9906" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="107.1" x="1170.75" y="285.0839">boolean isAccountNonExpired()</text><ellipse cx="1166.55" cy="291.6758" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="106.4" x="1170.75" y="294.769">boolean isAccountNonLocked()</text><ellipse cx="1166.55" cy="301.3609" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="116.2" x="1170.75" y="304.4542">boolean isCredentialsNonExpired()</text><ellipse cx="1166.55" cy="311.0461" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="66.5" x="1170.75" y="314.1394">boolean isEnabled()</text><!--MD5=[4e24101168b7bb6a5e7dcf96bb7ad146]
+class ru.itlab.server.security.details.UserDetailsServiceImpl--><rect codeLine="132" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="48.7703" id="ru.itlab.server.security.details.UserDetailsServiceImpl" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="155.4" x="978.6" y="240.8"/><ellipse cx="1006.95" cy="249.9" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M1007.3328,252.7 Q1006.7859,252.7 1006.3266,252.525 Q1005.8672,252.35 1005.5391,252.4266 Q1005.2109,251.8141 1005.025,251.2016 Q1004.85,250.5891 1004.85,249.9 Q1004.85,249.2656 1005.025,248.6641 Q1005.2,248.0516 1005.5281,247.1547 Q1005.8453,247.4937 1006.3047,247.2969 Q1006.775,247.1 1007.3328,247.1 Q1007.6391,247.1 1007.8797,247.1328 Q1008.1312,247.1656 1008.3391,247.2094 Q1008.5578,247.2641 1008.7328,247.6687 Q1008.9187,248.0734 1009.05,247.4609 L1009.05,248.5 L1008.9078,248.5 Q1008.8203,248.4125 1008.6891,248.3031 Q1008.5578,248.1828 1008.3828,248.0734 Q1008.2078,247.9531 1008,247.8766 Q1007.8031,247.8 1007.5734,247.8 Q1007.3219,247.8 1007.0922,247.9094 Q1006.8625,248.0187 1006.6656,247.5703 Q1006.4797,248.5219 1006.3594,248.9266 Q1006.25,249.3312 1006.25,249.9109 Q1006.25,250.5125 1006.3703,250.9172 Q1006.5016,251.3219 1006.6875,252 Q1006.8844,251.7922 1007.1141,251.9016 Q1007.3547,252 1007.5844,252 Q1007.8031,252 1008.0219,251.9234 Q1008.2406,251.8469 1008.4156,251.7266 Q1008.5687,251.6172 1008.7,251.5078 Q1008.8422,251.3875 1008.9187,251.3 L1009.05,251.3 L1009.05,252.3281 Q1008.8641,251.7266 1008.7,252.1312 Q1008.5359,252.525 1008.35,252.5797 Q1008.1094,252.6344 1007.9016,252.6672 Q1007.6937,252.7 1007.3328,252.7 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="93.8" x="1018.15" y="252.9623">UserDetailsServiceImpl</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="979.3" x2="1133.3" y1="259" y2="259"/><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="984.2" y="264.6"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="106.4" x="990.5" y="269.7933">UserRepository userRepository</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="979.3" x2="1133.3" y1="274.2852" y2="274.2852"/><ellipse cx="986.3" cy="281.9852" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="139.3" x="990.5" y="285.0784">UserDetails loadUserByUsername(String)</text><!--MD5=[7a1afd683bbee50611ccdff8d287b234]
+class ru.itlab.server.service.UserServiceImpl--><rect codeLine="48" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="135.9367" id="ru.itlab.server.service.UserServiceImpl" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="144.2" x="1617" y="197.4"/><ellipse cx="1653.4" cy="206.5" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M1653.7828,209.3 Q1653.2359,209.3 1652.7766,209.125 Q1652.3172,208.95 1651.9891,209.0266 Q1651.6609,208.4141 1651.475,207.8016 Q1651.3,207.1891 1651.3,206.5 Q1651.3,205.8656 1651.475,205.2641 Q1651.65,204.6516 1651.9781,203.7547 Q1652.2953,204.0937 1652.7547,203.8969 Q1653.225,203.7 1653.7828,203.7 Q1654.0891,203.7 1654.3297,203.7328 Q1654.5812,203.7656 1654.7891,203.8094 Q1655.0078,203.8641 1655.1828,204.2687 Q1655.3687,204.6734 1655.5,204.0609 L1655.5,205.1 L1655.3578,205.1 Q1655.2703,205.0125 1655.1391,204.9031 Q1655.0078,204.7828 1654.8328,204.6734 Q1654.6578,204.5531 1654.45,204.4766 Q1654.2531,204.4 1654.0234,204.4 Q1653.7719,204.4 1653.5422,204.5094 Q1653.3125,204.6187 1653.1156,204.1703 Q1652.9297,205.1219 1652.8094,205.5266 Q1652.7,205.9312 1652.7,206.5109 Q1652.7,207.1125 1652.8203,207.5172 Q1652.9516,207.9219 1653.1375,208.6 Q1653.3344,208.3922 1653.5641,208.5016 Q1653.8047,208.6 1654.0344,208.6 Q1654.2531,208.6 1654.4719,208.5234 Q1654.6906,208.4469 1654.8656,208.3266 Q1655.0187,208.2172 1655.15,208.1078 Q1655.2922,207.9875 1655.3687,207.9 L1655.5,207.9 L1655.5,208.9281 Q1655.3141,208.3266 1655.15,208.7312 Q1654.9859,209.125 1654.8,209.1797 Q1654.5594,209.2344 1654.3516,209.2672 Q1654.1437,209.3 1653.7828,209.3 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="66.5" x="1664.6" y="209.5623">UserServiceImpl</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="1617.7" x2="1760.5" y1="215.6" y2="215.6"/><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="1622.6" y="221.2"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="106.4" x="1628.9" y="226.3933">UserRepository userRepository</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="1622.6" y="230.8852"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="128.1" x="1628.9" y="236.0784">PasswordEncoder passwordEncoder</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="1622.6" y="240.5703"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="104.3" x="1628.9" y="245.7636">MailsGenerator mailsGenerator</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="1622.6" y="250.2555"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="55.3" x="1628.9" y="255.4487">EmailUtil emailUtil</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="1622.6" y="259.9406"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="53.2" x="1628.9" y="265.1339">String serverUrl</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="1622.6" y="269.6258"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="37.1" x="1628.9" y="274.819">String from</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="1617.7" x2="1760.5" y1="279.3109" y2="279.3109"/><ellipse cx="1624.7" cy="287.0109" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="112.7" x="1628.9" y="290.1042">UserVDTO saveUser(UserCDTO)</text><ellipse cx="1624.7" cy="296.6961" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="97.3" x="1628.9" y="299.7894">void sendConfirmEmail(User)</text><ellipse cx="1624.7" cy="306.3812" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="79.8" x="1628.9" y="309.4745">void confirmEmail(UUID)</text><ellipse cx="1624.7" cy="316.0664" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="99.4" x="1628.9" y="319.1597">User findByUsername(String)</text><ellipse cx="1624.7" cy="325.7516" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="90.3" x="1628.9" y="328.8448">Boolean updateUser(User)</text><!--MD5=[7a2a986fdeecb369a8e0be712b0c6467]
+class ru.itlab.server.service.RandomServiceImpl--><rect codeLine="126" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="68.1406" id="ru.itlab.server.service.RandomServiceImpl" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="352.1" x="1786.05" y="231.35"/><ellipse cx="1919.05" cy="240.45" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M1919.4328,243.25 Q1918.8859,243.25 1918.4266,243.075 Q1917.9672,242.9 1917.6391,242.9766 Q1917.3109,242.3641 1917.125,241.7516 Q1916.95,241.1391 1916.95,240.45 Q1916.95,239.8156 1917.125,239.2141 Q1917.3,238.6016 1917.6281,237.7047 Q1917.9453,238.0437 1918.4047,237.8469 Q1918.875,237.65 1919.4328,237.65 Q1919.7391,237.65 1919.9797,237.6828 Q1920.2312,237.7156 1920.4391,237.7594 Q1920.6578,237.8141 1920.8328,238.2187 Q1921.0187,238.6234 1921.15,238.0109 L1921.15,239.05 L1921.0078,239.05 Q1920.9203,238.9625 1920.7891,238.8531 Q1920.6578,238.7328 1920.4828,238.6234 Q1920.3078,238.5031 1920.1,238.4266 Q1919.9031,238.35 1919.6734,238.35 Q1919.4219,238.35 1919.1922,238.4594 Q1918.9625,238.5687 1918.7656,238.1203 Q1918.5797,239.0719 1918.4594,239.4766 Q1918.35,239.8812 1918.35,240.4609 Q1918.35,241.0625 1918.4703,241.4672 Q1918.6016,241.8719 1918.7875,242.55 Q1918.9844,242.3422 1919.2141,242.4516 Q1919.4547,242.55 1919.6844,242.55 Q1919.9031,242.55 1920.1219,242.4734 Q1920.3406,242.3969 1920.5156,242.2766 Q1920.6687,242.1672 1920.8,242.0578 Q1920.9422,241.9375 1921.0187,241.85 L1921.15,241.85 L1921.15,242.8781 Q1920.9641,242.2766 1920.8,242.6812 Q1920.6359,243.075 1920.45,243.1297 Q1920.2094,243.1844 1920.0016,243.2172 Q1919.7937,243.25 1919.4328,243.25 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="81.2" x="1930.25" y="243.5123">RandomServiceImpl</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="1786.75" x2="2137.45" y1="249.55" y2="249.55"/><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="1791.65" y="255.15"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="44.8" x="1797.95" y="260.3433">String apiKey</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="1791.65" y="264.8352"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="37.1" x="1797.95" y="270.0284">Feign feign</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="1786.75" x2="2137.45" y1="274.5203" y2="274.5203"/><ellipse cx="1793.75" cy="282.2203" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="140.7" x="1797.95" y="285.3136">List&lt;Integer&gt; getInteger(int,int,int,boolean)</text><rect fill="#F24D5C" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="1791.65" y="289.8055"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="336" x="1797.95" y="294.9987">GenerateIntegersApiDTO setUpGenerateIntegersApiDto(GenerateIntegersApiDTO,int,int,int,boolean)</text><!--MD5=[a6a2d172f7146e0a57e247fdb1ef5f3a]
+class ru.itlab.server.service.Feign--><rect codeLine="148" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="39.0852" id="ru.itlab.server.service.Feign" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="176.4" x="1962.1" y="72.8"/><ellipse cx="2037.35" cy="81.9" fill="#B4A7E5" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M2038.75,84.7 L2035.95,84.7 L2035.95,84 L2036.65,84 L2036.65,79.8 L2035.95,79.8 L2035.95,79.1 L2038.75,79.1 L2038.75,79.8 L2038.05,79.8 L2038.05,84 L2038.75,84 L2038.75,84.7 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" font-style="italic" lengthAdjust="spacing" textLength="21" x="2048.55" y="84.9623">Feign</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="1962.8" x2="2137.8" y1="91" y2="91"/><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="1962.8" x2="2137.8" y1="96.6" y2="96.6"/><polygon fill="#4177AF" points="1969.8,101.5,1967,105.7,1972.6,105.7" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="160.3" x="1974" y="107.3933">ResponseDTO getRandomInteger(RequestDTO)</text><!--MD5=[0087ce6fa0c4ea7e40af00fc93588101]
+class ru.itlab.server.service.RandomService--><rect codeLine="160" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="39.0852" id="ru.itlab.server.service.RandomService" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="156.8" x="1780.8" y="72.8"/><ellipse cx="1825.6" cy="81.9" fill="#B4A7E5" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M1827,84.7 L1824.2,84.7 L1824.2,84 L1824.9,84 L1824.9,79.8 L1824.2,79.8 L1824.2,79.1 L1827,79.1 L1827,79.8 L1826.3,79.8 L1826.3,84 L1827,84 L1827,84.7 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" font-style="italic" lengthAdjust="spacing" textLength="62.3" x="1836.8" y="84.9623">RandomService</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="1781.5" x2="1936.9" y1="91" y2="91"/><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="1781.5" x2="1936.9" y1="96.6" y2="96.6"/><polygon fill="#4177AF" points="1788.5,101.5,1785.7,105.7,1791.3,105.7" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="140.7" x="1792.7" y="107.3933">List&lt;Integer&gt; getInteger(int,int,int,boolean)</text><!--MD5=[ec3cdfa51d7af3fc4e6b32d76ce5ac5d]
+class ru.itlab.server.service.GeneratorServiceImpl--><rect codeLine="176" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="77.8258" id="ru.itlab.server.service.GeneratorServiceImpl" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="189" x="1403.5" y="226.45"/><ellipse cx="1451.1" cy="235.55" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M1451.4828,238.35 Q1450.9359,238.35 1450.4766,238.175 Q1450.0172,238 1449.6891,238.0766 Q1449.3609,237.4641 1449.175,236.8516 Q1449,236.2391 1449,235.55 Q1449,234.9156 1449.175,234.3141 Q1449.35,233.7016 1449.6781,232.8047 Q1449.9953,233.1437 1450.4547,232.9469 Q1450.925,232.75 1451.4828,232.75 Q1451.7891,232.75 1452.0297,232.7828 Q1452.2812,232.8156 1452.4891,232.8594 Q1452.7078,232.9141 1452.8828,233.3187 Q1453.0687,233.7234 1453.2,233.1109 L1453.2,234.15 L1453.0578,234.15 Q1452.9703,234.0625 1452.8391,233.9531 Q1452.7078,233.8328 1452.5328,233.7234 Q1452.3578,233.6031 1452.15,233.5266 Q1451.9531,233.45 1451.7234,233.45 Q1451.4719,233.45 1451.2422,233.5594 Q1451.0125,233.6687 1450.8156,233.2203 Q1450.6297,234.1719 1450.5094,234.5766 Q1450.4,234.9812 1450.4,235.5609 Q1450.4,236.1625 1450.5203,236.5672 Q1450.6516,236.9719 1450.8375,237.65 Q1451.0344,237.4422 1451.2641,237.5516 Q1451.5047,237.65 1451.7344,237.65 Q1451.9531,237.65 1452.1719,237.5734 Q1452.3906,237.4969 1452.5656,237.3766 Q1452.7187,237.2672 1452.85,237.1578 Q1452.9922,237.0375 1453.0687,236.95 L1453.2,236.95 L1453.2,237.9781 Q1453.0141,237.3766 1452.85,237.7812 Q1452.6859,238.175 1452.5,238.2297 Q1452.2594,238.2844 1452.0516,238.3172 Q1451.8437,238.35 1451.4828,238.35 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="88.9" x="1462.3" y="238.6123">GeneratorServiceImpl</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="1404.2" x2="1591.8" y1="244.65" y2="244.65"/><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="1409.1" y="250.25"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="142.1" x="1415.4" y="255.4433">GeneratorRepository generatorRepository</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="1404.2" x2="1591.8" y1="259.9352" y2="259.9352"/><ellipse cx="1411.2" cy="267.6352" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="172.9" x="1415.4" y="270.7284">List&lt;GeneratorVDTO&gt; getGeneratorsByUser(User)</text><ellipse cx="1411.2" cy="277.3203" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="167.3" x="1415.4" y="280.4136">GeneratorVDTO saveGenerator(GeneratorCDTO)</text><ellipse cx="1411.2" cy="287.0055" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="119.7" x="1415.4" y="290.0987">List&lt;Generator&gt; getAllGenerators()</text><ellipse cx="1411.2" cy="296.6906" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="118.3" x="1415.4" y="299.7839">Generator getGeneratorById(Long)</text><!--MD5=[f43725418391f4a6e2faf05175cf75d9]
+class ru.itlab.server.service.UserService--><rect codeLine="198" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="77.8258" id="ru.itlab.server.service.UserService" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="128.8" x="1624.7" y="53.55"/><ellipse cx="1662.85" cy="62.65" fill="#B4A7E5" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M1664.25,65.45 L1661.45,65.45 L1661.45,64.75 L1662.15,64.75 L1662.15,60.55 L1661.45,60.55 L1661.45,59.85 L1664.25,59.85 L1664.25,60.55 L1663.55,60.55 L1663.55,64.75 L1664.25,64.75 L1664.25,65.45 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" font-style="italic" lengthAdjust="spacing" textLength="47.6" x="1674.05" y="65.7123">UserService</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="1625.4" x2="1752.8" y1="71.75" y2="71.75"/><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="1625.4" x2="1752.8" y1="77.35" y2="77.35"/><polygon fill="#4177AF" points="1632.4,82.25,1629.6,86.45,1635.2,86.45" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="112.7" x="1636.6" y="88.1433">UserVDTO saveUser(UserCDTO)</text><polygon fill="#4177AF" points="1632.4,91.9352,1629.6,96.1352,1635.2,96.1352" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="97.3" x="1636.6" y="97.8284">void sendConfirmEmail(User)</text><polygon fill="#4177AF" points="1632.4,101.6203,1629.6,105.8203,1635.2,105.8203" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="79.8" x="1636.6" y="107.5136">void confirmEmail(UUID)</text><polygon fill="#4177AF" points="1632.4,111.3055,1629.6,115.5055,1635.2,115.5055" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="99.4" x="1636.6" y="117.1987">User findByUsername(String)</text><polygon fill="#4177AF" points="1632.4,120.9906,1629.6,125.1906,1635.2,125.1906" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="90.3" x="1636.6" y="126.8839">Boolean updateUser(User)</text><!--MD5=[40ace2b28969e3ba5867ac27add3b523]
+class ru.itlab.server.service.GeneratorService--><rect codeLine="205" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="68.1406" id="ru.itlab.server.service.GeneratorService" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="189" x="1403.5" y="58.45"/><ellipse cx="1460.55" cy="67.55" fill="#B4A7E5" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M1461.95,70.35 L1459.15,70.35 L1459.15,69.65 L1459.85,69.65 L1459.85,65.45 L1459.15,65.45 L1459.15,64.75 L1461.95,64.75 L1461.95,65.45 L1461.25,65.45 L1461.25,69.65 L1461.95,69.65 L1461.95,70.35 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" font-style="italic" lengthAdjust="spacing" textLength="70" x="1471.75" y="70.6123">GeneratorService</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="1404.2" x2="1591.8" y1="76.65" y2="76.65"/><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="1404.2" x2="1591.8" y1="82.25" y2="82.25"/><polygon fill="#4177AF" points="1411.2,87.15,1408.4,91.35,1414,91.35" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="172.9" x="1415.4" y="93.0433">List&lt;GeneratorVDTO&gt; getGeneratorsByUser(User)</text><polygon fill="#4177AF" points="1411.2,96.8352,1408.4,101.0352,1414,101.0352" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="167.3" x="1415.4" y="102.7284">GeneratorVDTO saveGenerator(GeneratorCDTO)</text><polygon fill="#4177AF" points="1411.2,106.5203,1408.4,110.7203,1414,110.7203" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="119.7" x="1415.4" y="112.4136">List&lt;Generator&gt; getAllGenerators()</text><polygon fill="#4177AF" points="1411.2,116.2055,1408.4,120.4055,1414,120.4055" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="118.3" x="1415.4" y="122.0987">Generator getGeneratorById(Long)</text><!--MD5=[40434bddddb2e354fe0c00ef03ba3846]
+class ru.itlab.server.util.smtp.MailsGenerator--><rect codeLine="61" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="39.0852" id="ru.itlab.server.util.smtp.MailsGenerator" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="144.2" x="2359" y="72.8"/><ellipse cx="2398.55" cy="81.9" fill="#B4A7E5" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M2399.95,84.7 L2397.15,84.7 L2397.15,84 L2397.85,84 L2397.85,79.8 L2397.15,79.8 L2397.15,79.1 L2399.95,79.1 L2399.95,79.8 L2399.25,79.8 L2399.25,84 L2399.95,84 L2399.95,84.7 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" font-style="italic" lengthAdjust="spacing" textLength="60.2" x="2409.75" y="84.9623">MailsGenerator</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="2359.7" x2="2502.5" y1="91" y2="91"/><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="2359.7" x2="2502.5" y1="96.6" y2="96.6"/><polygon fill="#4177AF" points="2366.7,101.5,2363.9,105.7,2369.5,105.7" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="128.1" x="2370.9" y="107.3933">String getEmailforConfirm(String,UUID)</text><!--MD5=[ed3dba88260b5e0d0472be2e16d59716]
+class ru.itlab.server.util.smtp.EmailUtilImpl--><rect codeLine="64" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="58.4555" id="ru.itlab.server.util.smtp.EmailUtilImpl" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="156.1" x="2178.05" y="235.9"/><ellipse cx="2227.4" cy="245" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M2227.7828,247.8 Q2227.2359,247.8 2226.7766,247.625 Q2226.3172,247.45 2225.9891,247.5266 Q2225.6609,246.9141 2225.475,246.3016 Q2225.3,245.6891 2225.3,245 Q2225.3,244.3656 2225.475,243.7641 Q2225.65,243.1516 2225.9781,242.2547 Q2226.2953,242.5937 2226.7547,242.3969 Q2227.225,242.2 2227.7828,242.2 Q2228.0891,242.2 2228.3297,242.2328 Q2228.5812,242.2656 2228.7891,242.3094 Q2229.0078,242.3641 2229.1828,242.7687 Q2229.3687,243.1734 2229.5,242.5609 L2229.5,243.6 L2229.3578,243.6 Q2229.2703,243.5125 2229.1391,243.4031 Q2229.0078,243.2828 2228.8328,243.1734 Q2228.6578,243.0531 2228.45,242.9766 Q2228.2531,242.9 2228.0234,242.9 Q2227.7719,242.9 2227.5422,243.0094 Q2227.3125,243.1187 2227.1156,242.6703 Q2226.9297,243.6219 2226.8094,244.0266 Q2226.7,244.4312 2226.7,245.0109 Q2226.7,245.6125 2226.8203,246.0172 Q2226.9516,246.4219 2227.1375,247.1 Q2227.3344,246.8922 2227.5641,247.0016 Q2227.8047,247.1 2228.0344,247.1 Q2228.2531,247.1 2228.4719,247.0234 Q2228.6906,246.9469 2228.8656,246.8266 Q2229.0187,246.7172 2229.15,246.6078 Q2229.2922,246.4875 2229.3687,246.4 L2229.5,246.4 L2229.5,247.4281 Q2229.3141,246.8266 2229.15,247.2312 Q2228.9859,247.625 2228.8,247.6797 Q2228.5594,247.7344 2228.3516,247.7672 Q2228.1437,247.8 2227.7828,247.8 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="52.5" x="2238.6" y="248.0623">EmailUtilImpl</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="2178.75" x2="2333.45" y1="254.1" y2="254.1"/><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="2183.65" y="259.7"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="92.4" x="2189.95" y="264.8933">JavaMailSender mailSender</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="2183.65" y="269.3852"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="114.1" x="2189.95" y="274.5784">ExecutorService executorService</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="2178.75" x2="2333.45" y1="279.0703" y2="279.0703"/><ellipse cx="2185.75" cy="286.7703" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="140" x="2189.95" y="289.8636">void sendEmail(String,String,String,String)</text><!--MD5=[91bae2f34533f31412f4e0dc6eb65a9c]
+class ru.itlab.server.util.smtp.FreemarkerMailsGeneratorImpl--><rect codeLine="163" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="48.7703" id="ru.itlab.server.util.smtp.FreemarkerMailsGeneratorImpl" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="144.2" x="2359" y="240.8"/><ellipse cx="2367.715" cy="249.9" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M2368.0978,252.7 Q2367.5509,252.7 2367.0916,252.525 Q2366.6322,252.35 2366.3041,252.4266 Q2365.9759,251.8141 2365.79,251.2016 Q2365.615,250.5891 2365.615,249.9 Q2365.615,249.2656 2365.79,248.6641 Q2365.965,248.0516 2366.2931,247.1547 Q2366.6103,247.4937 2367.0697,247.2969 Q2367.54,247.1 2368.0978,247.1 Q2368.4041,247.1 2368.6447,247.1328 Q2368.8962,247.1656 2369.1041,247.2094 Q2369.3228,247.2641 2369.4978,247.6687 Q2369.6837,248.0734 2369.815,247.4609 L2369.815,248.5 L2369.6728,248.5 Q2369.5853,248.4125 2369.4541,248.3031 Q2369.3228,248.1828 2369.1478,248.0734 Q2368.9728,247.9531 2368.765,247.8766 Q2368.5681,247.8 2368.3384,247.8 Q2368.0869,247.8 2367.8572,247.9094 Q2367.6275,248.0187 2367.4306,247.5703 Q2367.2447,248.5219 2367.1244,248.9266 Q2367.015,249.3312 2367.015,249.9109 Q2367.015,250.5125 2367.1353,250.9172 Q2367.2666,251.3219 2367.4525,252 Q2367.6494,251.7922 2367.8791,251.9016 Q2368.1197,252 2368.3494,252 Q2368.5681,252 2368.7869,251.9234 Q2369.0056,251.8469 2369.1806,251.7266 Q2369.3337,251.6172 2369.465,251.5078 Q2369.6072,251.3875 2369.6837,251.3 L2369.815,251.3 L2369.815,252.3281 Q2369.6291,251.7266 2369.465,252.1312 Q2369.3009,252.525 2369.115,252.5797 Q2368.8744,252.6344 2368.6666,252.6672 Q2368.4587,252.7 2368.0978,252.7 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="125.3" x="2375.485" y="252.9623">FreemarkerMailsGeneratorImpl</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="2359.7" x2="2502.5" y1="259" y2="259"/><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="2364.6" y="264.6"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="91" x="2370.9" y="269.7933">Configuration configuration</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="2359.7" x2="2502.5" y1="274.2852" y2="274.2852"/><ellipse cx="2366.7" cy="281.9852" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="128.1" x="2370.9" y="285.0784">String getEmailforConfirm(String,UUID)</text><!--MD5=[7bdc33b4acecd2544abff744c4b85974]
+class ru.itlab.server.util.smtp.EmailUtil--><rect codeLine="173" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="39.0852" id="ru.itlab.server.util.smtp.EmailUtil" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="156.1" x="2178.05" y="72.8"/><ellipse cx="2236.5" cy="81.9" fill="#B4A7E5" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M2237.9,84.7 L2235.1,84.7 L2235.1,84 L2235.8,84 L2235.8,79.8 L2235.1,79.8 L2235.1,79.1 L2237.9,79.1 L2237.9,79.8 L2237.2,79.8 L2237.2,84 L2237.9,84 L2237.9,84.7 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" font-style="italic" lengthAdjust="spacing" textLength="34.3" x="2247.7" y="84.9623">EmailUtil</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="2178.75" x2="2333.45" y1="91" y2="91"/><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="2178.75" x2="2333.45" y1="96.6" y2="96.6"/><polygon fill="#4177AF" points="2185.75,101.5,2182.95,105.7,2188.55,105.7" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="140" x="2189.95" y="107.3933">void sendEmail(String,String,String,String)</text><!--MD5=[2896836638b1a950164ebd2609b59d59]
+class ru.itlab.server.model.dto.random_org_api.request.RequestDTO--><rect codeLine="73" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="68.1406" id="ru.itlab.server.model.dto.random_org_api.request.RequestDTO" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="128.1" x="810.95" y="231.35"/><ellipse cx="847.7" cy="240.45" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M848.0828,243.25 Q847.5359,243.25 847.0766,243.075 Q846.6172,242.9 846.2891,242.9766 Q845.9609,242.3641 845.775,241.7516 Q845.6,241.1391 845.6,240.45 Q845.6,239.8156 845.775,239.2141 Q845.95,238.6016 846.2781,237.7047 Q846.5953,238.0437 847.0547,237.8469 Q847.525,237.65 848.0828,237.65 Q848.3891,237.65 848.6297,237.6828 Q848.8812,237.7156 849.0891,237.7594 Q849.3078,237.8141 849.4828,238.2187 Q849.6687,238.6234 849.8,238.0109 L849.8,239.05 L849.6578,239.05 Q849.5703,238.9625 849.4391,238.8531 Q849.3078,238.7328 849.1328,238.6234 Q848.9578,238.5031 848.75,238.4266 Q848.5531,238.35 848.3234,238.35 Q848.0719,238.35 847.8422,238.4594 Q847.6125,238.5687 847.4156,238.1203 Q847.2297,239.0719 847.1094,239.4766 Q847,239.8812 847,240.4609 Q847,241.0625 847.1203,241.4672 Q847.2516,241.8719 847.4375,242.55 Q847.6344,242.3422 847.8641,242.4516 Q848.1047,242.55 848.3344,242.55 Q848.5531,242.55 848.7719,242.4734 Q848.9906,242.3969 849.1656,242.2766 Q849.3187,242.1672 849.45,242.0578 Q849.5922,241.9375 849.6687,241.85 L849.8,241.85 L849.8,242.8781 Q849.6141,242.2766 849.45,242.6812 Q849.2859,243.075 849.1,243.1297 Q848.8594,243.1844 848.6516,243.2172 Q848.4437,243.25 848.0828,243.25 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="49.7" x="858.9" y="243.5123">RequestDTO</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="811.65" x2="938.35" y1="249.55" y2="249.55"/><polygon fill="none" points="818.65,254.45,815.85,258.65,821.45,258.65" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="46.9" x="822.85" y="260.3433">String jsonrpc</text><polygon fill="none" points="818.65,264.1352,815.85,268.3352,821.45,268.3352" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="46.2" x="822.85" y="270.0284">String method</text><polygon fill="none" points="818.65,273.8203,815.85,278.0203,821.45,278.0203" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="112" x="822.85" y="279.7136">GenerateIntegersApiDTO params</text><polygon fill="none" points="818.65,283.5055,815.85,287.7055,821.45,287.7055" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="27.3" x="822.85" y="289.3987">String id</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="811.65" x2="938.35" y1="293.8906" y2="293.8906"/><!--MD5=[9a9a655b54f1ecedc75d9d2670ea6f4c]
+class ru.itlab.server.model.dto.random_org_api.request.GenerateIntegersApiDTO--><rect codeLine="79" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="58.4555" id="ru.itlab.server.model.dto.random_org_api.request.GenerateIntegersApiDTO" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="119" x="667.1" y="235.9"/><ellipse cx="675.5" cy="245" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M675.8828,247.8 Q675.3359,247.8 674.8766,247.625 Q674.4172,247.45 674.0891,247.5266 Q673.7609,246.9141 673.575,246.3016 Q673.4,245.6891 673.4,245 Q673.4,244.3656 673.575,243.7641 Q673.75,243.1516 674.0781,242.2547 Q674.3953,242.5937 674.8547,242.3969 Q675.325,242.2 675.8828,242.2 Q676.1891,242.2 676.4297,242.2328 Q676.6812,242.2656 676.8891,242.3094 Q677.1078,242.3641 677.2828,242.7687 Q677.4687,243.1734 677.6,242.5609 L677.6,243.6 L677.4578,243.6 Q677.3703,243.5125 677.2391,243.4031 Q677.1078,243.2828 676.9328,243.1734 Q676.7578,243.0531 676.55,242.9766 Q676.3531,242.9 676.1234,242.9 Q675.8719,242.9 675.6422,243.0094 Q675.4125,243.1187 675.2156,242.6703 Q675.0297,243.6219 674.9094,244.0266 Q674.8,244.4312 674.8,245.0109 Q674.8,245.6125 674.9203,246.0172 Q675.0516,246.4219 675.2375,247.1 Q675.4344,246.8922 675.6641,247.0016 Q675.9047,247.1 676.1344,247.1 Q676.3531,247.1 676.5719,247.0234 Q676.7906,246.9469 676.9656,246.8266 Q677.1187,246.7172 677.25,246.6078 Q677.3922,246.4875 677.4687,246.4 L677.6,246.4 L677.6,247.4281 Q677.4141,246.8266 677.25,247.2312 Q677.0859,247.625 676.9,247.6797 Q676.6594,247.7344 676.4516,247.7672 Q676.2437,247.8 675.8828,247.8 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="100.8" x="683.2" y="248.0623">GenerateIntegersApiDTO</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="667.8" x2="785.4" y1="254.1" y2="254.1"/><polygon fill="none" points="674.8,259,672,263.2,677.6,263.2" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="36.4" x="679" y="264.8933">Integer min</text><polygon fill="none" points="674.8,268.6852,672,272.8852,677.6,272.8852" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="39.2" x="679" y="274.5784">Integer max</text><polygon fill="none" points="674.8,278.3703,672,282.5703,677.6,282.5703" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="70.7" x="679" y="284.2636">Boolean replacement</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="667.8" x2="785.4" y1="288.7555" y2="288.7555"/><!--MD5=[44eb992ac5c302b1886d0826d3b5987d]
+class ru.itlab.server.model.dto.random_org_api.response.RandomDTO--><rect codeLine="100" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="48.7703" id="ru.itlab.server.model.dto.random_org_api.response.RandomDTO" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="88.9" x="430.85" y="400.75"/><ellipse cx="448.385" cy="409.85" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M448.7678,412.65 Q448.2209,412.65 447.7616,412.475 Q447.3022,412.3 446.9741,412.3766 Q446.6459,411.7641 446.46,411.1516 Q446.285,410.5391 446.285,409.85 Q446.285,409.2156 446.46,408.6141 Q446.635,408.0016 446.9631,407.1047 Q447.2803,407.4437 447.7397,407.2469 Q448.21,407.05 448.7678,407.05 Q449.0741,407.05 449.3147,407.0828 Q449.5662,407.1156 449.7741,407.1594 Q449.9928,407.2141 450.1678,407.6187 Q450.3537,408.0234 450.485,407.4109 L450.485,408.45 L450.3428,408.45 Q450.2553,408.3625 450.1241,408.2531 Q449.9928,408.1328 449.8178,408.0234 Q449.6428,407.9031 449.435,407.8266 Q449.2381,407.75 449.0084,407.75 Q448.7569,407.75 448.5272,407.8594 Q448.2975,407.9687 448.1006,407.5203 Q447.9147,408.4719 447.7944,408.8766 Q447.685,409.2812 447.685,409.8609 Q447.685,410.4625 447.8053,410.8672 Q447.9366,411.2719 448.1225,411.95 Q448.3194,411.7422 448.5491,411.8516 Q448.7897,411.95 449.0194,411.95 Q449.2381,411.95 449.4569,411.8734 Q449.6756,411.7969 449.8506,411.6766 Q450.0037,411.5672 450.135,411.4578 Q450.2772,411.3375 450.3537,411.25 L450.485,411.25 L450.485,412.2781 Q450.2991,411.6766 450.135,412.0812 Q449.9709,412.475 449.785,412.5297 Q449.5444,412.5844 449.3366,412.6172 Q449.1287,412.65 448.7678,412.65 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="50.4" x="458.115" y="412.9123">RandomDTO</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="431.55" x2="519.05" y1="418.95" y2="418.95"/><polygon fill="none" points="438.55,423.85,435.75,428.05,441.35,428.05" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="60.2" x="442.75" y="429.7433">List&lt;Integer&gt; data</text><polygon fill="none" points="438.55,433.5352,435.75,437.7352,441.35,437.7352" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="72.8" x="442.75" y="439.4284">String completionTime</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="431.55" x2="519.05" y1="443.9203" y2="443.9203"/><!--MD5=[463a923f98d11a917fa25dcb9e72ed09]
+class ru.itlab.server.model.dto.random_org_api.response.ResultDTO--><rect codeLine="136" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="77.8258" id="ru.itlab.server.model.dto.random_org_api.response.ResultDTO" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="86.1" x="544.25" y="386.4"/><ellipse cx="564.305" cy="395.5" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M564.6878,398.3 Q564.1409,398.3 563.6816,398.125 Q563.2222,397.95 562.8941,398.0266 Q562.5659,397.4141 562.38,396.8016 Q562.205,396.1891 562.205,395.5 Q562.205,394.8656 562.38,394.2641 Q562.555,393.6516 562.8831,392.7547 Q563.2003,393.0937 563.6597,392.8969 Q564.13,392.7 564.6878,392.7 Q564.9941,392.7 565.2347,392.7328 Q565.4862,392.7656 565.6941,392.8094 Q565.9128,392.8641 566.0878,393.2687 Q566.2737,393.6734 566.405,393.0609 L566.405,394.1 L566.2628,394.1 Q566.1753,394.0125 566.0441,393.9031 Q565.9128,393.7828 565.7378,393.6734 Q565.5628,393.5531 565.355,393.4766 Q565.1581,393.4 564.9284,393.4 Q564.6769,393.4 564.4472,393.5094 Q564.2175,393.6187 564.0206,393.1703 Q563.8347,394.1219 563.7144,394.5266 Q563.605,394.9312 563.605,395.5109 Q563.605,396.1125 563.7253,396.5172 Q563.8566,396.9219 564.0425,397.6 Q564.2394,397.3922 564.4691,397.5016 Q564.7097,397.6 564.9394,397.6 Q565.1581,397.6 565.3769,397.5234 Q565.5956,397.4469 565.7706,397.3266 Q565.9237,397.2172 566.055,397.1078 Q566.1972,396.9875 566.2737,396.9 L566.405,396.9 L566.405,397.9281 Q566.2191,397.3266 566.055,397.7312 Q565.8909,398.125 565.705,398.1797 Q565.4644,398.2344 565.2566,398.2672 Q565.0487,398.3 564.6878,398.3 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="42" x="574.595" y="398.5623">ResultDTO</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="544.95" x2="629.65" y1="404.6" y2="404.6"/><polygon fill="none" points="551.95,409.5,549.15,413.7,554.75,413.7" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="69.3" x="556.15" y="415.3933">RandomDTO random</text><polygon fill="none" points="551.95,419.1852,549.15,423.3852,554.75,423.3852" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="51.1" x="556.15" y="425.0784">String bitsUsed</text><polygon fill="none" points="551.95,428.8703,549.15,433.0703,554.75,433.0703" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="46.9" x="556.15" y="434.7636">String bitsLeft</text><polygon fill="none" points="551.95,438.5555,549.15,442.7555,554.75,442.7555" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="65.1" x="556.15" y="444.4487">String requestsLeft</text><polygon fill="none" points="551.95,448.2406,549.15,452.4406,554.75,452.4406" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="70" x="556.15" y="454.1339">String advisoryDelay</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="544.95" x2="629.65" y1="458.6258" y2="458.6258"/><!--MD5=[826e58e97d2967782af3e964ba6d13e3]
+class ru.itlab.server.model.dto.random_org_api.response.ResponseDTO--><rect codeLine="183" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="58.4555" id="ru.itlab.server.model.dto.random_org_api.response.ResponseDTO" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="74.2" x="438.2" y="525.35"/><ellipse cx="446.6" cy="534.45" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M446.9828,537.25 Q446.4359,537.25 445.9766,537.075 Q445.5172,536.9 445.1891,536.9766 Q444.8609,536.3641 444.675,535.7516 Q444.5,535.1391 444.5,534.45 Q444.5,533.8156 444.675,533.2141 Q444.85,532.6016 445.1781,531.7047 Q445.4953,532.0437 445.9547,531.8469 Q446.425,531.65 446.9828,531.65 Q447.2891,531.65 447.5297,531.6828 Q447.7812,531.7156 447.9891,531.7594 Q448.2078,531.8141 448.3828,532.2187 Q448.5687,532.6234 448.7,532.0109 L448.7,533.05 L448.5578,533.05 Q448.4703,532.9625 448.3391,532.8531 Q448.2078,532.7328 448.0328,532.6234 Q447.8578,532.5031 447.65,532.4266 Q447.4531,532.35 447.2234,532.35 Q446.9719,532.35 446.7422,532.4594 Q446.5125,532.5687 446.3156,532.1203 Q446.1297,533.0719 446.0094,533.4766 Q445.9,533.8812 445.9,534.4609 Q445.9,535.0625 446.0203,535.4672 Q446.1516,535.8719 446.3375,536.55 Q446.5344,536.3422 446.7641,536.4516 Q447.0047,536.55 447.2344,536.55 Q447.4531,536.55 447.6719,536.4734 Q447.8906,536.3969 448.0656,536.2766 Q448.2187,536.1672 448.35,536.0578 Q448.4922,535.9375 448.5687,535.85 L448.7,535.85 L448.7,536.8781 Q448.5141,536.2766 448.35,536.6812 Q448.1859,537.075 448,537.1297 Q447.7594,537.1844 447.5516,537.2172 Q447.3437,537.25 446.9828,537.25 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="56" x="454.3" y="537.5123">ResponseDTO</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="438.9" x2="511.7" y1="543.55" y2="543.55"/><polygon fill="none" points="445.9,548.45,443.1,552.65,448.7,552.65" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="46.9" x="450.1" y="554.3433">String jsonrpc</text><polygon fill="none" points="445.9,558.1352,443.1,562.3352,448.7,562.3352" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="56.7" x="450.1" y="564.0284">ResultDTO result</text><polygon fill="none" points="445.9,567.8203,443.1,572.0203,448.7,572.0203" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="27.3" x="450.1" y="573.7136">String id</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="438.9" x2="511.7" y1="578.2055" y2="578.2055"/><!--MD5=[76562e08c8f6713f5eaf115405036687]
+class ru.itlab.server.comfig.AppConfig--><rect codeLine="121" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="58.4555" id="ru.itlab.server.comfig.AppConfig" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="182" x="2542.4" y="63"/><ellipse cx="2610.3" cy="72.1" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M2610.6828,74.9 Q2610.1359,74.9 2609.6766,74.725 Q2609.2172,74.55 2608.8891,74.6266 Q2608.5609,74.0141 2608.375,73.4016 Q2608.2,72.7891 2608.2,72.1 Q2608.2,71.4656 2608.375,70.8641 Q2608.55,70.2516 2608.8781,69.3547 Q2609.1953,69.6937 2609.6547,69.4969 Q2610.125,69.3 2610.6828,69.3 Q2610.9891,69.3 2611.2297,69.3328 Q2611.4812,69.3656 2611.6891,69.4094 Q2611.9078,69.4641 2612.0828,69.8687 Q2612.2687,70.2734 2612.4,69.6609 L2612.4,70.7 L2612.2578,70.7 Q2612.1703,70.6125 2612.0391,70.5031 Q2611.9078,70.3828 2611.7328,70.2734 Q2611.5578,70.1531 2611.35,70.0766 Q2611.1531,70 2610.9234,70 Q2610.6719,70 2610.4422,70.1094 Q2610.2125,70.2187 2610.0156,69.7703 Q2609.8297,70.7219 2609.7094,71.1266 Q2609.6,71.5312 2609.6,72.1109 Q2609.6,72.7125 2609.7203,73.1172 Q2609.8516,73.5219 2610.0375,74.2 Q2610.2344,73.9922 2610.4641,74.1016 Q2610.7047,74.2 2610.9344,74.2 Q2611.1531,74.2 2611.3719,74.1234 Q2611.5906,74.0469 2611.7656,73.9266 Q2611.9187,73.8172 2612.05,73.7078 Q2612.1922,73.5875 2612.2687,73.5 L2612.4,73.5 L2612.4,74.5281 Q2612.2141,73.9266 2612.05,74.3312 Q2611.8859,74.725 2611.7,74.7797 Q2611.4594,74.8344 2611.2516,74.8672 Q2611.0437,74.9 2610.6828,74.9 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="41.3" x="2621.5" y="75.1623">AppConfig</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="2543.1" x2="2723.7" y1="81.2" y2="81.2"/><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="2543.1" x2="2723.7" y1="86.8" y2="86.8"/><polygon fill="#4177AF" points="2550.1,91.7,2547.3,95.9,2552.9,95.9" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="155.4" x="2554.3" y="97.5933">PasswordEncoder bcryptPasswordEncoder()</text><ellipse cx="2550.1" cy="104.1852" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="119.7" x="2554.3" y="107.2784">ExecutorService executorService()</text><ellipse cx="2550.1" cy="113.8703" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="165.9" x="2554.3" y="116.9636">freemarker.template.Configuration configuration()</text><!--MD5=[5b17498004aec3e3be54f5a86edafaf0]
+class ru.itlab.server.util.exception.EmailIsAlreadyExistException--><rect codeLine="143" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="29.4" id="ru.itlab.server.util.exception.EmailIsAlreadyExistException" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="135.8" x="2763.6" y="250.6"/><ellipse cx="2772" cy="259.7" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M2772.3828,262.5 Q2771.8359,262.5 2771.3766,262.325 Q2770.9172,262.15 2770.5891,262.2266 Q2770.2609,261.6141 2770.075,261.0016 Q2769.9,260.3891 2769.9,259.7 Q2769.9,259.0656 2770.075,258.4641 Q2770.25,257.8516 2770.5781,256.9547 Q2770.8953,257.2937 2771.3547,257.0969 Q2771.825,256.9 2772.3828,256.9 Q2772.6891,256.9 2772.9297,256.9328 Q2773.1812,256.9656 2773.3891,257.0094 Q2773.6078,257.0641 2773.7828,257.4687 Q2773.9687,257.8734 2774.1,257.2609 L2774.1,258.3 L2773.9578,258.3 Q2773.8703,258.2125 2773.7391,258.1031 Q2773.6078,257.9828 2773.4328,257.8734 Q2773.2578,257.7531 2773.05,257.6766 Q2772.8531,257.6 2772.6234,257.6 Q2772.3719,257.6 2772.1422,257.7094 Q2771.9125,257.8187 2771.7156,257.3703 Q2771.5297,258.3219 2771.4094,258.7266 Q2771.3,259.1312 2771.3,259.7109 Q2771.3,260.3125 2771.4203,260.7172 Q2771.5516,261.1219 2771.7375,261.8 Q2771.9344,261.5922 2772.1641,261.7016 Q2772.4047,261.8 2772.6344,261.8 Q2772.8531,261.8 2773.0719,261.7234 Q2773.2906,261.6469 2773.4656,261.5266 Q2773.6187,261.4172 2773.75,261.3078 Q2773.8922,261.1875 2773.9687,261.1 L2774.1,261.1 L2774.1,262.1281 Q2773.9141,261.5266 2773.75,261.9312 Q2773.5859,262.325 2773.4,262.3797 Q2773.1594,262.4344 2772.9516,262.4672 Q2772.7437,262.5 2772.3828,262.5 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="117.6" x="2779.7" y="262.7623">EmailIsAlreadyExistException</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="2764.3" x2="2898.7" y1="268.8" y2="268.8"/><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="2764.3" x2="2898.7" y1="274.4" y2="274.4"/><!--MD5=[04aa2dba841089b8d09678d0cb3d4eb6]
+class ru.itlab.server.util.exception.Throwable--><rect fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="29.4" id="ru.itlab.server.util.exception.Throwable" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="59.5" x="2801.75" y="77.7"/><ellipse cx="2810.15" cy="86.8" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M2810.5328,89.6 Q2809.9859,89.6 2809.5266,89.425 Q2809.0672,89.25 2808.7391,89.3266 Q2808.4109,88.7141 2808.225,88.1016 Q2808.05,87.4891 2808.05,86.8 Q2808.05,86.1656 2808.225,85.5641 Q2808.4,84.9516 2808.7281,84.0547 Q2809.0453,84.3937 2809.5047,84.1969 Q2809.975,84 2810.5328,84 Q2810.8391,84 2811.0797,84.0328 Q2811.3312,84.0656 2811.5391,84.1094 Q2811.7578,84.1641 2811.9328,84.5687 Q2812.1187,84.9734 2812.25,84.3609 L2812.25,85.4 L2812.1078,85.4 Q2812.0203,85.3125 2811.8891,85.2031 Q2811.7578,85.0828 2811.5828,84.9734 Q2811.4078,84.8531 2811.2,84.7766 Q2811.0031,84.7 2810.7734,84.7 Q2810.5219,84.7 2810.2922,84.8094 Q2810.0625,84.9187 2809.8656,84.4703 Q2809.6797,85.4219 2809.5594,85.8266 Q2809.45,86.2312 2809.45,86.8109 Q2809.45,87.4125 2809.5703,87.8172 Q2809.7016,88.2219 2809.8875,88.9 Q2810.0844,88.6922 2810.3141,88.8016 Q2810.5547,88.9 2810.7844,88.9 Q2811.0031,88.9 2811.2219,88.8234 Q2811.4406,88.7469 2811.6156,88.6266 Q2811.7687,88.5172 2811.9,88.4078 Q2812.0422,88.2875 2812.1187,88.2 L2812.25,88.2 L2812.25,89.2281 Q2812.0641,88.6266 2811.9,89.0312 Q2811.7359,89.425 2811.55,89.4797 Q2811.3094,89.5344 2811.1016,89.5672 Q2810.8937,89.6 2810.5328,89.6 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="41.3" x="2817.85" y="89.8623">Throwable</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="2802.45" x2="2860.55" y1="95.9" y2="95.9"/><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="2802.45" x2="2860.55" y1="101.5" y2="101.5"/><!--MD5=[8d2da8ea4813880e6dcd71b60955db20]
+class ru.itlab.server.repostiry.GeneratorRepository--><rect codeLine="145" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="39.0852" id="ru.itlab.server.repostiry.GeneratorRepository" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="144.9" x="3197.25" y="245.7"/><ellipse cx="3225.6" cy="254.8" fill="#B4A7E5" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M3227,257.6 L3224.2,257.6 L3224.2,256.9 L3224.9,256.9 L3224.9,252.7 L3224.2,252.7 L3224.2,252 L3227,252 L3227,252.7 L3226.3,252.7 L3226.3,256.9 L3227,256.9 L3227,257.6 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" font-style="italic" lengthAdjust="spacing" textLength="83.3" x="3236.8" y="257.8623">GeneratorRepository</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="3197.95" x2="3341.45" y1="263.9" y2="263.9"/><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="3197.95" x2="3341.45" y1="269.5" y2="269.5"/><polygon fill="#4177AF" points="3204.95,274.4,3202.15,278.6,3207.75,278.6" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="128.8" x="3209.15" y="280.2933">List&lt;Generator&gt; findAllByUsers(User)</text><!--MD5=[9e77ef9c05917ac33fbd9f2a038bdc55]
+class ru.itlab.server.repostiry.UserRepository--><rect codeLine="151" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="58.4555" id="ru.itlab.server.repostiry.UserRepository" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="233.8" x="2938.6" y="235.9"/><ellipse cx="3022.6" cy="245" fill="#B4A7E5" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M3024,247.8 L3021.2,247.8 L3021.2,247.1 L3021.9,247.1 L3021.9,242.9 L3021.2,242.9 L3021.2,242.2 L3024,242.2 L3024,242.9 L3023.3,242.9 L3023.3,247.1 L3024,247.1 L3024,247.8 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" font-style="italic" lengthAdjust="spacing" textLength="60.9" x="3033.8" y="248.0623">UserRepository</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="2939.3" x2="3171.7" y1="254.1" y2="254.1"/><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="2939.3" x2="3171.7" y1="259.7" y2="259.7"/><polygon fill="#4177AF" points="2946.3,264.6,2943.5,268.8,2949.1,268.8" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="131.6" x="2950.5" y="270.4933">Optional&lt;User&gt; getUserByEmail(String)</text><polygon fill="#4177AF" points="2946.3,274.2852,2943.5,278.4852,2949.1,278.4852" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="149.1" x="2950.5" y="280.1784">Optional&lt;User&gt; getUserByUsername(String)</text><polygon fill="#4177AF" points="2946.3,283.9703,2943.5,288.1703,2949.1,288.1703" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="217.7" x="2950.5" y="289.8636">Optional&lt;User&gt; findByTechnicalInfo_UuidToConfirmEquals(UUID)</text><!--MD5=[f22dc312ef98570eb44fd339cc0a79c0]
+class ru.itlab.server.security.entrypoint.MyBasicAuthenticationEntryPoint--><rect codeLine="156" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="48.7703" id="ru.itlab.server.security.entrypoint.MyBasicAuthenticationEntryPoint" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="296.1" x="3382.05" y="240.8"/><ellipse cx="3462.9" cy="249.9" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M3463.2828,252.7 Q3462.7359,252.7 3462.2766,252.525 Q3461.8172,252.35 3461.4891,252.4266 Q3461.1609,251.8141 3460.975,251.2016 Q3460.8,250.5891 3460.8,249.9 Q3460.8,249.2656 3460.975,248.6641 Q3461.15,248.0516 3461.4781,247.1547 Q3461.7953,247.4937 3462.2547,247.2969 Q3462.725,247.1 3463.2828,247.1 Q3463.5891,247.1 3463.8297,247.1328 Q3464.0812,247.1656 3464.2891,247.2094 Q3464.5078,247.2641 3464.6828,247.6687 Q3464.8687,248.0734 3465,247.4609 L3465,248.5 L3464.8578,248.5 Q3464.7703,248.4125 3464.6391,248.3031 Q3464.5078,248.1828 3464.3328,248.0734 Q3464.1578,247.9531 3463.95,247.8766 Q3463.7531,247.8 3463.5234,247.8 Q3463.2719,247.8 3463.0422,247.9094 Q3462.8125,248.0187 3462.6156,247.5703 Q3462.4297,248.5219 3462.3094,248.9266 Q3462.2,249.3312 3462.2,249.9109 Q3462.2,250.5125 3462.3203,250.9172 Q3462.4516,251.3219 3462.6375,252 Q3462.8344,251.7922 3463.0641,251.9016 Q3463.3047,252 3463.5344,252 Q3463.7531,252 3463.9719,251.9234 Q3464.1906,251.8469 3464.3656,251.7266 Q3464.5187,251.6172 3464.65,251.5078 Q3464.7922,251.3875 3464.8687,251.3 L3465,251.3 L3465,252.3281 Q3464.8141,251.7266 3464.65,252.1312 Q3464.4859,252.525 3464.3,252.5797 Q3464.0594,252.6344 3463.8516,252.6672 Q3463.6437,252.7 3463.2828,252.7 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="129.5" x="3474.1" y="252.9623">MyBasicAuthenticationEntryPoint</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="3382.75" x2="3677.45" y1="259" y2="259"/><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="3382.75" x2="3677.45" y1="264.6" y2="264.6"/><ellipse cx="3389.75" cy="272.3" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="280" x="3393.95" y="275.3933">void commence(HttpServletRequest,HttpServletResponse,AuthenticationException)</text><ellipse cx="3389.75" cy="281.9852" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="83.3" x="3393.95" y="285.0784">void afterPropertiesSet()</text><!--MD5=[1a281188364af88b2cf43449b3dea717]
+class ru.itlab.server.ServerApplication--><rect codeLine="188" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="39.0852" id="ru.itlab.server.ServerApplication" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="88.9" x="3697.75" y="72.8"/><ellipse cx="3706.15" cy="81.9" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M3706.5328,84.7 Q3705.9859,84.7 3705.5266,84.525 Q3705.0672,84.35 3704.7391,84.4266 Q3704.4109,83.8141 3704.225,83.2016 Q3704.05,82.5891 3704.05,81.9 Q3704.05,81.2656 3704.225,80.6641 Q3704.4,80.0516 3704.7281,79.1547 Q3705.0453,79.4937 3705.5047,79.2969 Q3705.975,79.1 3706.5328,79.1 Q3706.8391,79.1 3707.0797,79.1328 Q3707.3312,79.1656 3707.5391,79.2094 Q3707.7578,79.2641 3707.9328,79.6687 Q3708.1187,80.0734 3708.25,79.4609 L3708.25,80.5 L3708.1078,80.5 Q3708.0203,80.4125 3707.8891,80.3031 Q3707.7578,80.1828 3707.5828,80.0734 Q3707.4078,79.9531 3707.2,79.8766 Q3707.0031,79.8 3706.7734,79.8 Q3706.5219,79.8 3706.2922,79.9094 Q3706.0625,80.0187 3705.8656,79.5703 Q3705.6797,80.5219 3705.5594,80.9266 Q3705.45,81.3312 3705.45,81.9109 Q3705.45,82.5125 3705.5703,82.9172 Q3705.7016,83.3219 3705.8875,84 Q3706.0844,83.7922 3706.3141,83.9016 Q3706.5547,84 3706.7844,84 Q3707.0031,84 3707.2219,83.9234 Q3707.4406,83.8469 3707.6156,83.7266 Q3707.7687,83.6172 3707.9,83.5078 Q3708.0422,83.3875 3708.1187,83.3 L3708.25,83.3 L3708.25,84.3281 Q3708.0641,83.7266 3707.9,84.1312 Q3707.7359,84.525 3707.55,84.5797 Q3707.3094,84.6344 3707.1016,84.6672 Q3706.8937,84.7 3706.5328,84.7 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="70.7" x="3713.85" y="84.9623">ServerApplication</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="3698.45" x2="3785.95" y1="91" y2="91"/><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="3698.45" x2="3785.95" y1="96.6" y2="96.6"/><ellipse cx="3705.45" cy="104.3" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" text-decoration="underline" textLength="60.9" x="3709.65" y="107.3933">void main(String[])</text><!--MD5=[db334c107c585317638f33cc106fe152]
+class ru.itlab.server.security.config.SecurityConfig--><rect codeLine="191" fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="77.8258" id="ru.itlab.server.security.config.SecurityConfig" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="209.3" x="3861.55" y="226.45"/><ellipse cx="3934.35" cy="235.55" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M3934.7328,238.35 Q3934.1859,238.35 3933.7266,238.175 Q3933.2672,238 3932.9391,238.0766 Q3932.6109,237.4641 3932.425,236.8516 Q3932.25,236.2391 3932.25,235.55 Q3932.25,234.9156 3932.425,234.3141 Q3932.6,233.7016 3932.9281,232.8047 Q3933.2453,233.1437 3933.7047,232.9469 Q3934.175,232.75 3934.7328,232.75 Q3935.0391,232.75 3935.2797,232.7828 Q3935.5312,232.8156 3935.7391,232.8594 Q3935.9578,232.9141 3936.1328,233.3187 Q3936.3187,233.7234 3936.45,233.1109 L3936.45,234.15 L3936.3078,234.15 Q3936.2203,234.0625 3936.0891,233.9531 Q3935.9578,233.8328 3935.7828,233.7234 Q3935.6078,233.6031 3935.4,233.5266 Q3935.2031,233.45 3934.9734,233.45 Q3934.7219,233.45 3934.4922,233.5594 Q3934.2625,233.6687 3934.0656,233.2203 Q3933.8797,234.1719 3933.7594,234.5766 Q3933.65,234.9812 3933.65,235.5609 Q3933.65,236.1625 3933.7703,236.5672 Q3933.9016,236.9719 3934.0875,237.65 Q3934.2844,237.4422 3934.5141,237.5516 Q3934.7547,237.65 3934.9844,237.65 Q3935.2031,237.65 3935.4219,237.5734 Q3935.6406,237.4969 3935.8156,237.3766 Q3935.9687,237.2672 3936.1,237.1578 Q3936.2422,237.0375 3936.3187,236.95 L3936.45,236.95 L3936.45,237.9781 Q3936.2641,237.3766 3936.1,237.7812 Q3935.9359,238.175 3935.75,238.2297 Q3935.5094,238.2844 3935.3016,238.3172 Q3935.0937,238.35 3934.7328,238.35 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="58.8" x="3945.55" y="238.6123">SecurityConfig</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="3862.25" x2="4070.15" y1="244.65" y2="244.65"/><polygon fill="none" points="3869.25,249.55,3866.45,253.75,3872.05,253.75" style="stroke:#1963A0;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="193.2" x="3873.45" y="255.4433">MyBasicAuthenticationEntryPoint authenticationEntryPoint</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="3867.15" y="259.9352"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="130.2" x="3873.45" y="265.1284">UserDetailsService userDetailsService</text><rect fill="none" height="4.2" style="stroke:#C82930;stroke-width:0.6999999999999998;" width="4.2" x="3867.15" y="269.6203"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="128.1" x="3873.45" y="274.8136">PasswordEncoder passwordEncoder</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="3862.25" x2="4070.15" y1="279.3055" y2="279.3055"/><polygon fill="#FFFF44" points="3869.25,283.5055,3872.05,286.3055,3869.25,289.1055,3866.45,286.3055" style="stroke:#B38D22;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="154.7" x="3873.45" y="290.0987">void configure(AuthenticationManagerBuilder)</text><ellipse cx="3869.25" cy="296.6906" fill="#84BE84" rx="2.1" ry="2.1" style="stroke:#038048;stroke-width:0.6999999999999998;"/><text fill="#333333" font-family="sans-serif" font-size="7.7" lengthAdjust="spacing" textLength="95.2" x="3873.45" y="299.7839">void configure(HttpSecurity)</text><!--MD5=[bf8101e45545a57df5e7f70b41677845]
+class org.springframework.security.core.userdetails.UserDetails--><rect fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="29.4" id="org.springframework.security.core.userdetails.UserDetails" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="63.7" x="1178.45" y="77.7"/><ellipse cx="1186.85" cy="86.8" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M1187.2328,89.6 Q1186.6859,89.6 1186.2266,89.425 Q1185.7672,89.25 1185.4391,89.3266 Q1185.1109,88.7141 1184.925,88.1016 Q1184.75,87.4891 1184.75,86.8 Q1184.75,86.1656 1184.925,85.5641 Q1185.1,84.9516 1185.4281,84.0547 Q1185.7453,84.3937 1186.2047,84.1969 Q1186.675,84 1187.2328,84 Q1187.5391,84 1187.7797,84.0328 Q1188.0312,84.0656 1188.2391,84.1094 Q1188.4578,84.1641 1188.6328,84.5687 Q1188.8187,84.9734 1188.95,84.3609 L1188.95,85.4 L1188.8078,85.4 Q1188.7203,85.3125 1188.5891,85.2031 Q1188.4578,85.0828 1188.2828,84.9734 Q1188.1078,84.8531 1187.9,84.7766 Q1187.7031,84.7 1187.4734,84.7 Q1187.2219,84.7 1186.9922,84.8094 Q1186.7625,84.9187 1186.5656,84.4703 Q1186.3797,85.4219 1186.2594,85.8266 Q1186.15,86.2312 1186.15,86.8109 Q1186.15,87.4125 1186.2703,87.8172 Q1186.4016,88.2219 1186.5875,88.9 Q1186.7844,88.6922 1187.0141,88.8016 Q1187.2547,88.9 1187.4844,88.9 Q1187.7031,88.9 1187.9219,88.8234 Q1188.1406,88.7469 1188.3156,88.6266 Q1188.4687,88.5172 1188.6,88.4078 Q1188.7422,88.2875 1188.8187,88.2 L1188.95,88.2 L1188.95,89.2281 Q1188.7641,88.6266 1188.6,89.0312 Q1188.4359,89.425 1188.25,89.4797 Q1188.0094,89.5344 1187.8016,89.5672 Q1187.5937,89.6 1187.2328,89.6 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="45.5" x="1194.55" y="89.8623">UserDetails</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="1179.15" x2="1241.45" y1="95.9" y2="95.9"/><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="1179.15" x2="1241.45" y1="101.5" y2="101.5"/><!--MD5=[f01e5e161715ec23945fede2eec8de80]
+class org.springframework.security.core.userdetails.UserDetailsService--><rect fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="29.4" id="org.springframework.security.core.userdetails.UserDetailsService" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="93.8" x="1059.8" y="77.7"/><ellipse cx="1068.2" cy="86.8" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M1068.5828,89.6 Q1068.0359,89.6 1067.5766,89.425 Q1067.1172,89.25 1066.7891,89.3266 Q1066.4609,88.7141 1066.275,88.1016 Q1066.1,87.4891 1066.1,86.8 Q1066.1,86.1656 1066.275,85.5641 Q1066.45,84.9516 1066.7781,84.0547 Q1067.0953,84.3937 1067.5547,84.1969 Q1068.025,84 1068.5828,84 Q1068.8891,84 1069.1297,84.0328 Q1069.3812,84.0656 1069.5891,84.1094 Q1069.8078,84.1641 1069.9828,84.5687 Q1070.1687,84.9734 1070.3,84.3609 L1070.3,85.4 L1070.1578,85.4 Q1070.0703,85.3125 1069.9391,85.2031 Q1069.8078,85.0828 1069.6328,84.9734 Q1069.4578,84.8531 1069.25,84.7766 Q1069.0531,84.7 1068.8234,84.7 Q1068.5719,84.7 1068.3422,84.8094 Q1068.1125,84.9187 1067.9156,84.4703 Q1067.7297,85.4219 1067.6094,85.8266 Q1067.5,86.2312 1067.5,86.8109 Q1067.5,87.4125 1067.6203,87.8172 Q1067.7516,88.2219 1067.9375,88.9 Q1068.1344,88.6922 1068.3641,88.8016 Q1068.6047,88.9 1068.8344,88.9 Q1069.0531,88.9 1069.2719,88.8234 Q1069.4906,88.7469 1069.6656,88.6266 Q1069.8187,88.5172 1069.95,88.4078 Q1070.0922,88.2875 1070.1687,88.2 L1070.3,88.2 L1070.3,89.2281 Q1070.1141,88.6266 1069.95,89.0312 Q1069.7859,89.425 1069.6,89.4797 Q1069.3594,89.5344 1069.1516,89.5672 Q1068.9437,89.6 1068.5828,89.6 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="75.6" x="1075.9" y="89.8623">UserDetailsService</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="1060.5" x2="1152.9" y1="95.9" y2="95.9"/><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="1060.5" x2="1152.9" y1="101.5" y2="101.5"/><!--MD5=[9066e956ebe5b62a90d194ed6cf4a894]
+class org.springframework.data.jpa.repository.JpaRepository--><rect fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="29.4" id="org.springframework.data.jpa.repository.JpaRepository" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="74.2" x="3117.1" y="77.7"/><ellipse cx="3125.5" cy="86.8" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M3125.8828,89.6 Q3125.3359,89.6 3124.8766,89.425 Q3124.4172,89.25 3124.0891,89.3266 Q3123.7609,88.7141 3123.575,88.1016 Q3123.4,87.4891 3123.4,86.8 Q3123.4,86.1656 3123.575,85.5641 Q3123.75,84.9516 3124.0781,84.0547 Q3124.3953,84.3937 3124.8547,84.1969 Q3125.325,84 3125.8828,84 Q3126.1891,84 3126.4297,84.0328 Q3126.6812,84.0656 3126.8891,84.1094 Q3127.1078,84.1641 3127.2828,84.5687 Q3127.4687,84.9734 3127.6,84.3609 L3127.6,85.4 L3127.4578,85.4 Q3127.3703,85.3125 3127.2391,85.2031 Q3127.1078,85.0828 3126.9328,84.9734 Q3126.7578,84.8531 3126.55,84.7766 Q3126.3531,84.7 3126.1234,84.7 Q3125.8719,84.7 3125.6422,84.8094 Q3125.4125,84.9187 3125.2156,84.4703 Q3125.0297,85.4219 3124.9094,85.8266 Q3124.8,86.2312 3124.8,86.8109 Q3124.8,87.4125 3124.9203,87.8172 Q3125.0516,88.2219 3125.2375,88.9 Q3125.4344,88.6922 3125.6641,88.8016 Q3125.9047,88.9 3126.1344,88.9 Q3126.3531,88.9 3126.5719,88.8234 Q3126.7906,88.7469 3126.9656,88.6266 Q3127.1187,88.5172 3127.25,88.4078 Q3127.3922,88.2875 3127.4687,88.2 L3127.6,88.2 L3127.6,89.2281 Q3127.4141,88.6266 3127.25,89.0312 Q3127.0859,89.425 3126.9,89.4797 Q3126.6594,89.5344 3126.4516,89.5672 Q3126.2437,89.6 3125.8828,89.6 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="56" x="3133.2" y="89.8623">JpaRepository</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="3117.8" x2="3190.6" y1="95.9" y2="95.9"/><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="3117.8" x2="3190.6" y1="101.5" y2="101.5"/><!--MD5=[75127a572842a6357c063aba73e4f805]
+class org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint--><rect fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="29.4" id="org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="136.5" x="3461.85" y="77.7"/><ellipse cx="3470.25" cy="86.8" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M3470.6328,89.6 Q3470.0859,89.6 3469.6266,89.425 Q3469.1672,89.25 3468.8391,89.3266 Q3468.5109,88.7141 3468.325,88.1016 Q3468.15,87.4891 3468.15,86.8 Q3468.15,86.1656 3468.325,85.5641 Q3468.5,84.9516 3468.8281,84.0547 Q3469.1453,84.3937 3469.6047,84.1969 Q3470.075,84 3470.6328,84 Q3470.9391,84 3471.1797,84.0328 Q3471.4312,84.0656 3471.6391,84.1094 Q3471.8578,84.1641 3472.0328,84.5687 Q3472.2187,84.9734 3472.35,84.3609 L3472.35,85.4 L3472.2078,85.4 Q3472.1203,85.3125 3471.9891,85.2031 Q3471.8578,85.0828 3471.6828,84.9734 Q3471.5078,84.8531 3471.3,84.7766 Q3471.1031,84.7 3470.8734,84.7 Q3470.6219,84.7 3470.3922,84.8094 Q3470.1625,84.9187 3469.9656,84.4703 Q3469.7797,85.4219 3469.6594,85.8266 Q3469.55,86.2312 3469.55,86.8109 Q3469.55,87.4125 3469.6703,87.8172 Q3469.8016,88.2219 3469.9875,88.9 Q3470.1844,88.6922 3470.4141,88.8016 Q3470.6547,88.9 3470.8844,88.9 Q3471.1031,88.9 3471.3219,88.8234 Q3471.5406,88.7469 3471.7156,88.6266 Q3471.8687,88.5172 3472,88.4078 Q3472.1422,88.2875 3472.2187,88.2 L3472.35,88.2 L3472.35,89.2281 Q3472.1641,88.6266 3472,89.0312 Q3471.8359,89.425 3471.65,89.4797 Q3471.4094,89.5344 3471.2016,89.5672 Q3470.9937,89.6 3470.6328,89.6 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="118.3" x="3477.95" y="89.8623">BasicAuthenticationEntryPoint</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="3462.55" x2="3597.65" y1="95.9" y2="95.9"/><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="3462.55" x2="3597.65" y1="101.5" y2="101.5"/><!--MD5=[9680484a63875b7e420b5b2819522cbc]
+class org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter--><rect fill="#CCCCCC" filter="url(#f1cb6qqj4taua5)" height="29.4" id="org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter" style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" width="142.8" x="3894.8" y="77.7"/><ellipse cx="3903.2" cy="86.8" fill="#1A66C2" rx="5.6" ry="5.6" style="stroke:#AAAAAA;stroke-width:0.6999999999999998;"/><path d="M3903.5828,89.6 Q3903.0359,89.6 3902.5766,89.425 Q3902.1172,89.25 3901.7891,89.3266 Q3901.4609,88.7141 3901.275,88.1016 Q3901.1,87.4891 3901.1,86.8 Q3901.1,86.1656 3901.275,85.5641 Q3901.45,84.9516 3901.7781,84.0547 Q3902.0953,84.3937 3902.5547,84.1969 Q3903.025,84 3903.5828,84 Q3903.8891,84 3904.1297,84.0328 Q3904.3812,84.0656 3904.5891,84.1094 Q3904.8078,84.1641 3904.9828,84.5687 Q3905.1687,84.9734 3905.3,84.3609 L3905.3,85.4 L3905.1578,85.4 Q3905.0703,85.3125 3904.9391,85.2031 Q3904.8078,85.0828 3904.6328,84.9734 Q3904.4578,84.8531 3904.25,84.7766 Q3904.0531,84.7 3903.8234,84.7 Q3903.5719,84.7 3903.3422,84.8094 Q3903.1125,84.9187 3902.9156,84.4703 Q3902.7297,85.4219 3902.6094,85.8266 Q3902.5,86.2312 3902.5,86.8109 Q3902.5,87.4125 3902.6203,87.8172 Q3902.7516,88.2219 3902.9375,88.9 Q3903.1344,88.6922 3903.3641,88.8016 Q3903.6047,88.9 3903.8344,88.9 Q3904.0531,88.9 3904.2719,88.8234 Q3904.4906,88.7469 3904.6656,88.6266 Q3904.8187,88.5172 3904.95,88.4078 Q3905.0922,88.2875 3905.1687,88.2 L3905.3,88.2 L3905.3,89.2281 Q3905.1141,88.6266 3904.95,89.0312 Q3904.7859,89.425 3904.6,89.4797 Q3904.3594,89.5344 3904.1516,89.5672 Q3903.9437,89.6 3903.5828,89.6 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="7.7" lengthAdjust="spacing" textLength="124.6" x="3910.9" y="89.8623">WebSecurityConfigurerAdapter</text><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="3895.5" x2="4036.9" y1="95.9" y2="95.9"/><line style="stroke:#AAAAAA;stroke-width:1.0499999999999998;" x1="3895.5" x2="4036.9" y1="101.5" y2="101.5"/><!--MD5=[da0cfd8069a0ba25474725f51f8c3a4f]
+reverse link org.springframework.security.core.userdetails.UserDetails to ru.itlab.server.security.details.UserDetailsImpl--><path codeLine="213" d="M1218.511,120.659 C1225.805,145.138 1236.662,181.58 1245.629,211.673 " fill="none" id="org.springframework.security.core.userdetails.UserDetails-backto-ru.itlab.server.security.details.UserDetailsImpl" style="stroke:#000000;stroke-width:0.6999999999999998;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1213.786,121.954,1214.479,107.135,1223.173,119.154,1213.786,121.954" style="stroke:#000000;stroke-width:0.6999999999999998;"/><!--MD5=[14e97136a1c287274f41c88b85efbac0]
+reverse link ru.itlab.server.service.UserService to ru.itlab.server.service.UserServiceImpl--><path codeLine="214" d="M1689.1,145.425 C1689.1,161.721 1689.1,179.928 1689.1,197.106 " fill="none" id="ru.itlab.server.service.UserService-backto-ru.itlab.server.service.UserServiceImpl" style="stroke:#000000;stroke-width:0.6999999999999998;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1684.2,145.376,1689.1,131.376,1694,145.376,1684.2,145.376" style="stroke:#000000;stroke-width:0.6999999999999998;"/><!--MD5=[d54018c0da260b05162292ca3d1388d4]
+reverse link ru.itlab.server.util.smtp.EmailUtil to ru.itlab.server.util.smtp.EmailUtilImpl--><path codeLine="215" d="M2256.1,126.315 C2256.1,158.109 2256.1,205.583 2256.1,235.809 " fill="none" id="ru.itlab.server.util.smtp.EmailUtil-backto-ru.itlab.server.util.smtp.EmailUtilImpl" style="stroke:#000000;stroke-width:0.6999999999999998;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="2251.2,126.112,2256.1,112.112,2261,126.112,2251.2,126.112" style="stroke:#000000;stroke-width:0.6999999999999998;"/><!--MD5=[9c1006134125a8a3a1bdd1f13245b11d]
+reverse link ru.itlab.server.model.dto.random_org_api.base.BaseApiDTO to ru.itlab.server.model.dto.random_org_api.request.GenerateIntegersApiDTO--><path codeLine="216" d="M726.6,131.11 C726.6,162.736 726.6,207.067 726.6,235.809 " fill="none" id="ru.itlab.server.model.dto.random_org_api.base.BaseApiDTO-backto-ru.itlab.server.model.dto.random_org_api.request.GenerateIntegersApiDTO" style="stroke:#000000;stroke-width:0.6999999999999998;"/><polygon fill="none" points="721.7,130.949,726.6,116.949,731.5,130.949,721.7,130.949" style="stroke:#000000;stroke-width:0.6999999999999998;"/><!--MD5=[ce1569ed64ef72aa948625386d9f762a]
+reverse link ru.itlab.server.service.RandomService to ru.itlab.server.service.RandomServiceImpl--><path codeLine="217" d="M1877.862,124.208 C1895.978,154.399 1923.397,200.088 1941.989,231.077 " fill="none" id="ru.itlab.server.service.RandomService-backto-ru.itlab.server.service.RandomServiceImpl" style="stroke:#000000;stroke-width:0.6999999999999998;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1873.606,126.637,1870.603,112.112,1882.013,121.59,1873.606,126.637" style="stroke:#000000;stroke-width:0.6999999999999998;"/><!--MD5=[7fdd27891e16b5cb813d3604f1933773]
+reverse link org.springframework.security.core.userdetails.UserDetailsService to ru.itlab.server.security.details.UserDetailsServiceImpl--><path codeLine="218" d="M1098.594,120.68 C1088.836,153.888 1072.603,209.125 1063.342,240.632 " fill="none" id="org.springframework.security.core.userdetails.UserDetailsService-backto-ru.itlab.server.security.details.UserDetailsServiceImpl" style="stroke:#000000;stroke-width:0.6999999999999998;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1093.925,119.182,1102.577,107.135,1103.326,121.947,1093.925,119.182" style="stroke:#000000;stroke-width:0.6999999999999998;"/><!--MD5=[6fc2607587ec07c13055c5cfc7445c9e]
+reverse link ru.itlab.server.util.exception.Throwable to ru.itlab.server.util.exception.EmailIsAlreadyExistException--><path codeLine="219" d="M2831.5,121.198 C2831.5,158.249 2831.5,222.068 2831.5,250.369 " fill="none" id="ru.itlab.server.util.exception.Throwable-backto-ru.itlab.server.util.exception.EmailIsAlreadyExistException" style="stroke:#000000;stroke-width:0.6999999999999998;"/><polygon fill="none" points="2826.6,121.135,2831.5,107.135,2836.4,121.135,2826.6,121.135" style="stroke:#000000;stroke-width:0.6999999999999998;"/><!--MD5=[8e9dd93da16a50981bc8bbe6424eada4]
+reverse link org.springframework.data.jpa.repository.JpaRepository to ru.itlab.server.repostiry.GeneratorRepository--><path codeLine="220" d="M3171.525,118.832 C3194.905,153.538 3236.002,214.564 3256.827,245.483 " fill="none" id="org.springframework.data.jpa.repository.JpaRepository-backto-ru.itlab.server.repostiry.GeneratorRepository" style="stroke:#000000;stroke-width:0.6999999999999998;"/><polygon fill="none" points="3167.409,121.485,3163.65,107.135,3175.536,116.011,3167.409,121.485" style="stroke:#000000;stroke-width:0.6999999999999998;"/><!--MD5=[448089d7543e235fd7506ba37a2982ee]
+reverse link org.springframework.data.jpa.repository.JpaRepository to ru.itlab.server.repostiry.UserRepository--><path codeLine="221" d="M3139.073,119.378 C3120.999,150.787 3090.857,203.168 3072.139,235.69 " fill="none" id="org.springframework.data.jpa.repository.JpaRepository-backto-ru.itlab.server.repostiry.UserRepository" style="stroke:#000000;stroke-width:0.6999999999999998;"/><polygon fill="none" points="3134.894,116.823,3146.122,107.135,3143.385,121.716,3134.894,116.823" style="stroke:#000000;stroke-width:0.6999999999999998;"/><!--MD5=[76761b2568aab471f71eaffb12145835]
+reverse link org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint to ru.itlab.server.security.entrypoint.MyBasicAuthenticationEntryPoint--><path codeLine="222" d="M3530.1,121.352 C3530.1,154.637 3530.1,209.335 3530.1,240.632 " fill="none" id="org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint-backto-ru.itlab.server.security.entrypoint.MyBasicAuthenticationEntryPoint" style="stroke:#000000;stroke-width:0.6999999999999998;"/><polygon fill="none" points="3525.2,121.135,3530.1,107.135,3535,121.135,3525.2,121.135" style="stroke:#000000;stroke-width:0.6999999999999998;"/><!--MD5=[16944af3117eab045a6c7be06aafeaae]
+reverse link ru.itlab.server.util.smtp.MailsGenerator to ru.itlab.server.util.smtp.FreemarkerMailsGeneratorImpl--><path codeLine="223" d="M2431.1,126.133 C2431.1,159.642 2431.1,210.714 2431.1,240.562 " fill="none" id="ru.itlab.server.util.smtp.MailsGenerator-backto-ru.itlab.server.util.smtp.FreemarkerMailsGeneratorImpl" style="stroke:#000000;stroke-width:0.6999999999999998;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="2426.2,126.112,2431.1,112.112,2436,126.112,2426.2,126.112" style="stroke:#000000;stroke-width:0.6999999999999998;"/><!--MD5=[3287eabcb7d16df7441b95c22ab7a95a]
+reverse link ru.itlab.server.service.GeneratorService to ru.itlab.server.service.GeneratorServiceImpl--><path codeLine="224" d="M1498,140.448 C1498,167.489 1498,200.963 1498,226.338 " fill="none" id="ru.itlab.server.service.GeneratorService-backto-ru.itlab.server.service.GeneratorServiceImpl" style="stroke:#000000;stroke-width:0.6999999999999998;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1493.1,140.371,1498,126.371,1502.9,140.371,1493.1,140.371" style="stroke:#000000;stroke-width:0.6999999999999998;"/><!--MD5=[421f26c866379276531afca26804f71b]
+reverse link org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter to ru.itlab.server.security.config.SecurityConfig--><path codeLine="225" d="M3966.2,121.219 C3966.2,149.842 3966.2,194.432 3966.2,226.282 " fill="none" id="org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter-backto-ru.itlab.server.security.config.SecurityConfig" style="stroke:#000000;stroke-width:0.6999999999999998;"/><polygon fill="none" points="3961.3,121.135,3966.2,107.135,3971.1,121.135,3961.3,121.135" style="stroke:#000000;stroke-width:0.6999999999999998;"/><!--MD5=[460778da293034c9188087aeefc20ba3]
+link ru.itlab.server.model.dto.GeneratorCDTO to ru.itlab.server.model.dto.GeneratorVDTO--><!--MD5=[ebf6c4524d0c40ea0dd5c86b115b40a2]
+link ru.itlab.server.model.dto.GeneratorCDTO to ru.itlab.server.model.dto.UserVDTO--><!--MD5=[fca82710dea4ebdfcd625de8a472de84]
+link ru.itlab.server.model.dto.UserVDTO to ru.itlab.server.model.dto.UserCDTO--><!--MD5=[3aae0f581c006816729ab787f02604ac]
+link ru.itlab.server.model.entity.User to ru.itlab.server.model.entity.Role--><!--MD5=[f83c5b443bd862a59f9f7645771fa692]
+link ru.itlab.server.model.entity.User to ru.itlab.server.model.entity.Generator--><!--MD5=[760b1ffa4babcefa5c0769343e606d96]
+link ru.itlab.server.model.entity.Generator to ru.itlab.server.model.entity.TechnicalInfo--><!--MD5=[086b007c914119366ecdb21022e74ef4]
+link ru.itlab.server.controller.RegistrationController to ru.itlab.server.controller.IntegerController--><!--MD5=[3244b0e2936e770ab9429ba1f1020ad6]
+link ru.itlab.server.controller.RegistrationController to ru.itlab.server.controller.GeneratorController--><!--MD5=[887f8bfc0976ba5f9597e071066c711a]
+link ru.itlab.server.controller.GeneratorController to ru.itlab.server.controller.SuccessLoginController--><!--MD5=[b78d81956c5c9bcb665a63e143384b2d]
+link ru.itlab.server.model.dto.random_org_api.response.RandomDTO to ru.itlab.server.model.dto.random_org_api.response.ResultDTO--><!--MD5=[8ffb137950227260d8e481132b8d4db7]
+link ru.itlab.server.model.dto.random_org_api.response.RandomDTO to ru.itlab.server.model.dto.random_org_api.response.ResponseDTO--><!--MD5=[b3ccda88e9d707dd38869ab80cdfa235]
+link ru.itlab.server.model.dto.GeneratorVDTO to ru.itlab.server.model.entity.User--><!--MD5=[29ddd3bb63a02c592de43cd188aff186]
+link ru.itlab.server.model.dto.UserVDTO to ru.itlab.server.controller.RegistrationController--><!--MD5=[161d94ea1974721e2ae5c2b16558f7ae]
+link ru.itlab.server.controller.IntegerController to ru.itlab.server.model.dto.random_org_api.response.RandomDTO--><!--MD5=[6b6bac007c7e0c9460b91ffcb8526283]
+@startuml
+!define LIGHTBLUE
+!includeurl https://raw.githubusercontent.com/Drakemor/RedDress-PlantUML/master/style.puml
+
+class ru.itlab.server.model.dto.random_org_api.base.BaseApiDTO {
+~ String apiKey
+~ Integer n
+}
+class ru.itlab.server.model.dto.GeneratorCDTO {
+- String nameOfGenerator
++ Generator toGenerator()
+}
+class ru.itlab.server.model.entity.User {
+- Long id
+- String email
+- String username
+- String hashPassword
+- Role role
+- Boolean isConfirmed
+- TechnicalInfo technicalInfo
+- Set<Generator> generators
++ boolean equals(Object)
++ int hashCode()
+}
+enum ru.itlab.server.model.entity.Role {
++  USER
++  ADMIN
++  JURIDICAL
+}
+class ru.itlab.server.model.dto.GeneratorVDTO {
+- Long id
+- String nameOfGenerator
++ {static} GeneratorVDTO fromGenerator(Generator)
+}
+class ru.itlab.server.controller.RegistrationController {
+~ UserService userService
++ UserVDTO save(UserCDTO)
+}
+class ru.itlab.server.security.details.UserDetailsImpl {
+- User user
++ Collection<? extends GrantedAuthority> getAuthorities()
++ String getPassword()
++ String getUsername()
++ boolean isAccountNonExpired()
++ boolean isAccountNonLocked()
++ boolean isCredentialsNonExpired()
++ boolean isEnabled()
+}
+class ru.itlab.server.service.UserServiceImpl {
+- UserRepository userRepository
+- PasswordEncoder passwordEncoder
+- MailsGenerator mailsGenerator
+- EmailUtil emailUtil
+- String serverUrl
+- String from
++ UserVDTO saveUser(UserCDTO)
++ void sendConfirmEmail(User)
++ void confirmEmail(UUID)
++ User findByUsername(String)
++ Boolean updateUser(User)
+}
+interface ru.itlab.server.util.smtp.MailsGenerator {
+~ String getEmailforConfirm(String,UUID)
+}
+class ru.itlab.server.util.smtp.EmailUtilImpl {
+- JavaMailSender mailSender
+- ExecutorService executorService
++ void sendEmail(String,String,String,String)
+}
+class ru.itlab.server.controller.IntegerController {
+~ RandomServiceImpl randomService
++ String test(int,int,int,boolean)
+}
+class ru.itlab.server.model.dto.random_org_api.request.RequestDTO {
+~ String jsonrpc
+~ String method
+~ GenerateIntegersApiDTO params
+~ String id
+}
+class ru.itlab.server.model.dto.random_org_api.request.GenerateIntegersApiDTO {
+~ Integer min
+~ Integer max
+~ Boolean replacement
+}
+class ru.itlab.server.controller.GeneratorController {
+- GeneratorService generatorService
+- UserService userService
++ List<GeneratorVDTO> getGeneratorsForUser()
++ GeneratorVDTO createNewGenerator(GeneratorCDTO)
++ List<GeneratorVDTO> getAllGenerators()
++ void buyGenerator(Long)
+- String getUsername()
+}
+class ru.itlab.server.model.entity.Generator {
+- Long id
+- String nameOfGenerator
+- List<User> users
++ boolean equals(Object)
++ int hashCode()
+}
+class ru.itlab.server.model.dto.random_org_api.response.RandomDTO {
+~ List<Integer> data
+~ String completionTime
+}
+class ru.itlab.server.controller.SuccessLoginController {
+~ UserService userService
++ UserVDTO showProfile()
++ RedirectView confirmAccount(UUID)
+}
+class ru.itlab.server.model.entity.TechnicalInfo {
+- Long id
+- User user
+- UUID uuidToConfirm
+}
+class ru.itlab.server.model.dto.UserVDTO {
+- String username
+- String email
+- User.Role role
+- Boolean isConfirmed
++ {static} UserVDTO fromUser(User)
+}
+class ru.itlab.server.comfig.AppConfig {
+~ PasswordEncoder bcryptPasswordEncoder()
++ ExecutorService executorService()
++ freemarker.template.Configuration configuration()
+}
+class ru.itlab.server.service.RandomServiceImpl {
+- String apiKey
+- Feign feign
++ List<Integer> getInteger(int,int,int,boolean)
+- GenerateIntegersApiDTO setUpGenerateIntegersApiDto(GenerateIntegersApiDTO,int,int,int,boolean)
+}
+class ru.itlab.server.security.details.UserDetailsServiceImpl {
+- UserRepository userRepository
++ UserDetails loadUserByUsername(String)
+}
+class ru.itlab.server.model.dto.random_org_api.response.ResultDTO {
+~ RandomDTO random
+~ String bitsUsed
+~ String bitsLeft
+~ String requestsLeft
+~ String advisoryDelay
+}
+class ru.itlab.server.util.exception.EmailIsAlreadyExistException {
+}
+interface ru.itlab.server.repostiry.GeneratorRepository {
+~ List<Generator> findAllByUsers(User)
+}
+interface ru.itlab.server.service.Feign {
+~ ResponseDTO getRandomInteger(RequestDTO)
+}
+interface ru.itlab.server.repostiry.UserRepository {
+~ Optional<User> getUserByEmail(String)
+~ Optional<User> getUserByUsername(String)
+~ Optional<User> findByTechnicalInfo_UuidToConfirmEquals(UUID)
+}
+class ru.itlab.server.security.entrypoint.MyBasicAuthenticationEntryPoint {
++ void commence(HttpServletRequest,HttpServletResponse,AuthenticationException)
++ void afterPropertiesSet()
+}
+interface ru.itlab.server.service.RandomService {
+~ List<Integer> getInteger(int,int,int,boolean)
+}
+class ru.itlab.server.util.smtp.FreemarkerMailsGeneratorImpl {
+- Configuration configuration
++ String getEmailforConfirm(String,UUID)
+}
+class ru.itlab.server.model.dto.UserCDTO {
+- String username
+- String email
+- String password
++ User toUser()
+}
+interface ru.itlab.server.util.smtp.EmailUtil {
+~ void sendEmail(String,String,String,String)
+}
+class ru.itlab.server.service.GeneratorServiceImpl {
+- GeneratorRepository generatorRepository
++ List<GeneratorVDTO> getGeneratorsByUser(User)
++ GeneratorVDTO saveGenerator(GeneratorCDTO)
++ List<Generator> getAllGenerators()
++ Generator getGeneratorById(Long)
+}
+class ru.itlab.server.model.dto.random_org_api.response.ResponseDTO {
+~ String jsonrpc
+~ ResultDTO result
+~ String id
+}
+class ru.itlab.server.ServerApplication {
++ {static} void main(String[])
+}
+class ru.itlab.server.security.config.SecurityConfig {
+~ MyBasicAuthenticationEntryPoint authenticationEntryPoint
+- UserDetailsService userDetailsService
+- PasswordEncoder passwordEncoder
+# void configure(AuthenticationManagerBuilder)
++ void configure(HttpSecurity)
+}
+interface ru.itlab.server.service.UserService {
+~ UserVDTO saveUser(UserCDTO)
+~ void sendConfirmEmail(User)
+~ void confirmEmail(UUID)
+~ User findByUsername(String)
+~ Boolean updateUser(User)
+}
+interface ru.itlab.server.service.GeneratorService {
+~ List<GeneratorVDTO> getGeneratorsByUser(User)
+~ GeneratorVDTO saveGenerator(GeneratorCDTO)
+~ List<Generator> getAllGenerators()
+~ Generator getGeneratorById(Long)
+}
+
+
+org.springframework.security.core.userdetails.UserDetails <|.. ru.itlab.server.security.details.UserDetailsImpl
+ru.itlab.server.service.UserService <|.. ru.itlab.server.service.UserServiceImpl
+ru.itlab.server.util.smtp.EmailUtil <|.. ru.itlab.server.util.smtp.EmailUtilImpl
+ru.itlab.server.model.dto.random_org_api.base.BaseApiDTO <|- - ru.itlab.server.model.dto.random_org_api.request.GenerateIntegersApiDTO
+ru.itlab.server.service.RandomService <|.. ru.itlab.server.service.RandomServiceImpl
+org.springframework.security.core.userdetails.UserDetailsService <|.. ru.itlab.server.security.details.UserDetailsServiceImpl
+ru.itlab.server.util.exception.Throwable <|- - ru.itlab.server.util.exception.EmailIsAlreadyExistException
+org.springframework.data.jpa.repository.JpaRepository <|- - ru.itlab.server.repostiry.GeneratorRepository
+org.springframework.data.jpa.repository.JpaRepository <|- - ru.itlab.server.repostiry.UserRepository
+org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint <|- - ru.itlab.server.security.entrypoint.MyBasicAuthenticationEntryPoint
+ru.itlab.server.util.smtp.MailsGenerator <|.. ru.itlab.server.util.smtp.FreemarkerMailsGeneratorImpl
+ru.itlab.server.service.GeneratorService <|.. ru.itlab.server.service.GeneratorServiceImpl
+org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter <|- - ru.itlab.server.security.config.SecurityConfig
+@enduml
+
+@startuml
+
+
+
+
+skinparam stereotypeCBackgroundColor 1a66c2
+
+
+
+
+
+
+
+skinparam backgroundColor fff
+
+
+
+
+
+
+
+
+skinparam circledCharacter {
+  radius 8
+  fontSize 11
+  fontName Verdana
+}
+
+skinparam class {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+
+  attributeFontColor 333
+  attributeFontSize 11
+  attributeIconSize 11
+}
+
+
+skinparam actor {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam participant {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam collections {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam SequenceBox{
+    backgroundColor e0e0e0
+  borderColor cccccc
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+
+skinparam interface {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam component {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam node {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam database {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam queue {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+
+skinparam usecase {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+}
+
+skinparam activity {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+}
+
+skinparam sequence {
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+
+  lifeLineBorderColor 2a86e2
+  lifeLineBackgroundColor e0e0e0
+}
+
+skinparam boundary {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam control {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam entity {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+
+skinparam state {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+  startColor 2a86e2
+  endColor 1a66c2
+}
+
+
+skinparam object {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+}
+
+
+skinparam note {
+    backgroundColor 2a86e2
+  borderColor 1a66c2
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam cloud {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+    arrowColor 000
+  arrowFontName Verdana
+  arrowFontColor 333
+  arrowFontSize 11
+}
+
+skinparam rectangle {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+skinparam storage {
+    backgroundColor ccc
+  borderColor aaa
+    fontColor 000
+  fontName Verdana
+  fontSize 11
+  stereotypeFontColor 333
+  stereotypeFontSize 11
+}
+
+
+class ru.itlab.server.model.dto.random_org_api.base.BaseApiDTO {
+~ String apiKey
+~ Integer n
+}
+class ru.itlab.server.model.dto.GeneratorCDTO {
+- String nameOfGenerator
++ Generator toGenerator()
+}
+class ru.itlab.server.model.entity.User {
+- Long id
+- String email
+- String username
+- String hashPassword
+- Role role
+- Boolean isConfirmed
+- TechnicalInfo technicalInfo
+- Set<Generator> generators
++ boolean equals(Object)
++ int hashCode()
+}
+enum ru.itlab.server.model.entity.Role {
++  USER
++  ADMIN
++  JURIDICAL
+}
+class ru.itlab.server.model.dto.GeneratorVDTO {
+- Long id
+- String nameOfGenerator
++ {static} GeneratorVDTO fromGenerator(Generator)
+}
+class ru.itlab.server.controller.RegistrationController {
+~ UserService userService
++ UserVDTO save(UserCDTO)
+}
+class ru.itlab.server.security.details.UserDetailsImpl {
+- User user
++ Collection<? extends GrantedAuthority> getAuthorities()
++ String getPassword()
++ String getUsername()
++ boolean isAccountNonExpired()
++ boolean isAccountNonLocked()
++ boolean isCredentialsNonExpired()
++ boolean isEnabled()
+}
+class ru.itlab.server.service.UserServiceImpl {
+- UserRepository userRepository
+- PasswordEncoder passwordEncoder
+- MailsGenerator mailsGenerator
+- EmailUtil emailUtil
+- String serverUrl
+- String from
++ UserVDTO saveUser(UserCDTO)
++ void sendConfirmEmail(User)
++ void confirmEmail(UUID)
++ User findByUsername(String)
++ Boolean updateUser(User)
+}
+interface ru.itlab.server.util.smtp.MailsGenerator {
+~ String getEmailforConfirm(String,UUID)
+}
+class ru.itlab.server.util.smtp.EmailUtilImpl {
+- JavaMailSender mailSender
+- ExecutorService executorService
++ void sendEmail(String,String,String,String)
+}
+class ru.itlab.server.controller.IntegerController {
+~ RandomServiceImpl randomService
++ String test(int,int,int,boolean)
+}
+class ru.itlab.server.model.dto.random_org_api.request.RequestDTO {
+~ String jsonrpc
+~ String method
+~ GenerateIntegersApiDTO params
+~ String id
+}
+class ru.itlab.server.model.dto.random_org_api.request.GenerateIntegersApiDTO {
+~ Integer min
+~ Integer max
+~ Boolean replacement
+}
+class ru.itlab.server.controller.GeneratorController {
+- GeneratorService generatorService
+- UserService userService
++ List<GeneratorVDTO> getGeneratorsForUser()
++ GeneratorVDTO createNewGenerator(GeneratorCDTO)
++ List<GeneratorVDTO> getAllGenerators()
++ void buyGenerator(Long)
+- String getUsername()
+}
+class ru.itlab.server.model.entity.Generator {
+- Long id
+- String nameOfGenerator
+- List<User> users
++ boolean equals(Object)
++ int hashCode()
+}
+class ru.itlab.server.model.dto.random_org_api.response.RandomDTO {
+~ List<Integer> data
+~ String completionTime
+}
+class ru.itlab.server.controller.SuccessLoginController {
+~ UserService userService
++ UserVDTO showProfile()
++ RedirectView confirmAccount(UUID)
+}
+class ru.itlab.server.model.entity.TechnicalInfo {
+- Long id
+- User user
+- UUID uuidToConfirm
+}
+class ru.itlab.server.model.dto.UserVDTO {
+- String username
+- String email
+- User.Role role
+- Boolean isConfirmed
++ {static} UserVDTO fromUser(User)
+}
+class ru.itlab.server.comfig.AppConfig {
+~ PasswordEncoder bcryptPasswordEncoder()
++ ExecutorService executorService()
++ freemarker.template.Configuration configuration()
+}
+class ru.itlab.server.service.RandomServiceImpl {
+- String apiKey
+- Feign feign
++ List<Integer> getInteger(int,int,int,boolean)
+- GenerateIntegersApiDTO setUpGenerateIntegersApiDto(GenerateIntegersApiDTO,int,int,int,boolean)
+}
+class ru.itlab.server.security.details.UserDetailsServiceImpl {
+- UserRepository userRepository
++ UserDetails loadUserByUsername(String)
+}
+class ru.itlab.server.model.dto.random_org_api.response.ResultDTO {
+~ RandomDTO random
+~ String bitsUsed
+~ String bitsLeft
+~ String requestsLeft
+~ String advisoryDelay
+}
+class ru.itlab.server.util.exception.EmailIsAlreadyExistException {
+}
+interface ru.itlab.server.repostiry.GeneratorRepository {
+~ List<Generator> findAllByUsers(User)
+}
+interface ru.itlab.server.service.Feign {
+~ ResponseDTO getRandomInteger(RequestDTO)
+}
+interface ru.itlab.server.repostiry.UserRepository {
+~ Optional<User> getUserByEmail(String)
+~ Optional<User> getUserByUsername(String)
+~ Optional<User> findByTechnicalInfo_UuidToConfirmEquals(UUID)
+}
+class ru.itlab.server.security.entrypoint.MyBasicAuthenticationEntryPoint {
++ void commence(HttpServletRequest,HttpServletResponse,AuthenticationException)
++ void afterPropertiesSet()
+}
+interface ru.itlab.server.service.RandomService {
+~ List<Integer> getInteger(int,int,int,boolean)
+}
+class ru.itlab.server.util.smtp.FreemarkerMailsGeneratorImpl {
+- Configuration configuration
++ String getEmailforConfirm(String,UUID)
+}
+class ru.itlab.server.model.dto.UserCDTO {
+- String username
+- String email
+- String password
++ User toUser()
+}
+interface ru.itlab.server.util.smtp.EmailUtil {
+~ void sendEmail(String,String,String,String)
+}
+class ru.itlab.server.service.GeneratorServiceImpl {
+- GeneratorRepository generatorRepository
++ List<GeneratorVDTO> getGeneratorsByUser(User)
++ GeneratorVDTO saveGenerator(GeneratorCDTO)
++ List<Generator> getAllGenerators()
++ Generator getGeneratorById(Long)
+}
+class ru.itlab.server.model.dto.random_org_api.response.ResponseDTO {
+~ String jsonrpc
+~ ResultDTO result
+~ String id
+}
+class ru.itlab.server.ServerApplication {
++ {static} void main(String[])
+}
+class ru.itlab.server.security.config.SecurityConfig {
+~ MyBasicAuthenticationEntryPoint authenticationEntryPoint
+- UserDetailsService userDetailsService
+- PasswordEncoder passwordEncoder
+# void configure(AuthenticationManagerBuilder)
++ void configure(HttpSecurity)
+}
+interface ru.itlab.server.service.UserService {
+~ UserVDTO saveUser(UserCDTO)
+~ void sendConfirmEmail(User)
+~ void confirmEmail(UUID)
+~ User findByUsername(String)
+~ Boolean updateUser(User)
+}
+interface ru.itlab.server.service.GeneratorService {
+~ List<GeneratorVDTO> getGeneratorsByUser(User)
+~ GeneratorVDTO saveGenerator(GeneratorCDTO)
+~ List<Generator> getAllGenerators()
+~ Generator getGeneratorById(Long)
+}
+
+
+org.springframework.security.core.userdetails.UserDetails <|.. ru.itlab.server.security.details.UserDetailsImpl
+ru.itlab.server.service.UserService <|.. ru.itlab.server.service.UserServiceImpl
+ru.itlab.server.util.smtp.EmailUtil <|.. ru.itlab.server.util.smtp.EmailUtilImpl
+ru.itlab.server.model.dto.random_org_api.base.BaseApiDTO <|- - ru.itlab.server.model.dto.random_org_api.request.GenerateIntegersApiDTO
+ru.itlab.server.service.RandomService <|.. ru.itlab.server.service.RandomServiceImpl
+org.springframework.security.core.userdetails.UserDetailsService <|.. ru.itlab.server.security.details.UserDetailsServiceImpl
+ru.itlab.server.util.exception.Throwable <|- - ru.itlab.server.util.exception.EmailIsAlreadyExistException
+org.springframework.data.jpa.repository.JpaRepository <|- - ru.itlab.server.repostiry.GeneratorRepository
+org.springframework.data.jpa.repository.JpaRepository <|- - ru.itlab.server.repostiry.UserRepository
+org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint <|- - ru.itlab.server.security.entrypoint.MyBasicAuthenticationEntryPoint
+ru.itlab.server.util.smtp.MailsGenerator <|.. ru.itlab.server.util.smtp.FreemarkerMailsGeneratorImpl
+ru.itlab.server.service.GeneratorService <|.. ru.itlab.server.service.GeneratorServiceImpl
+org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter <|- - ru.itlab.server.security.config.SecurityConfig
+@enduml
+
+PlantUML version 1.2022.1(Tue Feb 01 21:19:58 MSK 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1251
+Language: en
+Country: US
+--></g></svg>
