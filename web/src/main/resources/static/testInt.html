@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Test</title>
+    <link rel="stylesheet" href="css/common.css">
 </head>
 <body>
 <input type="number" id="firstNumber">
@@ -18,7 +19,7 @@
         count = $('#count').val()
 
         $.ajax({
-            url: `/getIntegers/${min}/${max}/${count}`,
+            url: `http://92.255.196.129:8080/getIntegers/${min}/${max}/${count}`,
             method: 'GET',
             cache: false,
             type: "text/json",

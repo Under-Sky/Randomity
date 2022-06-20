@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+
+html{
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("baseBackground.png");
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.boldFont {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+.normalFont {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.font-size16 {
+    font-size: 16pt;
+}
+
+.font-size29 {
+    font-size: 29pt;
+}
+
+.font-size50 {
+    font-size: 50pt;
+}
+
+.orange-color {
+    color: #E87D0E;
+}
+
+menu {
+    padding: 60px 40px;
+}
+
+.logo {
+    float: left;
+    color: white;
+    position: relative;
+}
+
+.menu-links {
+    float: right;
+    color: white;
+    display: inline;
+}
+
+.nav-link {
+    text-decoration: none;
+    margin-left: 44px;
+    color: white;
+}
+
+.registration-nav-link {
+    margin-left: 44px;
+    padding: 10px 28px;
+    background: #FA9021;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+}
+
+.vertical-layout-manager {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    flex: 0 0 auto;
+}
+
+a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+}
+
+.item-list {
+    border-radius: 20px;
+    width: 252px;
+    height: 277px;
+    object-fit: cover;
+    margin-bottom: 25px;
+}

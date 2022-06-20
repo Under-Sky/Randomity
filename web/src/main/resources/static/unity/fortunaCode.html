@@ -1,0 +1,50 @@
+<script>
+    var list_arr = []
+
+    var y = document.getElementById("item");
+    var parent = document.getElementById("list");
+
+    $("#btn").click(function (x) {
+        x = y.value;
+        if (x === "") {
+            alert("Please add item");
+        } else {
+            list_arr.push(x);
+            var newElement = document.createElement("li");
+            newElement.style = "color: white; margin-bottom: 20px; font-size: 20px";
+            var newItem = document.createTextNode(x);
+            newElement.appendChild(newItem);
+            parent.appendChild(newElement);
+            y.value = "";
+            y.focus();
+        }
+    });
+
+    $("#list").click(function (e) {
+        if (e.target && e.target.nodeName === "LI") {
+            parent.removeChild(e.target);
+        }
+    });
+</script>
+<script>
+    $("#activate_btn").click(function () {
+        if(list_arr.length == 0){
+            alert("List can't be empty!");
+            return;
+        }
+        $.ajax({
+            url: "/getValues?min=0&max=" + (list_arr.length - 1) + "&count=1&replacement=true",
+            success: function (result) {
+                console.log(result);
+                var arr = JSON.parse(result);
+                $("#canvas-placeholder").load('unity/FortuneWheel/index.html', function () {
+                    unityInstance.then((uI) => {
+                        // console.log("{\"arr\":[\"" + list_arr.join("\",\"") + "\"], \"index\":" + arr[0] + "}")
+                        uI.SendMessage('WheelContainer', 'StartFortune', ""); //{\"arr\":[\"" + list_arr.join("\",\"") + "\"], \"index\":" + arr[0] + "}
+                        // uI.SendMessage('WheelContainer', 'StartFortune', '{\"arr\": [\"1\", \"2\", \"3\"], \"winner\": 1}');
+                    });
+                });
+            }
+        });
+    });
+</script>

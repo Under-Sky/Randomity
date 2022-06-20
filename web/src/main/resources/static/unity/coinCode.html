@@ -1,0 +1,16 @@
+<script>
+    $("#activate_btn").click(function () {
+        $.ajax({
+            url: '/getValues?min=0&max=1&count=1&replacement=true',
+            success: function (result) {
+                console.log(result);
+                var arr = JSON.parse(result);
+                $('#canvas-placeholder').load('unity/FlipCoin/index.html', function () {
+                    unityInstance.then((uI) => {
+                        uI.SendMessage('PirateCoin (Brass)', 'AddForce', arr[0]);
+                    });
+                });
+            }
+        });
+    });
+</script>
