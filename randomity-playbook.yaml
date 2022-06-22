@@ -46,6 +46,10 @@
     - name: Install Docker Module for Python
       pip:
         name: docker
+    
+    - name: Install Docker-compose Module for Python
+      pip:
+        name: docker-compose
 
     - name: Clone randomity from git
       git:
@@ -58,6 +62,6 @@
       community.docker.docker_compose:
         project_src: ~/randomity/
         files:
-        - docker-compose.yml
+        - docker-compose.yaml
 
 

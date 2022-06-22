@@ -10,7 +10,8 @@ services:
     networks:
       - koala-network
     build:
-      context: ./web
+      context: ./web/
+    image: web-randomity:latest
     ports:
       - "8081:8081"
     depends_on:
@@ -25,6 +26,7 @@ services:
       - koala-network
     build:
       context: ./server/
+    image: server-randomity:latest
     volumes:
       - server-vol:/logs/
     ports:
