@@ -6,7 +6,7 @@ name: DockerImage
 # documentation.
 on:
   push:
-    branches: ['server']
+    branches: ['main']
 
 env:
   REGISTRY: ghcr.io
