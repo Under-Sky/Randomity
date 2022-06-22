@@ -30,7 +30,7 @@ public class ResetPassController {
     @PostMapping("/resetPass")
     public String resetPasswordPost(@ModelAttribute UserReset userReset) {
         try {
-            URL url = new URL("http://92.255.196.129:8080/reset?" + userReset.getAttributes());
+            URL url = new URL("http://localhost:8080/reset?" + userReset.getAttributes());
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("POST");
             connection.setDoOutput(true);

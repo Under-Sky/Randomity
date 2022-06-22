@@ -31,7 +31,7 @@ public class RegController {
             return "registration.html";
 
         try {
-            URL url = new URL("http://92.255.196.129:8080/registration?" + userReg.getAttributes());
+            URL url = new URL("http://localhost:8080/registration?" + userReg.getAttributes());
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("POST");
             connection.setDoOutput(true);

@@ -43,7 +43,7 @@ public class GeneratorController {
         return "randomDetails";
 
         /*try {
-            URL url = new URL("http://92.255.196.129:8080/generators/my");
+            URL url = new URL("http://localhost:8080/generators/my");
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("GET");
             connection.setDoOutput(true);

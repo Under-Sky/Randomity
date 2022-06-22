@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.26.0 (40646f47)
+  creationTimestamp: null
+  labels:
+    io.kompose.network/koala-network: "true"
+    io.kompose.service: psql-db
+  name: psql-db
+spec:
+  containers:
+    - env:
+        - name: POSTGRES_PASSWORD
+          value: Qwert123
+        - name: POSTGRES_USER
+          value: gg
+      image: postgres
+      name: psql-db
+      ports:
+        - containerPort: 5432
+      resources: {}
+  restartPolicy: OnFailure
+status: {}

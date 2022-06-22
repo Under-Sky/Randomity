@@ -29,7 +29,7 @@ public class LoginController {
     @PostMapping("/login")
     public String loginPost(@ModelAttribute("user") UserLogin userLogin) {
         try {
-            URL url = new URL("http://92.255.196.129:8080/login?" + userLogin.getAttributes());
+            URL url = new URL("http://localhost:8080/login?" + userLogin.getAttributes());
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("POST");
             connection.setDoOutput(true);

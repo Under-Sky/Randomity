@@ -34,7 +34,7 @@ public class APIController {
 
         if (user != null) {
             try {
-                URL url = new URL("http://92.255.196.129:8080/getIntegers?min=" + min + "&max=" + max + "&count=" + count + "&replacement=" + replacement);
+                URL url = new URL("http://localhost:8080/getIntegers?min=" + min + "&max=" + max + "&count=" + count + "&replacement=" + replacement);
                 HttpURLConnection connection = (HttpURLConnection) url.openConnection();
                 connection.setRequestMethod("GET");
                 connection.setDoOutput(true);

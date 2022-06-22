@@ -6,7 +6,6 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.view.RedirectView;
 import ru.itlab.server.model.dto.UserVDTO;
 import ru.itlab.server.model.entity.User;
 import ru.itlab.server.service.UserService;

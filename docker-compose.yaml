@@ -1,0 +1,55 @@
+version: "3.5"
+networks:
+  koala-network:
+
+volumes:
+  server-vol:
+
+services:
+  web-randomity:
+    networks:
+      - koala-network
+    build:
+      context: ./web
+    ports:
+      - "8081:8081"
+    depends_on:
+      - psql-db
+    environment:
+      JDBC_DATABASE_URL: jdbc:postgresql://psql-db:5432/postgres
+      JDBC_DATABASE_USER: gg
+      JDBC_DATABASE_PASSWORD: Qwert123
+
+  server-randomity:
+    networks:
+      - koala-network
+    build:
+      context: ./server/
+    volumes:
+      - server-vol:/logs/
+    ports:
+      - "8080:8080"
+    depends_on:
+      - psql-db
+    environment:
+      JDBC_DATABASE_URL: jdbc:postgresql://psql-db:5432/postgres
+      JDBC_DATABASE_USER: gg
+      JDBC_DATABASE_PASSWORD: Qwert123
+  psql-db:
+    networks:
+      - koala-network
+    container_name: psql-db
+    expose:
+      - 5432
+    image: postgres
+    restart: on-failure
+    environment:
+      POSTGRES_USER: gg
+      POSTGRES_PASSWORD: Qwert123
+  promtail:
+    image: grafana/promtail:2.1.0
+    container_name: monitoring-promtail
+    volumes:
+      - ${PWD}/server/promtail/promtail-docker-config.yaml:/etc/promtail/config.yaml
+      - server-vol:/var/log/
+    command: "-config.file=/etc/promtail/config.yaml"

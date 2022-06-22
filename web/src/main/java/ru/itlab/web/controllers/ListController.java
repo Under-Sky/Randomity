@@ -32,7 +32,7 @@ public class ListController {
     @ResponseBody
     public String someGensGet() {
         try {
-            URL url = new URL("http://92.255.196.129:8080/generators");
+            URL url = new URL("http://localhost:8080/generators");
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("GET");
             connection.setDoOutput(true);
