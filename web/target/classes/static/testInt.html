@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+<input type="number" id="firstNumber">
+<input type="number" id="secondNumber">
+<input type="number" id="count">
+<button id="button">Test</button>
+
+</body>
+<script>
+    $("#loginButton").click(function () {
+        min = $('#firstNumber').val()
+        max = $('#secondNumber').val()
+        count = $('#count').val()
+
+        $.ajax({
+            url: `http://92.255.196.129:8080/getIntegers/${min}/${max}/${count}`,
+            method: 'GET',
+            cache: false,
+            type: "text/json",
+            success: function (res) {
+                console.log("success")
+                console.log(res)
+            },
+            error: function (res) {
+                console.log("error")
+                console.log(res)
+            }
+        })
+    });
+</script>
+</html>
