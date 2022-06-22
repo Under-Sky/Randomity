@@ -1,0 +1,22 @@
+name: Telegram-Msg
+on: [push]
+jobs:
+  sendMsg:
+    name: sendMsg
+    runs-on: ubuntu-latest
+    steps:
+    - uses: colutius/Telegram-Msg@main
+      with:
+        token: ${{ secrets.TELEGRAM_TOKEN }}
+        chatid: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+        message: |
+          👇new message👇
+          
+          👤 Submitted by: [${{ github.actor }}]
+
+           📄 Submit information: ${{ github.event.commits[0].message }}
+
+          📦 Warehouse: ${{ github.repository }}
+        button: true
+        button_name: 👀View changes👀
+        button_url: https://github.com/${{ github.repository }}/commit/${{github.sha}}
