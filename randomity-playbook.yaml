@@ -63,5 +63,3 @@
         project_src: ~/randomity/
         files:
         - docker-compose.yaml
-
-
